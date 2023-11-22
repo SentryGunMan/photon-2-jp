@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"sentry/props/led110/led110_sprite2"
+	"$nocull" 0
+	"$additive" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
