@@ -95,11 +95,13 @@ COMPONENT.Templates = {
 			File = "emv/relay/relay_on.wav",
 			Level = 55,
 			Pitch = 100,
+			DSP = 1,
 		},
 		Click_off = {
 			File = "emv/relay/relay_off.wav",
 			Level = 55,
 			Pitch = 100,
+			DSP = 1,
 		},
 	},
 	["Sub"] = {
