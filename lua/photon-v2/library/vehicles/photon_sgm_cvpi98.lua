@@ -39,12 +39,12 @@ VEHICLE.Equipment = {
 						Angles = Angle( 0, 0, 0 ),
 						Scale = 1.0
 					},
-					-- {
-					-- 	Component = "proto_siren_sgm",
-					-- 	Position = Vector( 0, 100, 63.6 ),
-					-- 	Angles = Angle( 0, 0, 0 ),
-					-- 	Scale = 1.0
-					-- },
+					{
+						Component = "proto_siren_sgm",
+						Position = Vector( 0, 100, 63.6 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0
+					},
 				}
 			}
 		}

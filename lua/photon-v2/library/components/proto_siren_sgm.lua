@@ -51,7 +51,7 @@ COMPONENT.ElementStates = {
 		["~PITCHDOWN"] = {
 			Mute = false,
 			Play = true,
-			Pitch = 25,
+			Pitch = 40,
 			PitchTransition = 1.75,
 			VolumeTransition = 1,
 		},
@@ -110,8 +110,7 @@ COMPONENT.Segments = {
 		Sequences = {
 			ON = sequence()
 			:Steady(1,68)
-			:Steady(3,4)
-			:Steady(2,24),
+			:Steady(2,40),
 			MAN = {
 				1
 			},
