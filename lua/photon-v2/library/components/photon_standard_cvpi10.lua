@@ -29,6 +29,13 @@ COMPONENT.Templates = {
 			Height = 7.7,
 			Scale = 1.0,
 		},
+		Turn_arrow = {
+			Shape = "sentry/cvpi_hd/lights/arrow",
+			Detail = "sentry/cvpi_hd/lights/arrow",
+			Width = 0.6,
+			Height = 0.6,
+			Scale = 0.01,
+		},
 	},
 	["DynamicLight"] = {
 		Dynamic = {
@@ -51,25 +58,25 @@ COMPONENT.Templates = {
 	},
 	["Mesh"] = {
 		Mesh_static = {
-			Model = "models/sentry/cvpi_hd_lights16.mdl",
+			Model = "models/sentry/cvpi_hd_lights.mdl",
 			Scale = 1.0,
 		},
 		Mesh_static2 = {
-			Model = "models/sentry/cvpi_hd_lights16.mdl",
+			Model = "models/sentry/cvpi_hd_lights.mdl",
 			Scale = 1.0,
 			IntensityGainFactor = 12,
-			IntensityLossFactor = 6,
+			IntensityLossFactor = 2.75,
 			DeactivationState = "~OFF",
 		},
 		Mesh_static_slow = {
-			Model = "models/sentry/cvpi_hd_lights16.mdl",
+			Model = "models/sentry/cvpi_hd_lights.mdl",
 			Scale = 1.0,
 			IntensityGainFactor = 12,
-			IntensityLossFactor = 3,
+			IntensityLossFactor = 2.75,
 			DeactivationState = "~OFF",
 		},
 		Mesh_static_fast = {
-			Model = "models/sentry/cvpi_hd_lights16.mdl",
+			Model = "models/sentry/cvpi_hd_lights.mdl",
 			Scale = 1.0,
 			IntensityGainFactor = 12,
 			IntensityLossFactor = 6,
@@ -93,12 +100,24 @@ COMPONENT.Templates = {
 	["Sound"] = {
 		Click_on = {
 			File = "emv/relay/relay_on.wav",
-			Level = 55,
+			Level = 65,
 			Pitch = 100,
 			DSP = 1,
 		},
 		Click_off = {
 			File = "emv/relay/relay_off.wav",
+			Level = 65,
+			Pitch = 100,
+			DSP = 1,
+		},
+		Turn_on = {
+			File = "emv/cvpi/turn_on.wav",
+			Level = 55,
+			Pitch = 100,
+			DSP = 1,
+		},
+		Turn_off = {
+			File = "emv/cvpi/turn_off.wav",
 			Level = 55,
 			Pitch = 100,
 			DSP = 1,
@@ -176,6 +195,13 @@ COMPONENT.ElementStates = {
 			IntensityGainFactor = 12,
 			IntensityLossFactor = 6,
 		},
+		["~G"] = {
+			Inherit = "G",
+			Intensity = 1,
+			IntensityTransitions = true,
+			IntensityGainFactor = 12,
+			IntensityLossFactor = 3,
+		},
 	},
 	["Mesh"] = {
 		["~OFF"] = { Intensity = 0, IntensityTransitions = true },
@@ -242,7 +268,7 @@ COMPONENT.ElementStates = {
 			DrawColor = PhotonColor( 255, 100, 0 ):Blend( amber ):GetBlendColor(),
 		},
 		["~DA"] = {
-			Intensity = 0.5,
+			Intensity = 0.4,
 			IntensityTransitions = true,
 			BloomColor = PhotonColor( 255, 100, 0 ):Blend( amber ):GetBlendColor(),
 			DrawColor = PhotonColor( 255, 100, 0 ):Blend( amber ):GetBlendColor(),
@@ -270,11 +296,11 @@ COMPONENT.Elements = {
 	[3] = { "Projected", Vector( -28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
 	[4] = { "Projected", Vector( 28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
 
-	[5] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
-	[6] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
+	[5] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
+	[6] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
 
-	[7] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
-	[8] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
+	[7] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
+	[8] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
 
 	[9] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1 }, -- Headlight L
 	[10] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1 }, -- Headlight R
@@ -326,10 +352,18 @@ COMPONENT.Elements = {
 	[40] = { "Light_invis", Vector( -34.606, 102.45, 29.633 ), Angle( 0, 45, 90 ), Scale = 0.2, BoneParent = -1 },
 	[41] = { "Light_invis", Vector( 34.606, 102.45, 29.633 ), Angle( 0, -45, 90 ), Scale = 0.2, BoneParent = -1 },
 
+	[42] = {"Turn_on", },
+	[43] = {"Turn_off", },
+
+	[44] = { "Turn_arrow", Vector( -23.34, 27.412, 40.136 ), Angle( -150, 0, 180 ), BoneParent = -1 },
+	[45] = { "Turn_arrow", Vector( -15.481, 27.475, 40.245 ), Angle( -150, 0, 0 ), BoneParent = -1 },
+
+	[46] = { "Mesh_static", Vector( 0.0, 0.05, -0.05 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/domelight", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = -1},
+	[47] = {"Dynamic", Vector( 0.0, 3.39, 60.756 ), Angle( 180, 0, 20 ), Brightness = 7, Size = 80, }
 
 }
 
-COMPONENT.StateMap = "[ON] 32 33 [~ON] 30 31 [~SW] 1 2 9 10 17 18 [~W] 3 4 21 22 [~W2] 19 20 [~R] 5 6 13 14 25 [~PR] 36 37 [~PRI] 38 39 [~RI] 15 16 [~A] 7 8 26 27 28 29 40 41 [~DW] 11 12 34 [~BW] 23 24 [W] 35"
+COMPONENT.StateMap = "[ON] 32 33 [~ON] 30 31 42 43 [~SW] 1 2 9 10 17 18 [~W] 3 4 21 22 [~W2] 19 20 [~R] 5 6 13 14 25 [~PR] 36 37 [~PRI] 38 39 [~RI] 15 16 [~A] 7 8 26 27 28 29 40 41 [~DW] 11 12 34 [~BW] 23 24 [W] 35 47 [~SW] 46 [~G] 44 45"
 
 local sequence = Photon2.SequenceBuilder.New
 
@@ -497,12 +531,16 @@ COMPONENT.Segments = {
 	["Signal_L"] = {
 		Frames = {
 			[0] = "[~OFF] 7 36",
-			[1] = "7 5:~R 36",
+			[1] = "7 5:~R 36 42 43:~OFF 44",
 			[2] = "[~DA] 7",
-			[3] = "7:PASS 5:~OFF 36:~OFF",
+			[3] = "7:PASS 5:~OFF 36:~OFF 42:~OFF 43 44:~OFF",
 		},
 		Sequences = {
-			SIGNAL = sequence():Alternate(1, 3, 8)
+			--SIGNAL = sequence():Alternate(1, 3, 8),
+			SIGNAL = {
+				1,1,1,1,1,1,1,1,1,
+				3,3,3,3,3,3,3,
+			},
 			-- DIM = {
 			-- 	2,
 			-- }
@@ -511,12 +549,16 @@ COMPONENT.Segments = {
 	["Signal_R"] = {
 		Frames = {
 			[0] = "[~OFF] 8 37",
-			[1] = "8 6:~R 37",
+			[1] = "8 6:~R 37 42 43:~OFF 45",
 			[2] = "[~DA] 8",
-			[3] = "8:PASS 6:~OFF 37:~OFF",
+			[3] = "8:PASS 6:~OFF 37:~OFF 42:~OFF 43 45:~OFF",
 		},
 		Sequences = {
-			SIGNAL = sequence():Alternate(1, 3, 8)
+			--SIGNAL = sequence():Alternate(1, 3, 8),
+			SIGNAL = {
+				1,1,1,1,1,1,1,1,1,
+				3,3,3,3,3,3,3,
+			},
 			-- DIM = {
 			-- 	2,
 			-- }
@@ -531,6 +573,21 @@ COMPONENT.Segments = {
 			REVERSE = {
 					1,
 				},
+		}
+	},
+	["Dome"] = {
+		Frames = {
+			[0] = "[OFF] 46 47",
+			[1] = "[SW] 46 [W] 47",
+			[2] = "[R] 46 47",
+		},
+		Sequences = {
+			ON = {
+				1,
+			},
+			ON_RED = {
+				2,
+			},
 		}
 	},
 }
@@ -582,6 +639,14 @@ COMPONENT.Inputs = {
 	["Vehicle.Transmission"] = {
 		["REVERSE"] = {
 			Reverse = "REVERSE",
+		},
+	},
+	["Emergency.Auxiliary"] = {
+		["MODE1"] = {
+			Dome = "ON",
+		},
+		["MODE2"] = {
+			Dome = "ON_RED",
 		},
 	},
 }

@@ -88,7 +88,6 @@ COMPONENT.Templates = {
 		Light = {
 			Shape = "sentry/props/led110/led110_sprite2",
 			Detail = "sentry/props/led110/led110_sprite",
-			MaterialBloom = "sentry/props/led110/led110_sprite2",
 			Width = 7.7,
 			Height = 7.7,
 			Scale = 1.75,

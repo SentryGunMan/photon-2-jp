@@ -1,6 +1,22 @@
 if (Photon2.ReloadVehicleFile()) then return end
 local VEHICLE = Photon2.LibraryVehicle()
 
+local Category = "Photon 2 (DEV)"
+
+local V = {
+                Name =    "LVS - 2010 Ford Crown Victoria",
+                Class = "lvs_wheeldrive_cvpi",
+                Category = Category,
+
+                Author = "SentryGunMan",
+                Information = "vroom vroom",
+                Model =    "models/sentry/cvpi_hd.mdl",
+ 
+                KeyValues = {}
+}
+
+list.Set( "Vehicles", "lvs_sgm_cvpi", V )
+
 VEHICLE.Title 		= "jap vic"
 VEHICLE.Vehicle		= "cvpi_hd_sgm"
 --VEHICLE.Vehicle		= "lvs_sgm_cvpi"
