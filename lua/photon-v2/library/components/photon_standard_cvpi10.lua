@@ -176,6 +176,12 @@ COMPONENT.ElementStates = {
 			IntensityGainFactor = 8,
 			IntensityLossFactor = 3,
 		},
+		["~OFF_FAST"] = {
+			Intensity = 0,
+			IntensityTransitions = true,
+			IntensityGainFactor = 8,
+			IntensityLossFactor = 6,
+		},
 		["~W"] = {
 			Blend = Color( 200, 200, 255 ),
 			SourceDetailColor = PhotonColor(255,245,205):Blend(white):GetBlendColor(),
@@ -533,7 +539,7 @@ COMPONENT.Segments = {
 			[0] = "[~OFF] 7 36",
 			[1] = "7 5:~R 36 42 43:~OFF 44",
 			[2] = "[~DA] 7",
-			[3] = "7:PASS 5:~OFF 36:~OFF 42:~OFF 43 44:~OFF",
+			[3] = "7:PASS 5:~OFF 36:~OFF 42:~OFF 43 44:~OFF_FAST",
 		},
 		Sequences = {
 			--SIGNAL = sequence():Alternate(1, 3, 8),
@@ -548,10 +554,10 @@ COMPONENT.Segments = {
 	},
 	["Signal_R"] = {
 		Frames = {
-			[0] = "[~OFF] 8 37",
+			[0] = "[~OFF] 8 37:",
 			[1] = "8 6:~R 37 42 43:~OFF 45",
 			[2] = "[~DA] 8",
-			[3] = "8:PASS 6:~OFF 37:~OFF 42:~OFF 43 45:~OFF",
+			[3] = "8:PASS 6:~OFF 37:~OFF 42:~OFF 43 45:~OFF_FAST",
 		},
 		Sequences = {
 			--SIGNAL = sequence():Alternate(1, 3, 8),
