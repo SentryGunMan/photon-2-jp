@@ -254,6 +254,18 @@ COMPONENT.Inputs = {
 			Mesh = "ON",
 			Sprites = "ON",
 			Sprites_rear = "ON",
-		}
+		},
+		["MODE2"] = {
+			Rotators = "ON",
+			Mesh = "ON",
+			Sprites = "ON",
+			Sprites_rear = "ON",
+		},
+		["MODE3"] = {
+			Rotators = "ON",
+			Mesh = "ON",
+			Sprites = "ON",
+			Sprites_rear = "ON",
+		},
 	}
 }

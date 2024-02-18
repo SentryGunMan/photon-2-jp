@@ -32,6 +32,24 @@ VEHICLE.SubMaterials = {
 }
 
 VEHICLE.Equipment = {
+	-- {
+    --     Category = "Liveries",
+    --     Options = {
+    --         {
+    --             Option = "Sub-Category 1",
+    --             Variants = {
+    --                 {
+    --                     Variant = "Classic A",
+    --                     SubMaterials = { { Id = 5, Material = "sentry/shared/skin0" } }
+    --                 },
+    --                 {
+    --                     Variant = "Hybrid A",
+    --                     SubMaterials = { { Id = 5, Material = "sentry/shared/black" } }
+    --                 },
+    --             }
+    --         },
+	-- 	},
+	-- },
 	{
 		Category = "Controller Sound",
 		Options = {
@@ -46,6 +64,49 @@ VEHICLE.Equipment = {
 	{
 		Category = "Lightbar",
 		Options = {
+			{
+				Option = "Code 3 XL",
+				Components = {
+					{
+						Component = "code3_xl",
+						Position = Vector( 0, -10, 67.6 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+						-- SubMaterials = {
+						-- 	["sentry/props/c3xl/glass_mod"] = "sentry/props/c3xl/glass_mod_redblue",
+						-- },
+						-- States = {
+						-- 	[1] = "B",
+						-- 	[2] = "B",
+						-- 	[3] = "B",
+						-- 	[4] = "B",
+						-- 	[5] = "R",
+						-- 	[6] = "R",
+						-- 	[7] = "R",
+						-- 	[8] = "R",
+						-- },
+					},
+					{
+						Component = "code3_xl_mini",
+						Position = Vector( 0, -10, 77.6 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+						-- SubMaterials = {
+						-- 	["sentry/props/c3xl/glass_mod"] = "sentry/props/c3xl/glass_mod_redblue",
+						-- },
+						-- States = {
+						-- 	[1] = "B",
+						-- 	[2] = "B",
+						-- 	[3] = "B",
+						-- 	[4] = "B",
+						-- 	[5] = "R",
+						-- 	[6] = "R",
+						-- 	[7] = "R",
+						-- 	[8] = "R",
+						-- },
+					},
+				}
+			},
 			{
 				Option = "Koito LED110",
 				Components = {

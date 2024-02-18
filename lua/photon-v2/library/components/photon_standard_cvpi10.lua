@@ -320,8 +320,8 @@ COMPONENT.Elements = {
 	[15] = { "Mesh_static", Vector( 0.0, -0.05, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
 	[16] = { "Mesh_static", Vector( 0.0, -0.05, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
 
-	[17] = { "Mesh_static_fast", Vector( -75.411 + 0.1, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_l", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 24},
-	[18] = { "Mesh_static_fast", Vector( -75.411 + 0.1, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_r", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 24},
+	[17] = { "Mesh_static_fast", Vector( -75.411 + 0.1, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_l", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = "trunk"},
+	[18] = { "Mesh_static_fast", Vector( -75.411 + 0.1, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_r", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = "trunk"},
 
 	[19] = { "Projected", Vector( -28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
 	[20] = { "Projected", Vector( 28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
@@ -329,8 +329,8 @@ COMPONENT.Elements = {
 	[21] = { "Light_invis", Vector( -28.266, 104.282, 29.9 ), Angle( 0, 0, 90 ), BoneParent = -1 },
 	[22] = { "Light_invis", Vector( 28.266, 104.282, 29.9 ), Angle( 0, 0, 90 ), BoneParent = -1 },
 
-	[23] = { "Mesh_static2", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_l", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 24},
-	[24] = { "Mesh_static2", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_r", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 24},
+	[23] = { "Mesh_static2", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_l", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = "trunk"},
+	[24] = { "Mesh_static2", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/reverse_r", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = "trunk"},
 
 	[25] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/brake_c", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = -1},
 
@@ -346,8 +346,8 @@ COMPONENT.Elements = {
 	[32] = { "Dials", Indexes = { 6 } },
 	[33] = { "Dials2", Indexes = { 1 } },
 
-	[34] = { "Mesh_static_fast", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/platelight", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 24},
-	[35] = { "Dynamic", Vector( 49.8, -7, 0 ), Angle( 0, -180, -90 ), BoneParent = 24},
+	[34] = { "Mesh_static_fast", Vector( -75.411 + 0.15, -46.166, 0.0 ), Angle( 0, 180, 90 ), "sentry/cvpi_hd/lights/platelight", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = "trunk"},
+	[35] = { "Dynamic", Vector( 49.8, -7, 0 ), Angle( 0, -180, -90 ), BoneParent = "trunk"},
 
 	[36] = { "Mesh_static2", Vector( 0.0, 0.0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_l_glass", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
 	[37] = { "Mesh_static2", Vector( 0.0, 0.0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_r_glass", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
@@ -600,7 +600,7 @@ COMPONENT.Segments = {
 
 COMPONENT.Inputs = {
 	["Emergency.Warning"] = {
-		["MODE1"] = {
+		["MODE3"] = {
 			Headlight_flashers = "FLASH",
 			Taillight_flashers = "FLASH",
 			--Taillight_flashers_strobe = "FLASH",

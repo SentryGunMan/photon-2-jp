@@ -121,6 +121,12 @@ COMPONENT.Inputs = {
 	["Emergency.Warning"] = {
 		["MODE1"] = {
 			Sprites = "ON",
-		}
+		},
+		["MODE2"] = {
+			Sprites = "ON",
+		},
+		["MODE3"] = {
+			Sprites = "ON",
+		},
 	}
 }
