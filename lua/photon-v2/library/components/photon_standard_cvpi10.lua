@@ -297,16 +297,16 @@ COMPONENT.ElementGroups = {
 }
 
 COMPONENT.Elements = {
-	[1] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_bloom", BloomMaterial = "sentry/cvpi_hd/lights/lights_bloom", BoneParent = -1 }, -- Headlight L
-	[2] = { "Mesh_static_fast", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_bloom", BloomMaterial = "sentry/cvpi_hd/lights/lights_bloom", BoneParent = -1 }, -- Headlight R
+	[1] = { "Mesh_static_fast", Vector( 0.0, 0.15, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_bloom", BloomMaterial = "sentry/cvpi_hd/lights/lights_bloom", BoneParent = -1 }, -- Headlight L
+	[2] = { "Mesh_static_fast", Vector( 0.0, 0.15, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_bloom", BloomMaterial = "sentry/cvpi_hd/lights/lights_bloom", BoneParent = -1 }, -- Headlight R
 	[3] = { "Projected", Vector( -28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
 	[4] = { "Projected", Vector( 28.249, 106.045, 29.906 ), Angle = Angle( 0, 0, 0 ), },
 
 	[5] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
 	[6] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/taillight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights_opaque", BoneParent = -1},
 
-	[7] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
-	[8] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
+	[7] = { "Mesh_static_slow", Vector( 0.0, 0.125, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
+	[8] = { "Mesh_static_slow", Vector( 0.0, 0.125, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/fturn_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1},
 
 	[9] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_l", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1 }, -- Headlight L
 	[10] = { "Mesh_static_slow", Vector( 0.0, 0, 0.0 ), Angle( 0, 90, 0 ), "sentry/cvpi_hd/lights/headlight_r", DrawMaterial = "sentry/cvpi_hd/lights/lights", BloomMaterial = "sentry/cvpi_hd/lights/lights", BoneParent = -1 }, -- Headlight R
