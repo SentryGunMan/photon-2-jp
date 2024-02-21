@@ -65,9 +65,16 @@ COMPONENT.ElementStates = {
 			Intensity = 1,
 			IntensityTransitions = true,
 			BloomColor = PhotonColor( 255, 0, 0 ):Blend( red ):GetBlendColor(),
-			DrawColor = PhotonColor( 255, 192, 0 ):Blend( red ):GetBlendColor(),
+			DrawColor = PhotonColor( 255, 90, 0 ):Blend( red ):GetBlendColor(),
 		},
-	}
+	},
+	["Projected"] = {
+		["~R"] = {
+			Inherit = "R",
+			Intensity = 1,
+			IntensityTransitions = true,
+		},
+	},
 }
 
 COMPONENT.Templates = {
@@ -89,14 +96,27 @@ COMPONENT.Templates = {
 			IntensityLossFactor = 4,
 		},
 	},
+	["Projected"] = {
+		Projected = {
+			FOV = 80,
+			Texture = "effects/flashlight/soft",
+			NearZ = 2,
+			FarZ = 1000,
+			Brightness = 1.0,
+			IntensityGainFactor = 10,
+			IntensityLossFactor = 4,
+			DeactivationState = "~OFF",
+		}
+	},
 }
 
-COMPONENT.StateMap = "[~R] 1"
+COMPONENT.StateMap = "[~R] 1 2"
 
 local fov = 180
 
 COMPONENT.Elements = {
-	[1] = { "Mesh", Vector( 0, 0, 0 ), Angle( 0, 180, 0 ), "sentry/props/koitoflasher/light_mesh", DrawMaterial = "photon/common/glow_gradient_a",},
+	[1] = { "Mesh", Vector( 0, 0, 0 ), Angle( 0, 180, 0 ), "sentry/props/koitoflasher/light_mesh", DrawMaterial = "sentry/props/koitoflasher/glow_gradient_a", BloomMaterial = "sentry/props/koitoflasher/glow",},
+	[2] = { "Projected", Vector( 0, 0, 0 ), Angle( 0, 0, -90 ), },
 }
 
 local sequence = Photon2.SequenceBuilder.New

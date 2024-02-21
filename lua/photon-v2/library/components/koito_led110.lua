@@ -131,8 +131,8 @@ COMPONENT.Templates = {
 		Projected = {
 			NearZ = 4,
 			FarZ = 1024,
-			FOV = 90,
-			Brightness = 2,
+			FOV = 45,
+			Brightness = 1,
 			Texture = "effects/flashlight001",
 			EnableShadows = false,
 		}
@@ -147,10 +147,10 @@ COMPONENT.Elements = {
 	[1] = { "Rotator", BoneId = 2, Axis = "z", Speed = 600 },
 	[2] = { "Rotator", BoneId = 1, Axis = "z", Speed = -600 },
 
-	[3] = { "Mesh", Vector( 0.0, 0, 0.0 ), Angle( -90, 0, 0 ), "sentry/props/led110/light_l", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 2 },
-	[4] = { "Mesh", Vector( 0.0, 0, 0.0 ), Angle( -90, 0, 0 ), "sentry/props/led110/light_r", DrawMaterial = "photon/common/glow_gradient_a", BoneParent = 1 },
-	[5] = { "Mesh_static", Vector( 0.0, 0, 0.0 ), Angle( 0, -90, 0 ), "sentry/props/led110/light_l", DrawMaterial = "photon/common/glow_gradient_a"},
-	[6] = { "Mesh_static", Vector( 0.0, 0, 0.0 ), Angle( 0, -90, 0 ), "sentry/props/led110/light_r", DrawMaterial = "photon/common/glow_gradient_a"},
+	[3] = { "Mesh", Vector( 0.0, 0, 0.0 ), Angle( -90, 0, 0 ), "sentry/props/led110/light_l", DrawMaterial = "sentry/props/led110/glow_gradient_a", BoneParent = 2 },
+	[4] = { "Mesh", Vector( 0.0, 0, 0.0 ), Angle( -90, 0, 0 ), "sentry/props/led110/light_r", DrawMaterial = "sentry/props/led110/glow_gradient_a", BoneParent = 1 },
+	[5] = { "Mesh_static", Vector( 0.0, 0, 0.0 ), Angle( 0, -90, 0 ), "sentry/props/led110/light_l", DrawMaterial = "sentry/props/led110/glow_gradient_a"},
+	[6] = { "Mesh_static", Vector( 0.0, 0, 0.0 ), Angle( 0, -90, 0 ), "sentry/props/led110/light_r", DrawMaterial = "sentry/props/led110/glow_gradient_a"},
 
 	--outer front
 	[7] = { "Light", Vector( -14.175, 2.15, 9.905 ), Angle( 0, 0, 0 ),},
