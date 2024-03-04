@@ -17,7 +17,7 @@ local V = {
 
 list.Set( "Vehicles", "lvs_sgm_cvpi", V )
 
-VEHICLE.Title 		= "Chiba CVPI"
+VEHICLE.Title 		= "Tokyo CVPI"
 VEHICLE.Vehicle		= "cvpi_hd_sgm"
 --VEHICLE.Vehicle		= "lvs_sgm_cvpi"
 VEHICLE.Category 	= "Photon 2: JP"
@@ -28,7 +28,7 @@ VEHICLE.Author		= "sgm!!"
 -- }
 
 VEHICLE.SubMaterials = {
-	["3"] = "rin/japanpolice/crownvicchiba1",
+	["3"] = "sentry/cvpi_hd/tokyo",
 }
 
 VEHICLE.Equipment = {
@@ -116,6 +116,32 @@ VEHICLE.Equipment = {
 						Angles = Angle( 0, 0, 0 ),
 						Scale = 1.0
 					},
+				}
+			},
+			{
+				Option = "Koito LED110 + Riser",
+				Components = {
+					{
+						Name = "@riser",
+						Component = "japan_riser",
+						Position = Vector( 0, -12.5, 70.9 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "koito_led110",
+						Position = Vector( -2.75, 0, -2.6 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1.0,
+						Parent = "@riser",
+						FollowBone = "platform",
+					},
+					-- {
+					-- 	Component = "koito_led110",
+					-- 	Position = Vector( 0, -10, 63.6 ),
+					-- 	Angles = Angle( 0, 0, 0 ),
+					-- 	Scale = 1.0
+					-- },
 					-- {
 					-- 	Component = "proto_siren_sgm",
 					-- 	Position = Vector( 0, 100, 63.6 ),
@@ -236,21 +262,9 @@ VEHICLE.Equipment = {
 				},
 				BodyGroups = {
 					{ BodyGroup = "grille", Value = 1 },
+					{ BodyGroup = "doortrim", Value = 5 },
 				}
 			}
 		}
 	},
 }
-
--- {
--- 	Model = "models/sentry/props/japanese_center_mirror_lhd.mdl", 
--- 	Pos = Vector( 1 , 14.6 , 56.5),
--- 	Ang = Angle( 0, -100 , 0 ),
--- 	Scale = 1.0,
--- },
--- {
--- 	Model = "models/sentry/props/japanese_outer_mirror_right.mdl", 
--- 	Pos = Vector( 46.5 , 22.5 , 52.15),
--- 	Ang = Angle( 0, -90 , 0 ),
--- 	Scale = 1.0,
--- },
