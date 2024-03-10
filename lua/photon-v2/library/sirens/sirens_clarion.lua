@@ -1,6 +1,6 @@
 Photon2.RegisterSiren(
 	{
-		Name = "clarion_aa600a", --POLICE 90's
+		Name = "clarion_aa600a", --POLICE MID 90's
 		Make = "Clarion",
 		Model = "AA-600A",
 		Author = "Rin",
@@ -13,3 +13,14 @@ Photon2.RegisterSiren(
 	}
 )
 
+Photon2.RegisterSiren(
+	{
+		Name = "clarion_aa226a", --EMS OLD
+		Make = "Clarion",
+		Model = "AA-226A",
+		Author = "Rin",
+		Sounds = {
+			["HILO"] = { Sound = "photon/sirens/clarion_aa226a/hilo.wav", Icon = "hilo ",	Default = "T1" },
+		}
+	}
+)

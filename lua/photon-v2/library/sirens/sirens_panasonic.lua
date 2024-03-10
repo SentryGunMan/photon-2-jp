@@ -1,6 +1,6 @@
 Photon2.RegisterSiren(
 	{
-		Name = "panasonic_wf115a", --POLICE 90's
+		Name = "panasonic_wf115a", --POLICE LATE 90's / EARLY 00's
 		Make = "Panasonic",
 		Model = "WF-115A",
 		Author = "Rin",

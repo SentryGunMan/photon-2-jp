@@ -7,7 +7,7 @@ VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
 VEHICLE.Siren = {
-	[1] = "clarion_aa600a",
+	[1] = "panasonic_wf115a",
 }
 
 VEHICLE.Equipment = {
