@@ -66,10 +66,42 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Front Flashers",
+		Options = {
+			{
+				Option = "Koito Flashers",
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 11, 97.5, 15.5 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+							[3] = "models/xenoscars/shared/glass",
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -11, 97.5, 15.5 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						}
+					},
+				}
+			},
+			{
+				Option = "None",
+			}
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
-				Option = "Clarion AA-600A",
+				Option = "Panasonic WF-115A",
 				Components = {
 					{
 						Component = "photon_siren_jp_rin",

@@ -53,10 +53,13 @@ VEHICLE.Equipment = {
 						Scale = 1.0
 					},
 				}
+			},
+			{
+				Option = "None",
 			}
 		}
 	},
-	{
+    {
 		Category = "Siren",
 		Options = {
 			{

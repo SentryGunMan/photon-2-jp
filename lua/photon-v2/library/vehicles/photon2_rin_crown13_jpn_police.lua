@@ -297,6 +297,45 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Motorcade Lights",
+		Options = {
+			{
+				Option = "None",
+			},
+			{
+				Option = "Grille",
+				Components = {
+					{
+						Name = "@motorcade_lp5",
+						Component = "photon_patlite_lp5_rin",
+						Position = Vector( -10.1, 106, 28.5 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = .7,
+						StateMap = "[B] 1",
+						Phase = "B",
+						SubMaterials = {
+							[5] = "sentry/props/patlite_lp3/glass_outer"
+						},
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@motorcade_lp5",
+						Position = Vector( 10.1, 106, 28.5 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "B",
+						StateMap = "[B] 1"
+					}
+				}
+			}
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
