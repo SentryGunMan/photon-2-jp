@@ -10,11 +10,37 @@ VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
 
-VEHICLE.SubMaterials = {
-	["0"] = "rin/japan_fire/crown/numazu",
-}
-
 VEHICLE.Equipment = {
+	{
+		Category = "Livery",
+		Options = {
+			
+			{
+				Option = "Numazu",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/numazu" }
+				}
+			},
+			{
+				Option = "Nagoya",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
+				}
+			},
+			{
+				Option = "Sakai",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/sakai" }
+				}
+			},
+			{
+				Option = "Tokyo",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/tokyo" }
+				}
+			},
+		}
+	},
     {
 		Category = "Lightbar",
 		Options = {
