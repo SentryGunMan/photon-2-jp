@@ -10,12 +10,241 @@ VEHICLE.Siren = {
 	[1] = "clarion_aa600a",
 }
 
-VEHICLE.SubMaterials = {
-	["9"] = "rin/japan_police/r32/aichi",
-}
-
 VEHICLE.Equipment = {
     {
+        Category = "Livery",
+        Options = {
+            {
+                Option = "Chūbu",
+                Variants = {
+                    {
+                        Variant = "Aichi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/aichi" } }
+                    },
+                    {
+                        Variant = "Fukui",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/fukui" } }
+                    },
+					{
+                        Variant = "Gifu",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/gifu" } }
+                    },
+					{
+                        Variant = "Ishikawa",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/ishikawa" } }
+                    },
+					{
+                        Variant = "Nagano",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/nagano" } }
+                    },
+					{
+                        Variant = "Niigata",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/niigata" } }
+                    },
+					{
+                        Variant = "Shizuoka",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/shizuoka" } }
+                    },
+					{
+                        Variant = "Toyama",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/toyama" } }
+                    },
+					{
+                        Variant = "Yamanashi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/yamanashi" } }
+                    },
+                }
+            },
+            {
+                Option = "Chūgoku",
+                Variants = {
+                    {
+                        Variant = "Hiroshima",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/hiroshima" } }
+                    },
+                    {
+                        Variant = "Okayama",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/okayama" } }
+                    },
+					{
+                        Variant = "Shimane",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/shimane" } }
+                    },
+					{
+                        Variant = "Tottori",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/tottori" } }
+                    },
+					{
+                        Variant = "Yamaguchi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/yamaguchi" } }
+                    },
+                }
+            },
+			{
+                Option = "Hokkaidō",
+                Variants = {
+                    {
+                        Variant = "Hokkaidō",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/hokkaido" } }
+                    },
+                }
+            },
+			{
+                Option = "Kansai",
+                Variants = {
+                    {
+                        Variant = "Hyogo",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/hyogo" } }
+                    },
+                    {
+                        Variant = "Kyoto",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kyoto" } }
+                    },
+					{
+                        Variant = "Mie",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/mie" } }
+                    },
+					{
+                        Variant = "Nara",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/nara" } }
+                    },
+					{
+                        Variant = "Osaka",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/osaka" } }
+                    },
+					{
+                        Variant = "Shiga",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/shiga" } }
+                    },
+					{
+                        Variant = "Wakayama",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/wakayama" } }
+                    },
+                }
+            },
+			{
+                Option = "Kantō",
+                Variants = {
+                    {
+                        Variant = "Chiba",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/chiba" } }
+                    },
+					{
+                        Variant = "Gunma",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/gunma" } }
+                    },
+					{
+                        Variant = "Ibaraki",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/ibaraki" } }
+                    },
+					{
+                        Variant = "Kanagawa",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kanagawa" } }
+                    },
+					{
+                        Variant = "Saitama",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/saitama" } }
+                    },
+					{
+                        Variant = "Tochigi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/tochigi" } }
+                    },
+					{
+                        Variant = "Tokyo",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/tokyo" } }
+                    },
+                }
+            },
+			{
+                Option = "Kyūshū",
+                Variants = {
+                    {
+                        Variant = "Fukuoka",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/fukuoka" } }
+                    },
+					{
+                        Variant = "Kagoshima",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kagoshima" } }
+                    },
+					{
+                        Variant = "Kumamoto",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kumamoto" } }
+                    },
+					{
+                        Variant = "Miyazaki",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/miyazaki" } }
+                    },
+					{
+                        Variant = "Nagasaki",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/nagasaki" } }
+                    },
+					{
+                        Variant = "Okinawa",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/okinawa" } }
+                    },
+					{
+                        Variant = "Oita",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/oita" } }
+                    },
+					{
+                        Variant = "Saga",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/saga" } }
+                    },
+                }
+            },
+			{
+                Option = "Shikoku",
+                Variants = {
+                    {
+                        Variant = "Ehime",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/ehime" } }
+                    },
+					{
+                        Variant = "Kagawa",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kagawa" } }
+                    },
+					{
+                        Variant = "Kochi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/kochi" } }
+                    },
+					{
+                        Variant = "Tokushima",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/tokushima" } }
+                    },
+                }
+            },
+			{
+                Option = "Tōhoku",
+                Variants = {
+                    {
+                        Variant = "Akita",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/akita" } }
+                    },
+					{
+                        Variant = "Aomori",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/aomori" } }
+                    },
+					{
+                        Variant = "Fukushima",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/fukushima" } }
+                    },
+					{
+                        Variant = "Iwate",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/iwate" } }
+                    },
+					{
+                        Variant = "Miyagi",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/miyagi" } }
+                    },
+					{
+                        Variant = "Yamagata",
+                        SubMaterials = { { Id = 9, Material = "rin/japan_police/r32/yamagata" } }
+                    },
+                }
+            },
+        }
+    },
+	{
 		Category = "Lightbar",
 		Options = {
 			{
