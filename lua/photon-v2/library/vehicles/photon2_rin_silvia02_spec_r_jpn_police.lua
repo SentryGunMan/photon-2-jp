@@ -152,7 +152,8 @@ VEHICLE.Equipment = {
 							["rear_seal"] = 1,
 						},
 						SubMaterials = {
-							["models/xenosprops/jp_plate/seal_fukuoka"] = "models/xenosprops/jp_plate/seal_aichi",
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
 						},
 					},
 					{
@@ -162,6 +163,10 @@ VEHICLE.Equipment = {
 						Scale = 1,
 						BodyGroups = {
 							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
 						},
 					},
 				}

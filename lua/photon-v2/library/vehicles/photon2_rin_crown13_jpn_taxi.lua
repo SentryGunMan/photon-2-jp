@@ -17,7 +17,24 @@ VEHICLE.Equipment = {
                         Variant = "Private Taxi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_private" } }
                     },
+					{
+                        Variant = "Hinomaru Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_hinomaru" } }
+                    },
+					{
+                        Variant = "Keio Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_keio" } }
+                    },
                 }
+            },
+			{
+                Option = "Kitakyushu",
+                Variants = {
+                    {
+                        Variant = "Kokusai Kougyou Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kitakyushu_kokusai" } }
+                    },
+				}
             },
             {
                 Option = "Nagoya",
@@ -73,7 +90,8 @@ VEHICLE.Equipment = {
 							["rear_seal"] = 1,
 						},
 						SubMaterials = {
-							["models/xenosprops/jp_plate/seal_fukuoka"] = "models/xenosprops/jp_plate/seal_aichi",
+							[0] = "rin/japan_plates/plate_hoshizora_commercial",
+							[3] = "rin/japan_plates/seal_hoshizora",
 						},
 					},
 					{
@@ -83,6 +101,10 @@ VEHICLE.Equipment = {
 						Scale = 1,
 						BodyGroups = {
 							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora_commercial",
+							[3] = "rin/japan_plates/seal_hoshizora",
 						},
 					},
 				}
