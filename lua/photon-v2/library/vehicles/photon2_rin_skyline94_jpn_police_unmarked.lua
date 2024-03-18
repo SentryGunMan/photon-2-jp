@@ -106,9 +106,9 @@ VEHICLE.Equipment = {
 					},
 					{
 						Model = "models/sentry/props/sap500.mdl",
-						Position = Vector( 0, 17.6, 29.9 ),
-						Angles = Angle( 0, 4, -28 ),
-						Scale = 1.1
+						Position = Vector( 0.1, 17.5, 30 ),
+						Angles = Angle( 1, 4, -28 ),
+						Scale = 1.05
 					},
 					{
 						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
