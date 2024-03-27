@@ -364,6 +364,139 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
+	{
+		Category = "Plate Holders",
+		Options = {
+			{
+				Option = "None",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 110.15, 21.3 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, -120, 40 ),
+						Angles = Angle( -17, 270, 00 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 1,
+							["plate_frame"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+			{
+				Option = "Silver",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 110.15, 21.3 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 1,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, -120, 40 ),
+						Angles = Angle( -17, 270, 00 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 1,
+							["plate_frame"] = 1,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+			{
+				Option = "Chrome",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 110.15, 21.3 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 2,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, -120, 40 ),
+						Angles = Angle( -17, 270, 00 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 1,
+							["plate_frame"] = 2,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+			{
+				Option = "Gold",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 110.15, 21.3 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 3,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, -120, 40 ),
+						Angles = Angle( -17, 270, 00 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 1,
+							["plate_frame"] = 3,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+		}
+	},
     {
 		Category = "Police Equipment",
 		Options = {
@@ -380,32 +513,6 @@ VEHICLE.Equipment = {
 						Position = Vector( 0, 19.5, 33 ),
 						Angles = Angle(),
 						Scale = 1.1
-					},
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, -120, 40 ),
-						Angles = Angle( -17, 270, 00 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 1,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 110.15, 21.3 ),
-						Angles = Angle( 0, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
 					},
 				}
 			}

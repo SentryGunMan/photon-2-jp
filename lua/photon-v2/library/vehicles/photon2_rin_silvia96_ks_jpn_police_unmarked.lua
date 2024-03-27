@@ -193,6 +193,65 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
+	{
+		Category = "Front Plate Holder",
+		Options = {
+			{
+				Option = "Silver",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 101.7, 19.7 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 4,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+			{
+				Option = "Black",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 101.7, 19.7 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 5,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			},
+			{
+				Option = "None",
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 101.7, 19.7 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["plate_frame"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				}
+			}
+		}
+	},
     {
 		Category = "Police Equipment",
 		Options = {
@@ -218,19 +277,6 @@ VEHICLE.Equipment = {
 						Scale = 1,
 						BodyGroups = {
 							["rear_seal"] = 1,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 101.7, 19.7 ),
-						Angles = Angle( 0, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
 						},
 						SubMaterials = {
 							[0] = "rin/japan_plates/plate_hoshizora",
