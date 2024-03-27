@@ -18,12 +18,16 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_private" } }
                     },
 					{
-                        Variant = "Hinomaru Taxi",
+                        Variant = "Hinomaru",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_hinomaru" } }
                     },
 					{
-                        Variant = "Keio Taxi",
+                        Variant = "Keio",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_keio" } }
+                    },
+					{
+                        Variant = "Tokyo Musen",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_musen" } }
                     },
                 }
             },
@@ -31,7 +35,7 @@ VEHICLE.Equipment = {
                 Option = "Kitakyushu",
                 Variants = {
                     {
-                        Variant = "Kokusai Kougyou Taxi",
+                        Variant = "Kokusai Kougyou",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kitakyushu_kokusai" } }
                     },
 				}
@@ -40,20 +44,29 @@ VEHICLE.Equipment = {
                 Option = "Nagoya",
                 Variants = {
                     {
-                        Variant = "Fuji Taxi",
+                        Variant = "Fuji Taxi Group",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_fuji" } }
                     },
                     {
-                        Variant = "Hinotori Taxi",
+                        Variant = "Hinotori",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_hinotori" } }
                     },
 					{
-                        Variant = "Meitetsu Taxi",
+                        Variant = "Meitetsu",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_meitetsu" } }
                     },
 					{
-                        Variant = "Tsubame Taxi",
+                        Variant = "Tsubame",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_tsubame" } }
+                    },
+				}
+            },
+			{
+                Option = "Sendai",
+                Variants = {
+                    {
+                        Variant = "Sendai Taxi Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/sendai_stg" } }
                     },
 				}
             },
@@ -61,11 +74,11 @@ VEHICLE.Equipment = {
                 Option = "Yokohama",
                 Variants = {
                     {
-                        Variant = "Asahi Taxi",
+                        Variant = "Asahi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/yokohama_asahi" } }
                     },
 					{
-                        Variant = "Heiwa Kotsu Taxi",
+                        Variant = "Heiwa Kotsu",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/yokohama_heiwa" } }
                     },
                 }
