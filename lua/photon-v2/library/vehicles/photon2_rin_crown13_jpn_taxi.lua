@@ -18,12 +18,28 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_private" } }
                     },
 					{
+                        Variant = "Checker Cab",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_checker" } }
+                    },
+					{
+                        Variant = "Green Cab",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_green" } }
+                    },
+					{
                         Variant = "Hinomaru",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_hinomaru" } }
                     },
 					{
                         Variant = "Keio",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_keio" } }
+                    },
+					{
+                        Variant = "Kotobuki",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_kotobuki" } }
+                    },
+					{
+                        Variant = "Nihon Kotsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_nihon_kotsu" } }
                     },
 					{
                         Variant = "Tokyo Musen",
@@ -37,6 +53,27 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Kokusai Kougyou",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kitakyushu_kokusai" } }
+                    },
+				}
+            },
+			{
+                Option = "Kyoto",
+                Variants = {
+                    {
+                        Variant = "Aoi Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_aoi" } }
+                    },
+					{
+                        Variant = "Miyako",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_miyako" } }
+                    },
+					{
+                        Variant = "Teisan",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_teisan" } }
+                    },
+					{
+                        Variant = "Yasaka",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_yasaka" } }
                     },
 				}
             },
