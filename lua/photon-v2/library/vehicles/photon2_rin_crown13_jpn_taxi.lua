@@ -77,6 +77,19 @@ VEHICLE.Equipment = {
                     },
 				}
             },
+			{
+                Option = "Numazu",
+                Variants = {
+                    {
+                        Variant = "Izuhakone Kotsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_izuhakone" } }
+                    },
+					{
+                        Variant = "Izuhakone Kotsu (Love Live Sunshine Promotion)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_izuhakone_ll" } }
+                    },
+				}
+            },
             {
                 Option = "Nagoya",
                 Variants = {
