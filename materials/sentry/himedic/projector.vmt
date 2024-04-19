@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/shared/skin"
+		"$carpenisenabled" "[0.5 0.5 0.5]"
+		"$envmaptint" "[0.25 0.25 0.25]"
+	}
+}

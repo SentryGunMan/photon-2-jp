@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/shared/skin"
+		"$bumpmap" "sentry/himedic/int_ridges_nm"
+		"$phongexponent" "3"
+		"$envmaptint" "[0.3 0.3 0.3]"
+		"$carpenisenabled" "[0.8 0.8 0.8]"
+	}
+}

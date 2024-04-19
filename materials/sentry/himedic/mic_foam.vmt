@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$bumpmap" "sentry/himedic/mic_foam_nm"
+		"$rimlight" "0"
+		"$phongboost" "0.03"
+		"$phongexponent" "1"
+		"$carpenisenabled" "[0.15 0.15 0.15]"
+	}
+}

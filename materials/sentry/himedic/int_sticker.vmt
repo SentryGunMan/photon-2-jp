@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/int_sticker"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/undercarriage"
+		"$bumpmap" "sentry/himedic/undercarriage_nm"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}

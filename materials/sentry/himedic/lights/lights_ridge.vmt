@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$basetexture" "sentry/himedic/lights/lights_ridge"
+	"$nocull" "1"
+	"$additive" 1
+}

@@ -1,0 +1,8 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$bumpmap" "sentry/himedic/chrome_ridges_nm"
+	}
+}

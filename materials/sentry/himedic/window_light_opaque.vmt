@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/window_light"
+		"$alphatest" "1"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}

@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/himedic/black_fade"
+	"$nocull" "1"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$carpenisenabled" "[0 0 0]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

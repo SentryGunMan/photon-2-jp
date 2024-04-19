@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/grille"
+		"$bumpmap" "sentry/himedic/grille_nm"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+	}
+}

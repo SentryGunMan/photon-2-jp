@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/lightbar_screw"
+		"$bumpmap" "sentry/himedic/lightbar_screw_nm"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$carpenisenabled" "[0.35 0.35 0.35]"
+	}
+}

@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexturetransform" "center .5 .5 scale 30 30 rotate 0 translate 0 0"
+		"$bumpmap" "sentry/himedic/reflector2_nm"
+	}
+}

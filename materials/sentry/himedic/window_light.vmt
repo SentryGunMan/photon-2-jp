@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/himedic/window_light"
+	"$bumpmap" "sentry/shared/skin_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$carpenisenabled" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sentry/himedic/skin"
+	"$bumpmap" "sentry/shared/skin_nm"
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.15 0.15 0.15]"
+	"$envmapfresnel" "1"
+
+	"$phong" "1" 
+	"$phongboost" "2.5" 
+	"$phongexponenttexture" "sentry/himedic/flat_exp"
+	"$phongalbedotint" "1"
+	"$phongexponent" 3
+	"$phongfresnelranges" "[0.22 0.2 0.3]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+}
+

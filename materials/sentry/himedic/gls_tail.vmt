@@ -1,0 +1,24 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount" "0.1"
+	"$nowritez" "1"
+	"$refracttint" "[1 1 1]"
+	"$dudvmap" "sentry/himedic/gls_tail_nm"
+	"$normalmap" "sentry/himedic/gls_tail_nm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.125 0.125 0.125]"
+	"$carpenisenabled" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color
+		}
+	}
+}
+
+
+
+

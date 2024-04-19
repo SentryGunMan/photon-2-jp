@@ -1,0 +1,13 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexturetransform" "center .5 .5 scale 50 50 rotate 0 translate 0 0"
+		"$bumpmap" "sentry/himedic/fabric_nm"
+		"$rimlight" "0"
+		"$phongboost" "0.1"
+		"$phongexponent" "1"
+		"$carpenisenabled" "[0.4 0.4 0.4]"
+	}
+}

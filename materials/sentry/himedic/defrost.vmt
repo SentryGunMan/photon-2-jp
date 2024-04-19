@@ -1,0 +1,14 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/defrost"
+		"$phongboost" "0.2"
+		"$rimlight" "0"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$nocull" "1"
+		"$carpenisenabled" "{44 19 0}"
+	}
+}

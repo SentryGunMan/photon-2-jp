@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/int_screws"
+		"$bumpmap" "sentry/himedic/int_screws_nm"
+		"$normalmapalphaenvmapmask" "1"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+	}
+}

@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/himedic/gls_tail"
+	"$model" "1"
+}

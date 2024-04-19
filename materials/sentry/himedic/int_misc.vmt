@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/int_misc"
+		"$bumpmap" "sentry/himedic/int_misc_nm"
+		"$envmap" env_cubemap
+		"$envmaptint" "[0.01 0.01 0.01]"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}

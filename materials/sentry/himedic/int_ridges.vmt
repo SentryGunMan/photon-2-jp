@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$bumpmap" "sentry/himedic/int_ridges_nm"
+		"$rimlightboost" "0.4"
+	}
+}

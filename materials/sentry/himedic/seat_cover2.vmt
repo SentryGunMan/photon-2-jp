@@ -1,0 +1,15 @@
+patch
+{
+	include "materials/sentry/himedic/glass.vmt"
+	insert
+	{
+		"$bumpmap" "sentry/himedic/seat_cover2_nm"
+		"$envmaptint" "[0.25 0.25 0.25]"
+		"$additive" "1"
+		"$envmapfresnel" "1"
+		"$phongboost" "1.2"
+		"$phongexponent" "20"
+		"$phongfresnelranges" "[1 4 1]"
+		"$carpenisenabled" "[0 0 0]"
+	}
+}

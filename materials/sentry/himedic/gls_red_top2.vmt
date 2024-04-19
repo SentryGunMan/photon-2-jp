@@ -1,0 +1,6 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/himedic/gls_red"
+	"$model" "1"
+	"$nocull" "1"
+}

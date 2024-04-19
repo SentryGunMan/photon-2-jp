@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/key"
+		"$bumpmap" "sentry/himedic/key_nm"
+		"$envmap" env_cubemap
+		"$envmaptint" "[1 1 1]"
+	}
+}

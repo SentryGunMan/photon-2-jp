@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/cooler"
+		"$bumpmap" "sentry/himedic/cooler_nm"
+		"$envmaptint" "[0.5 0.5 0.5]"
+	}
+}

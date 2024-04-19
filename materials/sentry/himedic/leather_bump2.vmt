@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexturetransform" "center .5 .5 scale 10 10 rotate 0 translate 0 0"
+		"$bumpmap" "sentry/himedic/leather_bump2_nm"
+		"$carpenisenabled" "[0.15 0.15 0.15]"
+	}
+}

@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$rimlight" "0"
+		"$phongboost" "0.1"
+		"$phongexponent" "1"
+		"$carpenisenabled" "[0.27 0.54 0.26]"
+	}
+}

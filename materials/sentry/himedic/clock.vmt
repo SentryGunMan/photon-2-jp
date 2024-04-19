@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/clock"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}

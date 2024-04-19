@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$bumpmap" "sentry/himedic/bed_nm"
+		"$carpenisenabled" "[0.72 0.72 0.72]"
+	}
+}

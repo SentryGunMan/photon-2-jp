@@ -1,0 +1,16 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/int_mesh"
+		"$bumpmap" "sentry/himedic/int_mesh_nm"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$nocull" "1"
+		"$rimlight" "0"
+		"$phongboost" "0.1"
+		"$phongexponent" "1"
+		"$carpenisenabled" "[0.4 0.4 0.4]"
+	}
+}

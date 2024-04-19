@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/tape_roll"
+		"$phongboost" "0.02"
+		"$rimlight" "0"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}
