@@ -81,6 +81,10 @@ VEHICLE.Equipment = {
                 Option = "Numazu",
                 Variants = {
                     {
+                        Variant = "Fujikyu Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_fujikyu" } }
+                    },
+					{
                         Variant = "Izuhakone Kotsu",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_izuhakone" } }
                     },
