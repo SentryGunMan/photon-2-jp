@@ -22,7 +22,17 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
-
+	{
+		Category = "Controller Sound",
+		Options = {
+			{
+				Option = "Osaka Siren MK-D1",
+				InteractionSounds = {
+					{ Class = "Controller", Profile = "osaka_mkd1" }
+				}
+			},
+		}
+	},
 	{
 		Category = "License Plate",
 		Options = {

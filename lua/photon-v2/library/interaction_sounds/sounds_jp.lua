@@ -12,3 +12,18 @@ Photon2.RegisterInteractionSound({
 	Momentary = false,
 	Hold = true
 })
+
+Photon2.RegisterInteractionSound({
+	Class = "Controller",
+	Name = "osaka_mkd1",
+	Default = { 
+		Sound = "photon/controllers/osaka_chirp.wav", 
+		Volume = 100, -- default: 100
+		Duration = 0.08, -- default: 0.1 -- specified to prevent undesired sound overlapping
+		Pitch = 100 -- default: 100
+	},
+	Press = true,
+	Release = false,
+	Momentary = false,
+	Hold = true
+})
