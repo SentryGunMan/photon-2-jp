@@ -6,7 +6,7 @@ VEHICLE.Vehicle		= "himedic_sgm"
 VEHICLE.Category 	= "Photon 2: SGM"
 VEHICLE.Author		= "sgm!!"
 
-VEHICLE.Siren = { "patlite_sap520rbv" }
+VEHICLE.Siren = { "osaka_mkd1" }
 
 VEHICLE.Equipment = {
 	{
@@ -22,7 +22,47 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
-	
+
+	{
+		Category = "License Plate",
+		Options = {
+			{
+				Option = "Visible",
+				Props = {
+					{
+						Name = "@rear_plate",
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, -119.9, 30.0 ),
+						Angles = Angle( -8, -90, 0 ),
+						Scale = 0.97,
+						BodyGroups = {
+							["rear_seal"] = 1,
+							["plate_frame"] = 1,
+						},
+						SubMaterials = {
+							--["models/xenosprops/jp_plate/seal_fukuoka"] = "models/xenosprops/jp_plate/seal_chiba",
+							["models/xenosprops/jp_plate/plate"] = "sentry/plates/nyakuza",
+						},
+					},
+					{
+						Name = "@front_plate",
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 125.8, 12.1 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 0.97,
+						BodyGroups = {
+							["rear_seal"] = 0,
+							["plate_frame"] = 1,
+						},
+						SubMaterials = {
+							["models/xenosprops/jp_plate/plate"] = "sentry/plates/nyakuza",
+						},
+					},
+				},
+			}
+		}
+	},
+
 	{
 		Category = "Siren",
 		Options = {

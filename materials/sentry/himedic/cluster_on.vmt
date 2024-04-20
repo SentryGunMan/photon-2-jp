@@ -1,0 +1,15 @@
+patch
+{
+	include "materials/sentry/himedic/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/cluster"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$carpenisenabled" "[1 1 1]"
+		"$detail" "sentry/himedic/cluster_on"
+		"$detailscale" "1.0"
+		"$detailblendfactor" "1"
+		"$detailblendmode" "5"
+	}
+}

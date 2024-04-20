@@ -14,3 +14,18 @@ Photon2.RegisterSiren(
 	}
 )
 
+Photon2.RegisterSiren(
+	{
+		Name = "osaka_mkd1", --AMBULANCE
+		Make = "Osaka Siren",
+		Model = "MK-D1",
+		Author = "SGM",
+		Sounds = {
+			["HILO"] = { Sound = "photon/sirens/osaka_mkd1/hilo.wav", Icon = "hilo",	Default = "T1" },
+			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/hilo_wail.wav", Icon = "wail",	Default = "T2" },
+			["YELP"] = { Sound = "photon/sirens/osaka_mkd1/hilo_yelp.wav", Icon = "yelp",	Default = "T3" },
+			["HORN"]  = { Sound = "photon/sirens/osaka_mkd1/horn.wav", Default = "AIR", Label = "AIR" },
+			["MANUAL"]  = { Sound = "photon/sirens/osaka_mkd1/manual.wav", 	Default = "MAN", Label = "MAN" },
+		}
+	}
+)
