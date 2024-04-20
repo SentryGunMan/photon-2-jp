@@ -559,8 +559,12 @@ COMPONENT.Segments = {
 	["Siren_hilo"] = {
 		Frames = {
 			[1] = "[~DR2] 63",
+			[2] = "[PASS] 63",
 		},
 		Sequences = {
+			OFF = {
+				2
+			},
 			ON = {
 				1
 			},
@@ -569,8 +573,12 @@ COMPONENT.Segments = {
 	["Siren_wail"] = {
 		Frames = {
 			[1] = "[~DR2] 64",
+			[2] = "[PASS] 64",
 		},
 		Sequences = {
+			OFF = {
+				2
+			},
 			ON = {
 				1
 			},
@@ -589,8 +597,26 @@ COMPONENT.Segments = {
 	["Siren_yelp"] = {
 		Frames = {
 			[1] = "[~DR2] 69",
+			[2] = "[PASS] 69",
 		},
 		Sequences = {
+			OFF = {
+				2
+			},
+			ON = {
+				1
+			},
+		}
+	},
+	["Siren_quiet"] = {
+		Frames = {
+			[1] = "[~DR2] 61",
+			[2] = "[PASS] 61",
+		},
+		Sequences = {
+			OFF = {
+				2
+			},
 			ON = {
 				1
 			},
@@ -600,6 +626,33 @@ COMPONENT.Segments = {
 
 COMPONENT.Flags = {
 	ParkMode = { "Emergency.Warning", "PARK" },
+}
+
+COMPONENT.InputPriorities = {
+	["Virtual.SignalQuiet"] = 51,
+	["Virtual.SirenOverride"] = 62,
+	["Emergency.SirenParkKill"] = 63,
+}
+
+COMPONENT.VirtualOutputs = {
+	["Virtual.SirenOverride"] = {
+		{
+			Mode = "MANOVRD",
+			Conditions = {
+				["Emergency.Siren"] = { "T1", "T2", "T3", "T4", },
+				["Emergency.SirenOverride"] = { "MAN" }
+			}
+		}
+	},
+	["Virtual.SignalQuiet"] = {
+		{
+			Mode = "QUIET",
+			Conditions = {
+				["Vehicle.Signal"] = { "LEFT", "RIGHT", "HAZARD", },
+				["Emergency.Siren"] = { "T1", "T2", "T3", "T4",}
+			}
+		},
+	},
 }
 
 COMPONENT.Inputs = {
@@ -643,6 +696,11 @@ COMPONENT.Inputs = {
 			Siren_lighting = "ON",
 		},
 	},
+	["Vehicle.Engine"] = {
+		["ON"] = {
+			Siren_lighting = "ON",
+		},
+	},
 	["Vehicle.Signal"] = {
 		["LEFT"] = {
 			Signal_L = "SIGNAL",
@@ -675,6 +733,23 @@ COMPONENT.Inputs = {
 		["T3"] = {
 			Siren_hilo = "ON",
 			Siren_yelp = "ON",
+		},
+		["T4"] = {
+			Siren_hilo = "ON",
+			Siren_quiet = "ON",
+		},
+	},
+	["Emergency.SirenOverride"] = {
+		["MAN"] = {
+			Siren_wail = "ON",
+		},
+	},
+	["Virtual.SirenOverride"] = {
+		["MANOVRD"] = {
+			Siren_hilo = "ON",
+			Siren_yelp = "ON",
+			Siren_wail = "OFF",
+			Siren_quiet = "OFF",
 		},
 	},
 }

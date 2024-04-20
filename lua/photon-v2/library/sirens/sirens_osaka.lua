@@ -22,10 +22,16 @@ Photon2.RegisterSiren(
 		Author = "SGM",
 		Sounds = {
 			["HILO"] = { Sound = "photon/sirens/osaka_mkd1/hilo.wav", Icon = "hilo",	Default = "T1" },
-			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/hilo_wail.wav", Icon = "wail",	Default = "T2" },
-			["YELP"] = { Sound = "photon/sirens/osaka_mkd1/hilo_yelp.wav", Icon = "yelp",	Default = "T3" },
+			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/wail.wav", Icon = "wail",	Default = "T2" },
+			["YELP"] = { Sound = "photon/sirens/osaka_mkd1/yelp.wav", Icon = "yelp",	Default = "T3" },
+			["HILO_QUIET"] = { Sound = "photon/sirens/osaka_mkd1/hilo_quiet.wav", Icon = "hilo",	Default = "T4" },
 			["HORN"]  = { Sound = "photon/sirens/osaka_mkd1/horn.wav", Default = "AIR", Label = "AIR" },
 			["MANUAL"]  = { Sound = "photon/sirens/osaka_mkd1/manual.wav", 	Default = "MAN", Label = "MAN" },
+
+			["LEFT"] = { Sound = "photon/sirens/osaka_mkd1/left.wav", Default = "T5" },
+			["RIGHT"] = { Sound = "photon/sirens/osaka_mkd1/right.wav", Default = "T6" },
+			["HAZARD"] = { Sound = "photon/sirens/osaka_mkd1/hazard.wav", Default = "T7" },
+			["THANKS"] = { Sound = "photon/sirens/osaka_mkd1/thanks.wav", Default = "T8" },
 		}
 	}
 )
