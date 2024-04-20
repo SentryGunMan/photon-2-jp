@@ -632,6 +632,7 @@ COMPONENT.InputPriorities = {
 	["Virtual.SignalQuiet"] = 51,
 	["Virtual.SirenOverride"] = 62,
 	["Emergency.SirenParkKill"] = 63,
+	["Vehicle.Engine"] = 21,
 }
 
 COMPONENT.VirtualOutputs = {
@@ -661,21 +662,25 @@ COMPONENT.Inputs = {
 			Front = "FLASH",
 			Rear = "FLASH",
 			Siren_lightson = "ON",
+			Siren_lighting = "ON",
 		},
 		["MODE2"] = {
 			Front = "FLASH",
 			Rear = "FLASH",
 			Siren_lightson = "ON",
+			Siren_lighting = "ON",
 		},
 		["MODE3"] = {
 			Front = "FLASH",
 			Rear = "FLASH",
 			Siren_lightson = "ON",
+			Siren_lighting = "ON",
 		},
 		["PARK"] = {
 			Front = "PARK",
 			Rear = "PARK",
 			Siren_lightson = "ON",
+			Siren_lighting = "ON",
 		},
 	},
 	["Vehicle.Brake"] = {
@@ -688,12 +693,10 @@ COMPONENT.Inputs = {
 			Headlights = "HEADLIGHTS",
 			Taillights = "TAIL",
 			Markers = "ON",
-			Siren_lighting = "ON",
 		},
 		["PARKING"] = {
 			Taillights = "TAIL",
 			Markers = "ON",
-			Siren_lighting = "ON",
 		},
 	},
 	["Vehicle.Engine"] = {
