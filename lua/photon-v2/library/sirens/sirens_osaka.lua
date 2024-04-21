@@ -22,7 +22,7 @@ Photon2.RegisterSiren(
 		Author = "SGM",
 		Sounds = {
 			["HILO"] = { Sound = "photon/sirens/osaka_mkd1/hilo.wav", Icon = "hilo",	Default = "T1" },
-			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/wail.wav", Icon = "wail",	Default = "T2" },
+			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/wail_short.wav", Icon = "wail",	Default = "T2" },
 			["YELP"] = { Sound = "photon/sirens/osaka_mkd1/yelp.wav", Icon = "yelp",	Default = "T3" },
 			["HILO_QUIET"] = { Sound = "photon/sirens/osaka_mkd1/hilo_quiet.wav", Icon = "hilo",	Default = "T4" },
 			["HORN"]  = { Sound = "photon/sirens/osaka_mkd1/horn.wav", Default = "AIR", Label = "AIR" },

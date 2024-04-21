@@ -19,5 +19,13 @@
 	"$rimlightexponent" "2"
 	"$rimlightboost" "1"
 	"$rimmask" "1"
+
+	"$detail" "sentry/himedic/reflector_decals"
+	"$detailscale" "250.0"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "4"
+
+	"$normalmapalphaenvmapmask" "1"
+
 }
 
