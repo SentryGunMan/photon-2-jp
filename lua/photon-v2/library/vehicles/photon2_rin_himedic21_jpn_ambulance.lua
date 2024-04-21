@@ -26,6 +26,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Chiba",
+                Variants = {
+                    {
+                        Variant = "Chiba University Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/chiba_uni" } }
+                    },
+                }
+            },
+			{
                 Option = "Fukuoka",
                 Variants = {
                     {
