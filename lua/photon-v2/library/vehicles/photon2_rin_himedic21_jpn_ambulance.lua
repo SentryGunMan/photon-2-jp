@@ -16,8 +16,21 @@ VEHICLE.Equipment = {
                 Option = "Aichi",
                 Variants = {
                     {
-                        Variant = "Nagoya",
+                        Variant = "Nagoya Medic One",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/nagoya" } }
+                    },
+					{
+                        Variant = "Bisan Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/bisan" } }
+                    },
+                }
+            },
+			{
+                Option = "Chiba",
+                Variants = {
+                    {
+                        Variant = "Chiba University Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/chiba_uni" } }
                     },
                 }
             },
@@ -25,7 +38,7 @@ VEHICLE.Equipment = {
                 Option = "Fukuoka",
                 Variants = {
                     {
-                        Variant = "Fukuoka",
+                        Variant = "Fukuoka City Fire Department",
                         SubMaterials = { { Id = 18, Material = "sentry/himedic/skin" } }
                     },
                 }
@@ -34,8 +47,21 @@ VEHICLE.Equipment = {
                 Option = "Shizuoka",
                 Variants = {
                     {
-                        Variant = "Numazu",
+                        Variant = "Gakunan Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/gakunan" } }
+                    },
+					{
+                        Variant = "Numazu Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/numazu" } }
+                    },
+                }
+            },
+			{
+                Option = "Tochigi",
+                Variants = {
+                    {
+                        Variant = "Haga Area Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/haga" } }
                     },
                 }
             },
