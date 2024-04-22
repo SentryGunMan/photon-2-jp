@@ -38,8 +38,17 @@ VEHICLE.Equipment = {
                 Option = "Fukuoka",
                 Variants = {
                     {
-                        Variant = "Fukuoka City Fire Department",
+                        Variant = "Fukuoka Fire Prevention Bureau",
                         SubMaterials = { { Id = 18, Material = "sentry/himedic/skin" } }
+                    },
+                }
+            },
+			{
+                Option = "Kyoto",
+                Variants = {
+                    {
+                        Variant = "Kyoto City Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto" } }
                     },
                 }
             },
@@ -62,6 +71,15 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Haga Area Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/haga" } }
+                    },
+                }
+            },
+			{
+                Option = "Tokyo",
+                Variants = {
+                    {
+                        Variant = "Tokyo Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/tokyo" } }
                     },
                 }
             },
