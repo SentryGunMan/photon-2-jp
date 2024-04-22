@@ -108,6 +108,53 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Antenna",
+		Options = {
+			{
+				Option = "Left",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( -32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "Right",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( 32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "Left & Right",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( 32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( -32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "None",
+			},
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
