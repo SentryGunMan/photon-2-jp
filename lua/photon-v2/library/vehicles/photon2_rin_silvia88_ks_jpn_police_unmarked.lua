@@ -210,6 +210,24 @@ VEHICLE.Equipment = {
 						Scale = .9
 					},
 					{
+						Model = "models/sentry/props/jp/necradio.mdl",
+						Position = Vector( -0.25, 15.8, 28.7 ),
+						Angles = Angle( -28, 270, 0 ),
+						Scale = .95
+					},
+					{
+						Model = "models/sentry/props/jp/dashcam.mdl",
+						Position = Vector( -7, 10, 55.1 ),
+						Angles = Angle( 11, 271.5, 0 ),
+						Scale = 1
+					},
+					{
+						Model = "models/sentry/props/jp/oss_mkd1_aux.mdl",
+						Position = Vector( -3, 22.2, 37),
+						Angles = Angle( -28, 270, 5 ),
+						Scale = 1
+					},
+					{
 						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
 						Position = Vector( 0, -101.7, 20 ),
 						Angles = Angle( -3, 270, 00 ),

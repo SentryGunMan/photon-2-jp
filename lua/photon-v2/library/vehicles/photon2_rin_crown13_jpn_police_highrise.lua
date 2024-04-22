@@ -352,8 +352,8 @@ VEHICLE.Equipment = {
 				Components = {
 					{
 						Component = "photon_siren_jp_rin",
-						Position = Vector(-10.5, 105.5, 17.5),
-						Angles = Angle(1.5, 180, 180),
+						Position = Vector(-10.5, 100, 17.9),
+						Angles = Angle(1.5, 270, 180),
 						Scale = .8,
 						Siren = 1
 					},
@@ -513,6 +513,30 @@ VEHICLE.Equipment = {
 						Position = Vector( 0, 19.5, 33 ),
 						Angles = Angle(),
 						Scale = 1.1
+					},
+					{
+						Model = "models/sentry/props/jp/necradio.mdl",
+						Position = Vector( -0.1, 19.5, 35.2 ),
+						Angles = Angle( 0, 270, 0 ),
+						Scale = 1.1
+					},
+					{
+						Model = "models/sentry/props/jp/dashcam.mdl",
+						Position = Vector( -7, 19.5, 63.5 ),
+						Angles = Angle( 8, 271.5, 0 ),
+						Scale = 1
+					},
+					{
+						Model = "models/sentry/props/jp/necmdt.mdl",
+						Position = Vector( -18, 21.5, 42 ),
+						Angles = Angle( 0, 265, 0 ),
+						Scale = 0.8
+					},
+					{
+						Model = "models/sentry/props/jp/oss_mkd1_aux.mdl",
+						Position = Vector( -7, 22.8, 44 ),
+						Angles = Angle( 0, 260, 0 ),
+						Scale = 1
 					},
 				}
 			}
