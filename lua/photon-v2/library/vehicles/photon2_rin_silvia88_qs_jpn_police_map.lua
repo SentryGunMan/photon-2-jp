@@ -16,6 +16,50 @@ VEHICLE.SubMaterials = {
 
 VEHICLE.Equipment = {
     {
+		Category = "Antenna",
+		Options = {
+			{
+				Option = "Left & Right",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( 32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( -32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "Left",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( -32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "Right",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/antenna.mdl",
+						Position = Vector( 32.1, -82, 42.3),
+						Angles = Angle( 0, 0, 2.5 ),
+						Scale = 1
+					},
+                }
+			}
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
@@ -152,7 +196,7 @@ VEHICLE.Equipment = {
 						Angles = Angle( -28, 270, 5 ),
 						Scale = 1
 					},
-                    {
+					{
 						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
 						Position = Vector( 0, -101.7, 20 ),
 						Angles = Angle( -3, 270, 00 ),
