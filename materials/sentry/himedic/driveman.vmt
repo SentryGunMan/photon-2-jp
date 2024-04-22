@@ -1,0 +1,16 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/himedic/driveman"
+		"$bumpmap" "sentry/shared/skin_nm"
+		"$envmaptint" "[0.1 0.1 0.1]"
+		"$envmapfresnel" "1"
+		"$normalmapalphaenvmapmask" "1"
+		"$phongboost" "0.2"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+		"$carpenisenabled" "[1 1 1]"
+	}
+}
