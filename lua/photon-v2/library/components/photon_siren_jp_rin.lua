@@ -16,7 +16,7 @@ COMPONENT.Category = "Siren"
 
 COMPONENT.PrintName = "Photon Siren JP Rin"
 
-COMPONENT.Model = "models/sentry/props/whelensa315p_mounta.mdl"
+COMPONENT.Model = "models/sentry/props/jp/patlitespeaker.mdl"
 
 COMPONENT.Templates = {
 	["Sound"] = { Tone = {} }
