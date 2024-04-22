@@ -34,6 +34,36 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Front Lights",
+		Options = {
+			{
+				Option = "Osaka Siren LAF-150",
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 4, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -4, 0 ),
+						Scale = 1.0
+					},
+				}
+			},
+		}
+	},
+	{
 		Category = "License Plate",
 		Options = {
 			{
@@ -81,8 +111,11 @@ VEHICLE.Equipment = {
 				Components = {
 					{
 						Component = "siren_prototype",
-						Position = Vector(0, 98, 26.5),
+						Position = Vector(-7, 120, 15.5),
 						Angles = Angle(1.5, -90, 0),
+						SubMaterials = {
+							[0] = "photon/common/blank",
+						},
 						Scale = 1.4,
 						Siren = 1,
 						Templates = {
@@ -209,8 +242,11 @@ VEHICLE.Equipment = {
 
 					{
 						Component = "siren_prototype",
-						Position = Vector(0, 98, 26.5),
+						Position = Vector(-7, 120, 15.5),
 						Angles = Angle(1.5, -90, 0),
+						SubMaterials = {
+							[0] = "photon/common/blank",
+						},
 						Scale = 1.4,
 						Siren = 1,
 						Templates = {

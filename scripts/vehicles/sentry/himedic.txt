@@ -113,17 +113,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.225"
+		"Max_Speed"				"0.175"
 		"Speed_Approach_Factor"	"0.07"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.75"
+		"Max_Speed"				"0.35"
 		"Speed_Approach_Factor"	"0.07"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"1.94"
+		"Max_Speed"				"0.55"
 		"Speed_Approach_Factor"	"0.07"
 	}
 	"Gear"
@@ -140,7 +140,7 @@
 	{
 		"Name"		"SS_START_IDLE"
 		"Sound"		"vehicles/sgmcars/himedic/start.wav"
-		"Min_Time"	"2.10"
+		"Min_Time"	"0.55"
 	}
 	"State"
 	{
