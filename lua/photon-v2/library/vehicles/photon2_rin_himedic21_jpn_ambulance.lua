@@ -44,11 +44,38 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Kanagawa",
+                Variants = {
+                    {
+                        Variant = "Yokohama Fire Bureau",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/yokohama" } }
+                    },
+                }
+            },
+			{
                 Option = "Kyoto",
                 Variants = {
                     {
                         Variant = "Kyoto City Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto" } }
+                    },
+                }
+            },
+			{
+                Option = "Osaka",
+                Variants = {
+                    {
+                        Variant = "Osaka Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/osaka" } }
+                    },
+                }
+            },
+			{
+                Option = "Shiga",
+                Variants = {
+                    {
+                        Variant = "Saiseikai Shiga Prefecture Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/saiseikai" } }
                     },
                 }
             },
