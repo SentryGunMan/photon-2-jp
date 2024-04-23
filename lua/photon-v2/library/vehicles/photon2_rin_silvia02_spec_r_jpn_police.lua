@@ -283,6 +283,31 @@ VEHICLE.Equipment = {
 					},
 				}
 			},
+			{
+				Option = "Osaka Siren LAF-150",
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -11.3, 97.5, 18.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 180, 4, 0 ),
+						Scale = .8
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 11.3, 97.5, 18.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 180, -4, 0 ),
+						Scale = .8
+					},
+				}
+			},
 		    {
 				Option = "None",
 			}

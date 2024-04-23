@@ -100,6 +100,39 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
+			Option = "Osaka Siren LAF-150",
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -11.3, 97.5, 18.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 180, 4, 0 ),
+						Scale = .8,
+						SubMaterials = {
+							[1] = "models/xenoscars/shared/glass",
+							[2] = "models/xenoscars/shared/glass",
+						}
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 11.3, 97.5, 18.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 180, -4, 0 ),
+						Scale = .8,
+						SubMaterials = {
+							[1] = "models/xenoscars/shared/glass",
+							[2] = "models/xenoscars/shared/glass",
+						}
+					},
+				}
+			},
+			{
 				Option = "None",
 			}
 		}

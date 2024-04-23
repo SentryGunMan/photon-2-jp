@@ -98,6 +98,36 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
+	{
+		Category = "Front Flashers",
+		Options = {
+			{
+				Option = "Osaka Siren LAF-150",
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 4, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -4, 0 ),
+						Scale = 1.0
+					},
+				}
+			},
+		}
+	},
     {
 		Category = "License Plate",
 		Options = {
