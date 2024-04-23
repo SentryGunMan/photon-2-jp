@@ -23,6 +23,10 @@ VEHICLE.Equipment = {
                         Variant = "Bisan Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/bisan" } }
                     },
+					{
+                        Variant = "Iwakura Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/iwakura" } }
+                    },
                 }
             },
 			{
