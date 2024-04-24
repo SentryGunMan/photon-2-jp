@@ -70,6 +70,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Okinawa",
+                Variants = {
+                    {
+                        Variant = "Heart Life Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/heart_life" } }
+                    },
+                }
+            },
+			{
                 Option = "Osaka",
                 Variants = {
                     {
