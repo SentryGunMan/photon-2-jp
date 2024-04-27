@@ -70,6 +70,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Miyagi",
+                Variants = {
+                    {
+                        Variant = "Iwanuma EMS",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/iwanuma" } }
+                    },
+                }
+            },
+			{
                 Option = "Okinawa",
                 Variants = {
                     {
@@ -84,6 +93,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Osaka Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/osaka" } }
+                    },
+					{
+                        Variant = "Osaka National Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/osaka_nat" } }
                     },
                 }
             },
