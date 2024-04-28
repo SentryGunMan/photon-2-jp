@@ -73,6 +73,63 @@ VEHICLE.Equipment = {
         }
 	},
 	{
+		Category = "Beacon",
+		Options = {
+			{
+				Option = "Center",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 0, -12, 61.2 ),
+						Angles = Angle( -1.2, 270, 0 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+		}
+	},
+	{
+		Category = "Front Flashers",
+		Options = {
+			{
+				Option = "Koito Flashers",
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 11.5, 98.5, 17.5 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -11.5, 98.5, 17.5 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "None",
+			}
+		}
+	},
+	{
 		Category = "Antenna",
 		Options = {
 			{

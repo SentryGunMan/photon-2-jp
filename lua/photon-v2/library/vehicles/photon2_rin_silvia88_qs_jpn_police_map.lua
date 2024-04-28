@@ -16,6 +16,25 @@ VEHICLE.SubMaterials = {
 
 VEHICLE.Equipment = {
     {
+		Category = "Beacon",
+		Options = {
+			{
+				Option = "Patlite HKF",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 0, -12, 59.6 ),
+						Angles = Angle( -1.9, 270, 0 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			}
+		}
+	},
+	{
 		Category = "Antenna",
 		Options = {
 			{

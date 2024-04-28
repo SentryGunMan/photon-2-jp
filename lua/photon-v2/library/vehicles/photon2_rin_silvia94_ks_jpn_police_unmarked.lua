@@ -80,6 +80,62 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Beacon",
+		Options = {
+			{
+				Option = "Left",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( -22, -1, 58.6 ),
+						Angles = Angle( -8, 270, 8 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Right",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 22, -1, 58.6 ),
+						Angles = Angle( -8, 270, -8 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Dual",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( -22, -1, 58.6 ),
+						Angles = Angle( -8, 270, 8 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 22, -1, 58.6 ),
+						Angles = Angle( -8, 270, -8 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			}
+		}
+	},
+	{
 		Category = "Antenna",
 		Options = {
 			{

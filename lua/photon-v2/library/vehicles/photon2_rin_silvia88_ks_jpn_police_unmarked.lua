@@ -108,6 +108,25 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Beacon",
+		Options = {
+			{
+				Option = "Center",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 0, -12, 59.6 ),
+						Angles = Angle( -1.9, 270, 0 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+		}
+	},
+	{
 		Category = "Antenna",
 		Options = {
 			{
@@ -178,6 +197,54 @@ VEHICLE.Equipment = {
 		Category = "Bumper",
 		Options = {
 			{
+				Option = "Aero Package with Koito Flashers",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 12, 95, 15.3 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -12, 95, 15.3 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+			{
 				Option = "Aero Package",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 1 }
@@ -199,6 +266,54 @@ VEHICLE.Equipment = {
 				},
 			},
 			{
+				Option = "Standard with Koito Flashers",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 0 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.3, 18 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 12, 95, 15.3 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -12, 95, 15.3 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+			{
 				Option = "Standard",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 0 }
@@ -218,7 +333,7 @@ VEHICLE.Equipment = {
 						},
 					},
 				},
-			}
+			},
 		}
 	},
 	{

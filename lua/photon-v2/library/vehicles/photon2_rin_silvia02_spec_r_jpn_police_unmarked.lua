@@ -72,6 +72,25 @@ VEHICLE.Equipment = {
 			},
         }
 	},
+	{
+		Category = "Beacon",
+		Options = {
+			{
+				Option = "Center",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 0, -12, 60.1 ),
+						Angles = Angle( -1.2, 270, 0 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+		}
+	},
     {
 		Category = "Front Flashers",
 		Options = {
