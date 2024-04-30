@@ -111,17 +111,30 @@ VEHICLE.Equipment = {
 		Category = "Beacon",
 		Options = {
 			{
-				Option = "Center",
+				Option = "Pop-Up",
 				Components = {
 					{
-						Component = "patlite_hkf",
-						Position = Vector( 0, -12, 59.6 ),
-						Angles = Angle( -1.9, 270, 0 ),
-						Scale = .9,
-						BodyGroups = {
-							["trim"] = 1,
-						},
-					},
+                        Name = "@riser",
+                        Component = "patlite_hky",
+                        Position = Vector( 2, -17, 60.45 ),
+                        Angles = Angle( -0.2, -90, 0 ),
+                        Color = Color(255,0,0),
+                        Scale = 0.9,
+                        Bones = {
+                            ["bucket"] = { Vector(0, 0, -0.7), Angle(0, 0, -1), 1 },
+                        },
+                    },
+                    {
+                        Component = "patlite_hkf",
+                        Position = Vector( 0, 0, 0 ),
+                        Angles = Angle( 0, -90, 0 ),
+                        Scale = 0.9,
+                        Parent = "@riser",
+                        FollowBone = "platform",
+                        BodyGroups = {
+                            ["trim"] = 2,
+                        },
+                    }
 				}
 			},
 		}
