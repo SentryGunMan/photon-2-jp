@@ -137,7 +137,7 @@ VEHICLE.Equipment = {
 					{
                         Name = "@riser",
                         Component = "patlite_hky",
-                        Position = Vector( 2, -17, 71.1 ),
+                        Position = Vector( 2, -17, 71.15 ),
                         Angles = Angle( -1.8, -90, 0 ),
                         Color = Color(255,0,0),
                         Scale = 0.9,
