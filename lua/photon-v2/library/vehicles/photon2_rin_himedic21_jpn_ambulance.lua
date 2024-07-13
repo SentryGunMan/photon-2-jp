@@ -48,6 +48,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Hiroshima",
+                Variants = {
+                    {
+                        Variant = "Hiroshima Fire Service Bureau",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/hiroshima" } }
+                    },
+                }
+            },
+			{
                 Option = "Kanagawa",
                 Variants = {
                     {
@@ -75,6 +84,15 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Iwanuma EMS",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/iwanuma" } }
+                    },
+                }
+            },
+			{
+                Option = "Okayama",
+                Variants = {
+                    {
+                        Variant = "Okayama Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/okayama" } }
                     },
                 }
             },
@@ -115,6 +133,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Gakunan Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/gakunan" } }
+                    },
+					{
+                        Variant = "Hamamatsu Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/hamamatsu" } }
                     },
 					{
                         Variant = "Numazu Fire Department",
