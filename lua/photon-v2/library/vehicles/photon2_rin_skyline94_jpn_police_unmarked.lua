@@ -219,31 +219,36 @@ VEHICLE.Equipment = {
 						Model = "models/sentry/props/japanese_center_mirror.mdl",
 						Position = Vector( 0, 9, 53 ),
 						Angles = Angle( 0, 270, 0 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/sap500.mdl",
 						Position = Vector( 0.1, 17.5, 30 ),
 						Angles = Angle( 1, 4, -28 ),
-						Scale = 1.05
+						Scale = 1.05,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/necradio.mdl",
 						Position = Vector( -15, 21.2, 31.9 ),
 						Angles = Angle( -28, 273, 180 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/dashcam.mdl",
 						Position = Vector( -7, 12, 57.7 ),
 						Angles = Angle( 11, 271.5, 2 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/oss_mkd1_aux.mdl",
 						Position = Vector( -4.5, 26.4, 38),
 						Angles = Angle( -28, 270, 5 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/xenosprops/jp_plate/jp_plate.mdl",

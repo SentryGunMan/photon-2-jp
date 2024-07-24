@@ -483,7 +483,8 @@ VEHICLE.Equipment = {
 						Model = "models/sentry/props/sap500.mdl",
 						Position = Vector( 0, 16.5, 29.9 ),
 						Angles = Angle( 0, 0, -28 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
@@ -495,7 +496,8 @@ VEHICLE.Equipment = {
 						Model = "models/sentry/props/japanese_center_mirror.mdl",
 						Position = Vector( 0, 7.5, 50.4 ),
 						Angles = Angle( 0, 270, 0 ),
-						Scale = .9
+						Scale = .9,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/japanese_police_emblem.mdl",
@@ -507,25 +509,29 @@ VEHICLE.Equipment = {
 						Model = "models/sentry/props/jp/necradio.mdl",
 						Position = Vector( -0.2, 17.5, 31.8 ),
 						Angles = Angle( -28, 270, 0 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/dashcam.mdl",
 						Position = Vector( -7, 11, 55.55 ),
 						Angles = Angle( 11, 271.5, 0 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/necmdt.mdl",
 						Position = Vector( -17, 16.5, 35 ),
 						Angles = Angle( 0, 270, 0 ),
-						Scale = 0.8
+						Scale = 0.8,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/oss_mkd1_aux.mdl",
 						Position = Vector( -6.5, 19.8, 39 ),
 						Angles = Angle( 0, 270, 5 ),
-						Scale = 1
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
 					},
 					{
 						Model = "models/sentry/props/jp/antenna.mdl",
