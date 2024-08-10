@@ -206,6 +206,23 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
+	{
+		Category = "Patrol Sign",
+		Options = {
+			{
+				Option = "PATLITE VP-12",
+				Components = {
+					{
+						Component = "patlite_vp12",
+						Position = Vector(0, -66.4, 52.2),
+						Angles = Angle(0,-90,0),
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
+					},
+				},
+			},
+		},
+	},
     {
 		Category = "Police Equipment",
 		Options = {

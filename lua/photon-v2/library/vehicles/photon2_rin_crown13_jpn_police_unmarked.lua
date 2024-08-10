@@ -450,9 +450,6 @@ VEHICLE.Equipment = {
 					},
 				},
 			},
-			{
-				Option = "None",
-			},
 		},
 	},
     {

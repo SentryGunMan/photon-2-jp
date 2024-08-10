@@ -15,22 +15,14 @@ VEHICLE.SubMaterials = {
 
 VEHICLE.Equipment = {
     {
-		Category = "Livery",
+		Category = "Configuration",
 		Options = {
 			
 			{
 				Option = "Tokyo MER",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/impreza15/tokyo_mer" }
-				}
-			},
-		}
-	},
-	{
-		Category = "Lightbar",
-		Options = {
-			{
-				Option = "Koito LED110",
+				},
 				Components = {
 					{
 						Component = "koito_led110",
@@ -38,18 +30,8 @@ VEHICLE.Equipment = {
 						Angles = Angle( 0, 0, 0 ),
 						Scale = 1.0,
 					},
-				}
-			}
-		}
-	},
-	{
-		Category = "Front Flashers",
-		Options = {
-			{
-				Option = "Patlite LP3",
-				Components = {
 					{
-						Name = "@grille_lp3",
+						Name = "@mer_lp3",
 						Component = "photon_patlite_lp3_rin",
 						Position = Vector( -9.7, 112.6, 27.5 ),
 						Angles = Angle( 1.5, 8, 0 ),
@@ -68,14 +50,88 @@ VEHICLE.Equipment = {
 						}
 					},
 					{
-						Inherit = "@grille_lp3",
+						Inherit = "@mer_lp3",
 						Position = Vector( 9.7, 112.6, 27.5 ),
 						Angles = Angle( -1.5, -8, 0 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
 				}
-			}
+			},
+			{
+				Option = "Japanese Red Cross Society",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/impreza15/red_cross" }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -4, 65.3 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+					},
+					{
+						Name = "@red_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -9.7, 112.6, 27.5 ),
+						Angles = Angle( 1.5, 8, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@red_lp3",
+						Position = Vector( 9.7, 112.6, 27.5 ),
+						Angles = Angle( -1.5, -8, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Tokyo Blood Donation Supply Corporation",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/impreza15/blood" }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -4, 65.3 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+					},
+					{
+						Name = "@blood_lp5",
+						Component = "photon_patlite_lp5_rin",
+						Position = Vector( -13.5, 111.9, 16.8 ),
+						Angles = Angle( 1.5, 2, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@blood_lp5",
+						Position = Vector( 13.5, 111.9, 16.8 ),
+						Angles = Angle( -1.5, -2, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
 		}
 	},
     {
