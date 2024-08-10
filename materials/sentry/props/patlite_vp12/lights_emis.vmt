@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexturetransform" "center 0 0 scale 64 16 rotate 0 translate 0 0"
+	"$basetexture" "sentry/props/patlite_vp12/text/glow"
+	"$translucent" "1"
+	"$nocull" "0"
+	"$additive" 1
+	"$alpha" 1
+
+	$detail "sentry/props/patlite_vp12/text/follow1"
+	$detailscale 1.0
+	$detailblendfactor 1
+	$detailblendmode 4
+}

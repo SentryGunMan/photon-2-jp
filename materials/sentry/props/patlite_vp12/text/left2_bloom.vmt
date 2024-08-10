@@ -1,0 +1,8 @@
+patch
+{
+	include "materials/sentry/props/patlite_vp12/lights_emis_bloom.vmt"
+	insert
+	{
+		"$detail" "sentry/props/patlite_vp12/text/left2"
+	}
+}
