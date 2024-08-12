@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "rin/japan_maintenance/rav4/hokuden"
+	"$bumpmap" "models/supermighty/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 1
+	"$phongboost"	0.02
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask" 1
+	"$color2" "{250 250 250}"
+}
