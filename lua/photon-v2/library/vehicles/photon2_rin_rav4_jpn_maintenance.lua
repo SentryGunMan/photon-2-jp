@@ -20,6 +20,68 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Japan Railways East",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_east" },
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( -12, 111.1, 32.5 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 1, 0 ),
+						Scale = 0.8
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 12.4, 111.1, 32.5 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -1, 0 ),
+						Scale = 0.8
+					},
+				}
+			},
+			{
+				Option = "Japan Railways Central",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_central" },
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
+				Option = "Japan Railways West",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_west" },
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
 				Option = "Hokkaido Electric Power Company",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/hokuden" },
