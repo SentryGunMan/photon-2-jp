@@ -96,6 +96,40 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
+				Option = "Kyoto Municipal Transportation Bureau",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_maintenance/rav4/kyoto_transit" },
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( -12, 111.1, 32.5 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 1, 0 ),
+						Scale = 0.8
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 12.4, 111.1, 32.5 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -1, 0 ),
+						Scale = 0.8
+					},
+				}
+			},
+			{
 				Option = "Tokyo Metropolitan Government Bureau Of Waterworks",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/tokyo_water" },

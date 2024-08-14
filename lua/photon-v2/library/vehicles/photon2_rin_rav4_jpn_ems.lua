@@ -44,7 +44,7 @@ VEHICLE.Equipment = {
 						Scale = 1.0
 					},
 					{
-						Name = "@grille_lp3",
+						Name = "@miyakonojo_lp3",
 						Component = "photon_patlite_lp3_rin",
 						Position = Vector( -9.5, 108.75, 36.5 ),
 						Angles = Angle( 0, 1.5, -2 ),
@@ -63,9 +63,44 @@ VEHICLE.Equipment = {
 						}
 					},
 					{
-						Inherit = "@grille_lp3",
+						Inherit = "@miyakonojo_lp3",
 						Position = Vector( 9.9, 108.75, 36.5 ),
 						Angles = Angle( 0, -1.5, -2 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Nagoya City University Hospital (Aichi)",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/nagoya_uni" },
+					{ Id = 26, Material = "rin/japan_ems/rav4/nagoya_uni_glass" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 1 }
+				},
+				Components = {
+					{
+						Name = "@nagoya_lp5",
+						Component = "photon_patlite_lp5_rin",
+						Position = Vector( -14, 108.1, 19.1 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@nagoya_lp5",
+						Position = Vector( 14.6, 108.1, 19.1 ),
+						Angles = Angle( 0, -2, 0 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
