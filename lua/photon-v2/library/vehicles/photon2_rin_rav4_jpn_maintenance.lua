@@ -68,7 +68,7 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Japan Railways West",
+				Option = "Japan Railways West", --ADD Patlite AJS
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_west" },
 				},
@@ -82,7 +82,7 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Hokkaido Electric Power Company",
+				Option = "Hokkaido Electric Power Company", --ADD Patlite AJS
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/hokuden" },
 				},
@@ -96,7 +96,7 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Kyoto Municipal Transportation Bureau",
+				Option = "Kyoto Municipal Transportation Bureau", --ADD Patlite AJS
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/kyoto_transit" },
 				},
@@ -144,7 +144,7 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Yurikamome Monorail Tokyo Odaiba",
+				Option = "Yurikamome Monorail Tokyo Odaiba", --ADD Patlite AJS
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/yurikamome" },
 				},

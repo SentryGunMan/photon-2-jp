@@ -17,9 +17,34 @@ VEHICLE.Equipment = {
     {
 		Category = "Configuration",
 		Options = {
-			
 			{
-				Option = "Hachinohe City Hospital (Aomori)",
+				Option = "Fujieda Municipal General Hospital (Shizuoka)",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/fujieda" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
+				Option = "Daiyukai Ichinomiya General Hospital (Aichi)", --ADD NAGOYA DENKI BAR
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/daiyukai" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+			},
+			{
+				Option = "Hachinohe City Hospital (Aomori)", --ADD WHELEN JUSTICE OR CENATOR
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/rav4/hachinohe" },
 					{ Id = 26, Material = "rin/japan_ems/rav4/hachinohe_glass" },
@@ -72,7 +97,41 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Nagoya City University Hospital (Aichi)",
+				Option = "Nagahama Red Cross Hospital (Shiga)", --ADD Patlite AJS
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/nagahama" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+						Name = "@nagahama_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -9.5, 106, 36.5 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@nagahama_lp3",
+						Position = Vector( 9.9, 106, 36.5 ),
+						Angles = Angle( 0, -2, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Nagoya City University Hospital (Aichi)", --ADD NAGOYA-DENKI BAR
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/rav4/nagoya_uni" },
 					{ Id = 26, Material = "rin/japan_ems/rav4/nagoya_uni_glass" },
@@ -104,6 +163,37 @@ VEHICLE.Equipment = {
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
+				}
+			},
+			{
+				Option = "Donated Blood Distribution Foundation", --ADD Patlite AJS
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/blood_donation" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -12, 110.6, 20.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, 1, 0 ),
+						Scale = 1
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 12.4, 110.6, 20.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, -1, 0 ),
+						Scale = 1
+					},
 				}
 			},
 		}
