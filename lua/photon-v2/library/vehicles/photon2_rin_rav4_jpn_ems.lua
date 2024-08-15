@@ -13,10 +13,174 @@ VEHICLE.SubMaterials = {
 	[12] = "sentry/shared/glass",
 }
 
+local sequence = Photon2.SequenceBuilder.New
+
 VEHICLE.Equipment = {
     {
 		Category = "Configuration",
 		Options = {
+			{
+				Option = "Hachinohe City Hospital (Aomori)", --ADD WHELEN JUSTICE OR CENATOR
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/hachinohe" },
+					{ Id = 26, Material = "rin/japan_ems/rav4/hachinohe_glass" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 1 }
+				},
+				Components = {
+					{
+						Component = "photon_whe_legacy_44",
+						Position = Vector( 0.4, -14, 81.4 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1.0,
+						BodyGroups = {
+							["clamps"] = 2,
+							["alley"] = 1,
+						},
+						Bones = {
+							["foot_left"] = { Vector( 1.5, 0, 0), Angle( 0, 0, 0 ), 1 },
+							["foot_right"] = { Vector( -1.5, 0, 0), Angle( 0, 0, 0 ), 1 },
+						},
+					},
+					{
+						Name = "@hachinohe_ion",
+						Component = "photon_whe_ion",
+						Position = Vector( -12.2, 107, 19.1 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1.0,
+						Phase = 180,
+						Segments = {
+							Light = {
+								Frames = {
+								    [1] = "1", 
+								},
+								Sequences = {
+									["QUAD_FLASH"] = sequence():QuadFlash( 1, 0 ),
+								}
+							},
+						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE2"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE3"] = {
+									Light = "QUAD_FLASH",
+								}
+							},
+						},
+					},
+					{
+						Inherit = "@hachinohe_ion", 
+						Position = Vector( 12.6, 107, 19.1 ),
+						Angles = Angle( 0, -2, 0 ),
+					},
+					{
+						Name = "@hachinohe_vertex",
+						Component = "photon_sos_undercover",
+						Position = Vector( -43.1, 88, 38 ),
+						Angles = Angle( 0, 82, -85.5 ),
+						Scale = 0.4,
+						Segments = {
+							Light = {
+								Frames = {
+								    [1] = "1 2 3 4", 
+								},
+								Sequences = {
+									["QUAD_FLASH"] = sequence():QuadFlash( 1, 0 ),
+								}
+							},
+						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE2"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE3"] = {
+									Light = "QUAD_FLASH",
+								}
+							},
+						},
+					},
+					{
+						Inherit = "@hachinohe_vertex", 
+						Position = Vector( 43.6, 88, 38 ),
+						Angles = Angle( 0, -82, -85.5 ),
+					},
+					{
+						Inherit = "@hachinohe_vertex", 
+						Position = Vector( -40, -90, 45 ),
+						Angles = Angle( 0, 103.5, -79 ),
+						Phase = 180,
+					},
+					{
+						Inherit = "@hachinohe_vertex", 
+						Position = Vector( 40.6, -90, 45 ),
+						Angles = Angle( 0, -103.5, -79 ),
+						Phase = 180,
+					},
+					{
+						Name = "@hachinohe_laf150",
+						Component = "oss_laf150",
+						Position = Vector( -9.5, 109, 36.5 ),
+						BodyGroups = {
+							["bracket"] = 1,
+							["mount"] = 0,
+						},
+						SubMaterials = {
+							[1] = "models/xenoscars/shared/glass",
+							[2] = "models/xenoscars/shared/glass",
+						},
+						Angles = Angle( 0, 1, 0 ),
+						Scale = 0.8,
+						Segments = {
+							Light = {
+								Frames = {
+								    [1] = "1 2 3 4", 
+								},
+								Sequences = {
+									["QUAD_FLASH"] = sequence():QuadFlash( 1, 0 ),
+								}
+							},
+						},
+						Inputs = {
+							["Emergency.Warning"] = {
+								["MODE1"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE2"] = {
+									Light = "QUAD_FLASH",
+								},
+								["MODE3"] = {
+									Light = "QUAD_FLASH",
+								}
+							},
+						},
+					},
+					{
+						Inherit = "@hachinohe_laf150", 
+						Position = Vector( 10.1, 109, 36.5 ),
+						Angles = Angle( 0, -1, 0 ),
+					},
+					{
+						Inherit = "@hachinohe_laf150", 
+						Position = Vector( -10.8, -106.4, 44.8 ),
+						Angles = Angle( 0, 180, 8 ),
+					},
+					{
+						Inherit = "@hachinohe_laf150", 
+						Position = Vector( 11.4, -106.4, 44.8 ),
+						Angles = Angle( 0, 180, 8 ),
+					},
+				}
+			},
 			{
 				Option = "Fujieda Municipal General Hospital (Shizuoka)",
 				SubMaterials = {
@@ -42,59 +206,6 @@ VEHICLE.Equipment = {
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
 				},
-			},
-			{
-				Option = "Hachinohe City Hospital (Aomori)", --ADD WHELEN JUSTICE OR CENATOR
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/hachinohe" },
-					{ Id = 26, Material = "rin/japan_ems/rav4/hachinohe_glass" },
-				},
-				BodyGroups = {
-					{ BodyGroup = "Skin glass", Value = 1 }
-				},
-			},
-			{
-				Option = "Miyakonojo City Medical Association Hospital (Miyazaki)",
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/miyakonojo" },
-				},
-				BodyGroups = {
-					{ BodyGroup = "Skin glass", Value = 0 }
-				},
-				Components = {
-					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
-					{
-						Name = "@miyakonojo_lp3",
-						Component = "photon_patlite_lp3_rin",
-						Position = Vector( -9.5, 108.75, 36.5 ),
-						Angles = Angle( 0, 1.5, -2 ),
-						Scale = 1,
-						StateMap = "[R] 1",
-						Phase = "A",
-						SubMaterials = {
-							[5] = "sentry/props/patlite_lp3/glass_outer"
-						},
-						InputActions = {
-							["Emergency.Warning"] = {
-								["MODE1"] = { Light = "FLASH4" },
-								["MODE2"] = { Light = "FLASH4" },
-								["MODE3"] = { Light = "FLASH4" },
-							},
-						}
-					},
-					{
-						Inherit = "@miyakonojo_lp3",
-						Position = Vector( 9.9, 108.75, 36.5 ),
-						Angles = Angle( 0, -1.5, -2 ),
-						Phase = "A",
-						StateMap = "[R] 1"
-					}
-				}
 			},
 			{
 				Option = "Nagahama Red Cross Hospital (Shiga)", --ADD Patlite AJS
@@ -160,6 +271,49 @@ VEHICLE.Equipment = {
 						Inherit = "@nagoya_lp5",
 						Position = Vector( 14.6, 108.1, 19.1 ),
 						Angles = Angle( 0, -2, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Miyakonojo City Medical Association Hospital (Miyazaki)",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/miyakonojo" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+					{
+						Name = "@miyakonojo_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -9.5, 108.75, 36.5 ),
+						Angles = Angle( 0, 1.5, -2 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						SubMaterials = {
+							[5] = "sentry/props/patlite_lp3/glass_outer"
+						},
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@miyakonojo_lp3",
+						Position = Vector( 9.9, 108.75, 36.5 ),
+						Angles = Angle( 0, -1.5, -2 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
