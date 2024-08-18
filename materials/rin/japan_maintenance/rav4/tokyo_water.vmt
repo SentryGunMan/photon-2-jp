@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "rin/japan_maintenance/rav4/tokyo_water"
-	"$bumpmap" "models/supermighty/shared/skin_nm"
+	"$bumpmap" "sentry/shared/skin_nm"
 	"$nodecal" "1"
 	"$phong" 1
 	"$phongexponent" 1

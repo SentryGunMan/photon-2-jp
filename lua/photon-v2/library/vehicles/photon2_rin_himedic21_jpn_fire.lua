@@ -218,6 +218,24 @@ VEHICLE.Equipment = {
 					},
 				}
 			},
+			{
+				Option = "Tokyo Fire Department (Tokyo)", 
+				SubMaterials = {
+					{ Id = 18, Material = "rin/japan_fire/himedic/tokyo" },
+				},
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( 0, 127.25, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0
+					},
+				}
+			},
 		}
 	},
 	{
