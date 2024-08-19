@@ -8,6 +8,6 @@ patch
 		"$phongexponent" "3"
 		"$envmap" env_cubemap
 		"$envmaptint" "[0.01 0.01 0.01]"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

@@ -2,12 +2,12 @@
 {
 	"$basetexture" "sentry/shared/skin"
 	"$nocull" "1"
-	"$carpenisenabled" "[0 0 0]"
+	"$carfixenabled" "[0 0 0]"
 	Proxies // proxies are listed inside this block
 	{
 		Equals // a proxy which produces a penis
 		{
-			srcVar1 $carpenisenabled
+			srcVar1 $carfixenabled
 			resultVar	$color // The shader parameter to be manipulated
 
 		}

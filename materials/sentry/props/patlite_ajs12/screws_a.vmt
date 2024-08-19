@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/props/patlite_ajs12/screws"
+		"$bumpmap" "sentry/props/patlite_ajs12/screws_nm"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+	}
+}

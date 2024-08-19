@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/props/patlite_ajs12/plastic2.vmt"
+	insert
+	{
+		"$carfixenabled" "[0.6 0.6 0.6]"
+		"$phongexponent" "4"
+    	"$phongboost" "1.5"
+		"$envmap" env_cubemap
+		"$envmaptint" "[0.15 0.15 0.15]"
+	}
+}

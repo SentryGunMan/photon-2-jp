@@ -8,6 +8,6 @@ patch
 		"$nocull" "1"
 		"$alphatest" "1"
 		"$allowalphatocoverage" "1"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

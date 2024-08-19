@@ -7,6 +7,6 @@ patch
 		"$bumpmap" "sentry/himedic/lightbar_screw_nm"
 		"$alphatest" "1"
 		"$allowalphatocoverage" "1"
-		"$carpenisenabled" "[0.35 0.35 0.35]"
+		"$carfixenabled" "[0.35 0.35 0.35]"
 	}
 }

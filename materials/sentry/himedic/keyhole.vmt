@@ -7,6 +7,6 @@ patch
 		"$bumpmap" "sentry/himedic/keyhole_nm"
 		"$phongexponent" "3"
 		"$envmaptint" "[0.6 0.6 0.6]"
-		"$carpenisenabled" "[0.3 0.3 0.3]"
+		"$carfixenabled" "[0.3 0.3 0.3]"
 	}
 }

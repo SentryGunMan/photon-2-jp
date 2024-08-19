@@ -9,6 +9,6 @@ patch
 		"$envmaptint" "[0.01 0.01 0.01]"
 		"$phongtint" "{191 147 141}"
 		"$phongboost" "1"
-		"$carpenisenabled" "{107 80 73}"
+		"$carfixenabled" "{107 80 73}"
 	}
 }

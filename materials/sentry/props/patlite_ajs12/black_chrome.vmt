@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/props/patlite_ajs12/plastic2.vmt"
+	insert
+	{
+		"$envmap" env_cubemap
+		"$envmaptint" "[0.1 0.1 0.1]"
+		"$envmapfresnel" "1"
+	}
+}

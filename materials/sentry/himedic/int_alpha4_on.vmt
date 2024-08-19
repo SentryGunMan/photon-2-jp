@@ -3,12 +3,12 @@
 	"$basetexture" "sentry/himedic/int_alpha4"
 	"$alphatest" "1"
 	"$allowalphatocoverage" "1"
-	"$carpenisenabled" "[1 1 1]"
+	"$carfixenabled" "[1 1 1]"
 	Proxies // proxies are listed inside this block
 	{
 		Equals // a proxy which produces a penis
 		{
-			srcVar1 $carpenisenabled
+			srcVar1 $carfixenabled
 			resultVar	$color // The shader parameter to be manipulated
 
 		}

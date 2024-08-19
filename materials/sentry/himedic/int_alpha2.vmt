@@ -7,6 +7,6 @@ patch
 		"$bumpmap" "sentry/himedic/int_alpha2_nm"
 		"$alphatest" "1"
 		"$allowalphatocoverage" "1"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

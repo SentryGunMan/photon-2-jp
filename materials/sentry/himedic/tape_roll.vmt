@@ -6,6 +6,6 @@ patch
 		"$basetexture" "sentry/himedic/tape_roll"
 		"$phongboost" "0.02"
 		"$rimlight" "0"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

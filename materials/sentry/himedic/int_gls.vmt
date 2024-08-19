@@ -7,6 +7,6 @@ patch
 		"$bumpmap" "sentry/himedic/int_ridges_nm"
 		"$phongexponent" "3"
 		"$envmaptint" "[0.3 0.3 0.3]"
-		"$carpenisenabled" "[0.8 0.8 0.8]"
+		"$carfixenabled" "[0.8 0.8 0.8]"
 	}
 }

@@ -7,6 +7,6 @@ patch
 		"$bumpmap" "sentry/himedic/steer_nm"
 		"$alphatest" "1"
 		"$allowalphatocoverage" "1"
-		"$carpenisenabled" "[0.15 0.15 0.15]"
+		"$carfixenabled" "[0.15 0.15 0.15]"
 	}
 }

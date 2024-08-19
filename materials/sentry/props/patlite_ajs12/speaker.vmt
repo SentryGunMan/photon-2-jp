@@ -1,0 +1,14 @@
+patch
+{
+	include "materials/sentry/props/patlite_ajs12/plastic2.vmt"
+	insert
+	{
+		"$basetexture" "sentry/props/patlite_ajs12/speaker"
+		"$phongexponent" "4"
+    	"$phongboost" "1.5"
+		"$envmap" env_cubemap
+		"$envmaptint" "[0.05 0.05 0.05]"
+		"$blendtintbybasealpha" "1"
+		"$carfixenabled" "[0.45 0.45 0.45]"
+	}
+}

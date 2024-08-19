@@ -10,6 +10,6 @@ patch
 		"$envmap" env_cubemap
 		"$normalmapalphaenvmapmask" "0"
 		"$envmaptint" "[1.0 1.0 1.0]"
-		"$carpenisenabled" "[0.4 0.4 0.4]"
+		"$carfixenabled" "[0.4 0.4 0.4]"
 	}
 }

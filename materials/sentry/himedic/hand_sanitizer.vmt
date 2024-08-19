@@ -4,6 +4,6 @@ patch
 	insert
 	{
 		"$basetexture" "sentry/himedic/hand_sanitizer"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

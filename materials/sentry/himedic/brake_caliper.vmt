@@ -6,6 +6,6 @@ patch
 		"$bumpmap" "sentry/himedic/brake_caliper_nm"
 		"$phongexponent" "3"
 		"$envmaptint" "[0.1 0.1 0.1]"
-		"$carpenisenabled" "[0.3 0.3 0.3]"
+		"$carfixenabled" "[0.3 0.3 0.3]"
 	}
 }

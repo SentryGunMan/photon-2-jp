@@ -5,6 +5,6 @@ patch
 	{
 		"$basetexturetransform" "center .5 .5 scale 20 20 rotate 0 translate 0 0"
 		"$bumpmap" "sentry/himedic/leather_bump_nm"
-		"$carpenisenabled" "[0.4 0.4 0.4]"
+		"$carfixenabled" "[0.4 0.4 0.4]"
 	}
 }

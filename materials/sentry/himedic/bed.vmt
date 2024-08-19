@@ -4,6 +4,6 @@ patch
 	insert
 	{
 		"$bumpmap" "sentry/himedic/bed_nm"
-		"$carpenisenabled" "[0.72 0.72 0.72]"
+		"$carfixenabled" "[0.72 0.72 0.72]"
 	}
 }

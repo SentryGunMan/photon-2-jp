@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/props/patlite_ajs12/decal"
+		"$phongboost" "1.5"
+		"$phongexponent" "6"
+		"$envmaptint" "[0.4 0.4 0.4]"
+		"$carfixenabled" "[0.6 0.6 0.6]"
+	}
+}

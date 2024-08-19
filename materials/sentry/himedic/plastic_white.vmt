@@ -3,6 +3,6 @@ patch
 	include "materials/sentry/himedic/plastic2.vmt"
 	insert
 	{
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

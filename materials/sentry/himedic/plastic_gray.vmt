@@ -3,7 +3,7 @@ patch
 	include "materials/sentry/himedic/plastic2.vmt"
 	insert
 	{
-		"$carpenisenabled" "[0.6 0.6 0.6]"
+		"$carfixenabled" "[0.6 0.6 0.6]"
 		"$phongexponent" "4"
     	"$phongboost" "1.5"
 	}

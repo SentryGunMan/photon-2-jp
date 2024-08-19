@@ -10,6 +10,6 @@ patch
 		"$phongboost" "1.2"
 		"$phongexponent" "20"
 		"$phongfresnelranges" "[1 4 1]"
-		"$carpenisenabled" "[0 0 0]"
+		"$carfixenabled" "[0 0 0]"
 	}
 }

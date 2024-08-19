@@ -5,6 +5,6 @@ patch
 	{
 		"$basetexture" "sentry/himedic/rim"
 		"$bumpmap" "sentry/himedic/rim_nm"
-		"$carpenisenabled" "[1 1 1]"
+		"$carfixenabled" "[1 1 1]"
 	}
 }

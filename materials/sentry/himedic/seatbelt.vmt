@@ -7,6 +7,6 @@ patch
 		"$rimlight" "0"
 		"$phongboost" "0.1"
 		"$phongexponent" "1"
-		"$carpenisenabled" "[0.15 0.15 0.15]"
+		"$carfixenabled" "[0.15 0.15 0.15]"
 	}
 }
