@@ -30,20 +30,6 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "photon_whe_legacy_44",
-						Position = Vector( 0.4, -14, 81.4 ),
-						Angles = Angle( 2, 90, 0 ),
-						Scale = 1.0,
-						BodyGroups = {
-							["clamps"] = 2,
-							["alley"] = 1,
-						},
-						Bones = {
-							["foot_left"] = { Vector( 1.5, 0, 0), Angle( 0, 0, 0 ), 1 },
-							["foot_right"] = { Vector( -1.5, 0, 0), Angle( 0, 0, 0 ), 1 },
-						},
-					},
-					{
 						Name = "@hachinohe_ion",
 						Component = "photon_whe_ion",
 						Position = Vector( -12.2, 107, 19.1 ),
