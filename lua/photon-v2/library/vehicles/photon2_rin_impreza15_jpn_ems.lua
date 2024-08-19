@@ -102,11 +102,15 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -4, 65.3 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -8, 74.4 ),
+                        Angles = Angle( -2, -90, 0 ),
+                        Scale = 1.02,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        }
+                    },
 					{
 						Name = "@blood_lp5",
 						Component = "photon_patlite_lp5_rin",

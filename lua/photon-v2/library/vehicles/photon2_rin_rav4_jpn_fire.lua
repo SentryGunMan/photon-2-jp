@@ -26,6 +26,19 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_fire/red",
+						},
+                    },
+					{
 						Component = "oss_laf150",
 						Position = Vector( 0.3, 110.8, 35.5 ),
 						BodyGroups = {

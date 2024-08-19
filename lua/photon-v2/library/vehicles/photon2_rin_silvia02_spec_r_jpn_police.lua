@@ -257,6 +257,21 @@ VEHICLE.Equipment = {
 						Scale = .9
 					},
 				}
+			},
+			{
+				Option = "Patlite AJS-12",
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -11, 65 ),
+                        Angles = Angle( -1.5, -90, 0 ),
+                        Scale = 0.92,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        }
+                    },
+				}
 			}
 		}
 	},

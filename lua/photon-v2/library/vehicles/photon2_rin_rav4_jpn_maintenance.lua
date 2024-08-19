@@ -68,45 +68,57 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Japan Railways West", --ADD Patlite AJS
+				Option = "Japan Railways West", 
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_west" },
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
 				}
 			},
 			{
-				Option = "Hokkaido Electric Power Company", --ADD Patlite AJS
+				Option = "Hokkaido Electric Power Company",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/hokuden" },
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
 				}
 			},
 			{
-				Option = "Kyoto Municipal Transportation Bureau", --ADD Patlite AJS
+				Option = "Kyoto Municipal Transportation Bureau", 
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/kyoto_transit" },
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
 					{
 						Component = "oss_laf150",
 						Position = Vector( -12, 111.1, 32.5 ),
@@ -144,17 +156,21 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Yurikamome Monorail Tokyo Odaiba", --ADD Patlite AJS
+				Option = "Yurikamome Monorail Tokyo Odaiba", 
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/yurikamome" },
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
 				}
 			},
 		}

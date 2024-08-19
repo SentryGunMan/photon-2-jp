@@ -248,14 +248,18 @@ VEHICLE.Equipment = {
 		Category = "Lightbar",
 		Options = {
 			{
-				Option = "Koito LED110",
+				Option = "Patlite AJS-12",
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -8, 57.6 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = .9
-					},
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -10, 66 ),
+                        Angles = Angle( -2, -90, 0 ),
+                        Scale = 0.92,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        }
+                    },
 				}
 			}
 		}

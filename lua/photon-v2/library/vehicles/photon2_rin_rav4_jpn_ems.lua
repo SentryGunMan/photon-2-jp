@@ -306,7 +306,7 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Donated Blood Distribution Foundation", --ADD Patlite AJS
+				Option = "Donated Blood Distribution Foundation", 
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/rav4/blood_donation" },
 				},
@@ -314,6 +314,16 @@ VEHICLE.Equipment = {
 					{ BodyGroup = "Skin glass", Value = 0 }
 				},
 				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
 					{
 						Component = "oss_laf150",
 						Position = Vector( -12, 110.6, 20.2 ),
