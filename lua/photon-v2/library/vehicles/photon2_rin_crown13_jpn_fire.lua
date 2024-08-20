@@ -12,40 +12,14 @@ VEHICLE.Siren = {
 
 VEHICLE.Equipment = {
 	{
-		Category = "Livery",
+		Category = "Configuration",
 		Options = {
 			
 			{
-				Option = "Numazu",
+				Option = "Numazu Fire Department (Shizuoka)",
 				SubMaterials = {
 					{ Id = 0, Material = "rin/japan_fire/crown/numazu" }
-				}
-			},
-			{
-				Option = "Nagoya",
-				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
-				}
-			},
-			{
-				Option = "Sakai",
-				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/sakai" }
-				}
-			},
-			{
-				Option = "Tokyo",
-				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/tokyo" }
-				}
-			},
-		}
-	},
-    {
-		Category = "Lightbar",
-		Options = {
-			{
-				Option = "Koito LED110",
+				},
 				Components = {
 					{
 						Component = "koito_led110",
@@ -56,18 +30,8 @@ VEHICLE.Equipment = {
 							[8] = "rin/japan_fire/red"
 						},
 					},
-				}
-			}
-		}
-	},
-	{
-		Category = "Front Flashers",
-		Options = {
-			{
-				Option = "Patlite LP5",
-				Components = {
 					{
-						Name = "@grille_lp5",
+						Name = "@numazu_lp5",
 						Component = "photon_patlite_lp5_rin",
 						Position = Vector( -22, 104.8, 15.5 ),
 						Angles = Angle( 5, 37, -5 ),
@@ -83,14 +47,109 @@ VEHICLE.Equipment = {
 						}
 					},
 					{
-						Inherit = "@grille_lp5",
+						Inherit = "@numazu_lp5",
 						Position = Vector( 22, 104.8, 15.5 ),
 						Angles = Angle( -5, -37, -5 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
 				}
-			}
+			},
+			{
+				Option = "Nagoya Fire Department (Aichi)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
+				},
+				Components = {
+					{
+						Name = "@nagoya_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						SubMaterials = {
+							[5] = "sentry/props/patlite_lp3/glass_outer"
+						},
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@nagoya_lp3",
+						Position = Vector( 10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Sakai Fire Department (Osaka)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/sakai" }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -8, 66.1 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[8] = "rin/japan_fire/red_dark"
+						},
+					},
+					{
+						Name = "@sakai_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110, 22 ),
+						Angles = Angle( 0, 7, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@sakai_lp3",
+						Position = Vector( 12, 110, 22 ),
+						Angles = Angle( 0, -7, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Tokyo Fire Department (Tokyo)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/tokyo" }
+				},
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 75.5 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_fire/red",
+						},
+                    },
+				}
+			},
 		}
 	},
     {
