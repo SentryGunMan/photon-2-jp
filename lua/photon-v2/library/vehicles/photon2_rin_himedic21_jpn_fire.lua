@@ -347,6 +347,102 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
+				Option = "Okayama Fire Department (Okayama)", 
+				SubMaterials = {
+					{ Id = 18, Material = "rin/japan_fire/himedic/okayama" },
+				},
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 4, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -4, 0 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
+				Option = "Osaka Fire Department (Osaka)", 
+				SubMaterials = {
+					{ Id = 18, Material = "rin/japan_fire/himedic/osaka" },
+				},
+				Components = {
+					{
+						Component = "oss_laf150",
+						Position = Vector( -15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, 4, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 15.701, 126.976, 33.01 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 1,
+						},
+						Angles = Angle( 0, -4, 0 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( -36.2, -97, 84.5 ),
+						BodyGroups = {
+							["bracket"] = 1,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, 91, 20.5 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 36.2, -97, 84.5 ),
+						BodyGroups = {
+							["bracket"] = 1,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, -91, 20.5 ),
+						Scale = 1.0
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( -18, -111.4, 95 ),
+						BodyGroups = {
+							["bracket"] = 1,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, 171, 15 ),
+						Scale = 1.0,
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 18, -111.4, 95 ),
+						BodyGroups = {
+							["bracket"] = 1,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, 189, 15 ),
+						Scale = 1.0,
+					},
+				}
+			},
+			{
 				Option = "Tokyo Fire Department (Tokyo)", 
 				SubMaterials = {
 					{ Id = 18, Material = "rin/japan_fire/himedic/tokyo" },
@@ -361,6 +457,28 @@ VEHICLE.Equipment = {
 						},
 						Angles = Angle( 0, 0, 0 ),
 						Scale = 1.0
+					},
+				}
+			},
+			{
+				Option = "Yokohama Fire Bureau (Kanagawa)", 
+				SubMaterials = {
+					{ Id = 18, Material = "rin/japan_fire/himedic/yokohama" },
+				},
+				Components = {
+					{
+						Inherit = "@himedic_lp5",
+						Position = Vector( -12, 123, 30.65 ),
+						Angles = Angle( 0, 2.5, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					},
+					{
+						Inherit = "@himedic_lp5",
+						Position = Vector( 12, 123, 30.65 ),
+						Angles = Angle( 0, -2.5, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
 					},
 				}
 			},
