@@ -14,7 +14,40 @@ VEHICLE.Equipment = {
 	{
 		Category = "Configuration",
 		Options = {
-			
+			{
+				Option = "Nagoya Fire Department (Aichi)", --NAGOYA DENKI
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
+				},
+				Components = {
+					{
+						Name = "@crown_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						SubMaterials = {
+							[5] = "sentry/props/patlite_lp3/glass_outer"
+						},
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@crown_lp3",
+						Position = Vector( 10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
 			{
 				Option = "Numazu Fire Department (Shizuoka)",
 				SubMaterials = {
@@ -50,40 +83,6 @@ VEHICLE.Equipment = {
 						Inherit = "@numazu_lp5",
 						Position = Vector( 22, 104.8, 15.5 ),
 						Angles = Angle( -5, -37, -5 ),
-						Phase = "A",
-						StateMap = "[R] 1"
-					}
-				}
-			},
-			{
-				Option = "Nagoya Fire Department (Aichi)",
-				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
-				},
-				Components = {
-					{
-						Name = "@nagoya_lp3",
-						Component = "photon_patlite_lp3_rin",
-						Position = Vector( -10.1, 106, 31 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1,
-						StateMap = "[R] 1",
-						Phase = "A",
-						SubMaterials = {
-							[5] = "sentry/props/patlite_lp3/glass_outer"
-						},
-						InputActions = {
-							["Emergency.Warning"] = {
-								["MODE1"] = { Light = "FLASH4" },
-								["MODE2"] = { Light = "FLASH4" },
-								["MODE3"] = { Light = "FLASH4" },
-							},
-						}
-					},
-					{
-						Inherit = "@nagoya_lp3",
-						Position = Vector( 10.1, 106, 31 ),
-						Angles = Angle( 0, 0, 0 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
@@ -148,6 +147,42 @@ VEHICLE.Equipment = {
 							[13] = "rin/japan_fire/red",
 						},
                     },
+					{
+						Inherit = "@crown_lp3",
+						Position = Vector( -10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					},
+					{
+						Inherit = "@crown_lp3",
+						Position = Vector( 10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Yokohama Fire Bureau (Kanagawa)", -- NAGOYA DENKI
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/yokohama" }
+				},
+				Components = {
+					{
+						Inherit = "@crown_lp3",
+						Position = Vector( -10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					},
+					{
+						Inherit = "@crown_lp3",
+						Position = Vector( 10.1, 106, 31 ),
+						Angles = Angle( 0, 0, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
 				}
 			},
 		}

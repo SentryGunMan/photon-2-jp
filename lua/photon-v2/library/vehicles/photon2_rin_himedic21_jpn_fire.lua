@@ -17,6 +17,46 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Haga Area Fire Department (Tochigi)", 
+				SubMaterials = {
+					{ Id = 18, Material = "rin/japan_fire/himedic/haga" },
+				},
+				Components = {
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( -16, 121.5, 32.1 ),
+						Angles = Angle( 1, 6.5, 0 ),
+					},
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( 16, 121.5, 32.1 ),
+						Angles = Angle( -1, -6.5, 0 ),
+					},
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( -10, 122, 29.3 ),
+						Angles = Angle( 0, 2, 0 ),
+						Phase = 90,
+					},
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( 10, 122, 29.31 ),
+						Angles = Angle( 0, -2, 0 ),
+						Phase = 90,
+					},
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( -41.8, 110, 21 ),
+						Angles = Angle( 90, 82, 0 ),
+					},
+					{
+						Inherit = "@himedic_ion", 
+						Position = Vector( 41.8, 110, 21 ),
+						Angles = Angle( 90, 278, 0 ),
+					},
+				}
+			},
+			{
 				Option = "Hiroshima Fire Department (Hiroshima)", 
 				SubMaterials = {
 					{ Id = 18, Material = "rin/japan_fire/himedic/hiroshima" },
@@ -318,11 +358,13 @@ VEHICLE.Equipment = {
 						Inherit = "@himedic_ion", 
 						Position = Vector( -41.8, 110, 21 ),
 						Angles = Angle( 90, 82, 0 ),
+						Phase = 90,
 					},
 					{
 						Inherit = "@himedic_ion", 
 						Position = Vector( 41.8, 110, 21 ),
 						Angles = Angle( 90, 278, 0 ),
+						Phase = 90,
 					},
 					{
 						Component = "oss_laf150",
