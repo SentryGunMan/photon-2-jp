@@ -509,6 +509,13 @@ VEHICLE.Equipment = {
 						Scale = 1,
 						RenderGroup = RENDERGROUP_OPAQUE,
 					},
+					{
+						Component = "patlite_signcontroller",
+						Position = Vector(-2.7943,10.967,31.251),
+						Angles = Angle(1.5,-90,0),
+						Scale = 1,
+						RenderGroup = RENDERGROUP_OPAQUE,
+					},
 				},
 			},
 		},
