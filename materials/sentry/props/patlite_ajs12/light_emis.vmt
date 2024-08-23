@@ -2,18 +2,18 @@
 {
 	"$basetexture" "sentry/shared/skin"
 	"$bumpmap" "sentry/shared/skin_nm"
-    $phong "1"
-//	"$basemapalphaphongmask" "1"
-    $phongexponent "7"
-    $phongboost "1"
-    $phongfresnelranges "[.05 .3 1]"
-	"$rimlight"               "1"
-	"$rimlightexponent"       "17"
-	"$rimlightboost"          "0.2"
-	"$carfixenabled" "[0.15 0.15 0.15]"
+	"$selfillum" "1"
+	"$additive" "1"
+	"$halflambert" "1"
+	"$phongtint" "[-10 -10 -10]"
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "-20.5"	
+	"$phongfresnelranges"	"[1 1 1]"
+	"$carfixenabled" "[1 1 1]"
 	Proxies // proxies are listed inside this block
 	{
-		Equals // a proxy which produces a penis
+		Equals // a proxy which produces a fix
 		{
 			srcVar1 $carfixenabled
 			resultVar	$color // The shader parameter to be manipulated

@@ -1,7 +1,12 @@
-"UnlitGeneric"
+"VertexlitGeneric"
 {
-	"$basetexture" "color/white"
-	"$translucent" "1"
+	"$basetexture" "photon/common/glow_gradient_a"
+	"$bumpmap" "sentry/shared/skin_nm"
+	"$phong" "1"
+    "$phongexponent" "37"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[0 1 0]"
+	"$color2" "[0 0 0]"
 	"$additive" "1"
 }
 
