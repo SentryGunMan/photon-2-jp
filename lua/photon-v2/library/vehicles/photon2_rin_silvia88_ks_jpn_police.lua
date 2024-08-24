@@ -297,6 +297,25 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Bug Shield",
+		Options = {
+			{
+				Option = "Bug Shield",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/bugshield.mdl",
+						Position = Vector( 0, 0, 2.2),
+						Angles = Angle( 1, 270, 0 ),
+						Scale = 1
+					},
+                }
+			},
+			{
+				Option = "None",
+			},
+		}
+	},
+	{
 		Category = "Additional Antennas",
 		Options = {
 			{
