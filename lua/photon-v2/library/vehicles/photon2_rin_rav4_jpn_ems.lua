@@ -20,6 +20,73 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Daiyukai Ichinomiya General Hospital (Aichi)", --ADD NAGOYA DENKI BAR
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/daiyukai" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+			},
+			{
+				Option = "Donated Blood Distribution Foundation", 
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/blood_donation" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
+					{
+						Component = "oss_laf150",
+						Position = Vector( -12, 110.6, 20.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, 1, 0 ),
+						Scale = 1
+					},
+					{
+						Component = "oss_laf150",
+						Position = Vector( 12.4, 110.6, 20.2 ),
+						BodyGroups = {
+							["bracket"] = 0,
+							["mount"] = 0,
+						},
+						Angles = Angle( 0, -1, 0 ),
+						Scale = 1
+					},
+				}
+			},
+			{
+				Option = "Fujieda Municipal General Hospital (Shizuoka)",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_ems/rav4/fujieda" },
+				},
+				BodyGroups = {
+					{ BodyGroup = "Skin glass", Value = 0 }
+				},
+				Components = {
+					{
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
 				Option = "Hachinohe City Hospital (Aomori)", --ADD WHELEN JUSTICE OR CENATOR
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/rav4/hachinohe" },
@@ -168,32 +235,6 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Fujieda Municipal General Hospital (Shizuoka)",
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/fujieda" },
-				},
-				BodyGroups = {
-					{ BodyGroup = "Skin glass", Value = 0 }
-				},
-				Components = {
-					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
-				}
-			},
-			{
-				Option = "Daiyukai Ichinomiya General Hospital (Aichi)", --ADD NAGOYA DENKI BAR
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/daiyukai" },
-				},
-				BodyGroups = {
-					{ BodyGroup = "Skin glass", Value = 0 }
-				},
-			},
-			{
 				Option = "Nagahama Red Cross Hospital (Shiga)", --ADD Patlite AJS
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_ems/rav4/nagahama" },
@@ -306,43 +347,45 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "Donated Blood Distribution Foundation", 
+				Option = "Japanese Red Cross Medical Center (Tokyo)",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/blood_donation" },
+					{ Id = 11, Material = "rin/japan_ems/rav4/red_cross" },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
 				},
 				Components = {
 					{
-                        Component = "patlite_ajs12",
-                        Position = Vector( 0, -14, 83.9 ),
-                        Angles = Angle( -2.5, -90, 0 ),
-                        Scale = 1.07,
-                        Options = {
-                            FeetWidthOffset = 2,
-                            FeetTilt = -1.5,
-                        }
-                    },
-					{
-						Component = "oss_laf150",
-						Position = Vector( -12, 110.6, 20.2 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 0,
-						},
-						Angles = Angle( 0, 1, 0 ),
-						Scale = 1
+						Component = "koito_led110",
+						Position = Vector( 0, -6, 74.5 ),
+						Angles = Angle( 0, 0, -1 ),
+						Scale = 1.0
 					},
 					{
-						Component = "oss_laf150",
-						Position = Vector( 12.4, 110.6, 20.2 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 0,
+						Name = "@redcross_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -13.7, 108.15, 19 ),
+						Angles = Angle( 0, 1.5, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						SubMaterials = {
+							[5] = "sentry/props/patlite_lp3/glass_outer"
 						},
-						Angles = Angle( 0, -1, 0 ),
-						Scale = 1
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@redcross_lp3",
+						Position = Vector( 14.4, 108.15, 19 ),
+						Angles = Angle( 0, -1.5, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
 					},
 				}
 			},
