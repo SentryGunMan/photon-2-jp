@@ -12,6 +12,7 @@ VEHICLE.Siren = {
 
 VEHICLE.SubMaterials = {
 	[5] = "rin/wheels_rav4/rim",
+	[10] = "rin/screen_rav4/screens",
 	[12] = "sentry/shared/glass",
 }
 
