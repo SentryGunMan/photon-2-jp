@@ -9,9 +9,11 @@ VEHICLE.Author		= "Rin Hoshizora"
 VEHICLE.Siren = { "osaka_mkd1" }
 
 VEHICLE.SubMaterials = {
+    [2] = "sentry/shared/env_cubemap_model",
 	[5] = "rin/wheels_rav4/rim",
 	[10] = "rin/screen_rav4/screens",
 	[12] = "sentry/shared/glass",
+	[16] = "sentry/shared/glass",
 }
 
 local sequence = Photon2.SequenceBuilder.New

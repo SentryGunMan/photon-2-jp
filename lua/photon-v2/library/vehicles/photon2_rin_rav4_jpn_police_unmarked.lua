@@ -11,9 +11,11 @@ VEHICLE.Siren = {
 }
 
 VEHICLE.SubMaterials = {
+    [2] = "sentry/shared/env_cubemap_model",
 	[5] = "rin/wheels_rav4/rim",
 	[10] = "rin/screen_rav4/screens",
 	[12] = "sentry/shared/glass",
+	[16] = "sentry/shared/glass",
 }
 
 VEHICLE.Equipment = {
