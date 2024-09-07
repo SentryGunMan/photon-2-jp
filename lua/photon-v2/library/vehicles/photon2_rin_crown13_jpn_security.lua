@@ -11,6 +11,62 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Aichi Crime Prevention Patrol (Aichi)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_security/crown/aichi_patrol" }
+				},
+				Components = {
+					{
+						Name = "@riser",
+						Component = "japan_riser",
+						Position = Vector( 0, -12, 74 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[1] = "rin/japan_police/highriser/blank"
+						},
+					},
+					{
+						Component = "koito_led110",
+						Position = Vector( -2.75, 0, -2.6 ),
+						Angles = Angle( 0, 90, 0 ),
+						Scale = 1.0,
+						Parent = "@riser",
+						FollowBone = 1,
+						StateMap = "[B] 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+						SubMaterials = {
+							[1] = "sentry/props/koitoflasher/glass_blue"
+						},
+					},
+					{
+						Name = "@aichi_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110, 22 ),
+						Angles = Angle( 0, 7, 0 ),
+						Scale = 1,
+						StateMap = "[B] 1",
+						Phase = "A",
+						SubMaterials = {
+							[5] = "sentry/props/koitoflasher/glass_blue"
+						},
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@aichi_lp3",
+						Position = Vector( 12, 110, 22 ),
+						Angles = Angle( 0, -7, 0 ),
+						Phase = "A",
+						StateMap = "[B] 1"
+					}
+				}
+			},
+			{
 				Option = "Hamamatsu Rotary Club Crime Prevention (Shizuoka)",
 				SubMaterials = {
 					{ Id = 0, Material = "rin/japan_security/crown/hamamatsu_rotary" }
