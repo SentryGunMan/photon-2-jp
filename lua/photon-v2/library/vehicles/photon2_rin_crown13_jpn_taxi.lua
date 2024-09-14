@@ -110,8 +110,42 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_meitetsu" } }
                     },
 					{
+                        Variant = "Takara Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara" } }
+                    },
+					{
+                        Variant = "Takara Taxi Sakae Spring",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara_sakae" } }
+                    },
+					{
                         Variant = "Tsubame",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_tsubame" } }
+                    },
+				}
+            },
+			{
+                Option = "Okayama",
+                Variants = {
+                    {
+                        Variant = "Asahi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/okayama_asahi" } }
+                    },
+					{
+                        Variant = "Grace Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/okayama_grace" } }
+                    },
+					{
+                        Variant = "Ryobi Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/okayama_ryobi" } }
+                    },
+				}
+            },
+			{
+                Option = "Osaka",
+                Variants = {
+                    {
+                        Variant = "Sogo Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/osaka_sogo" } }
                     },
 				}
             },
@@ -121,6 +155,15 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Sendai Taxi Group",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/sendai_stg" } }
+                    },
+				}
+            },
+			{
+                Option = "Shizuoka",
+                Variants = {
+                    {
+                        Variant = "Fuji Yellow Cab",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_fuji" } }
                     },
 				}
             },
