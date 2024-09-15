@@ -1,0 +1,6 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/props/patlite_lp3/glass_red"
+	"$model" "1"
+	"$nocull" "1"
+}

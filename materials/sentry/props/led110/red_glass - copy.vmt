@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/props/led110/red_glass"
+	"$nocull" "1"
+}

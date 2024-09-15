@@ -1,0 +1,21 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount" "0.01"
+	"$refracttint" "{255 255 255}"
+	"$dudvmap" "sentry/props/led110/lights_nm"
+	"$normalmap" "sentry/props/led110/lights_nm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.25 0.25 .25]"
+	"$carpenisenabled" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color
+		}
+	}
+}
+
+

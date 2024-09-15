@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/props/sap500/patlite"
+	"$bumpmap" "sentry/props/sap500/patlite_nm"
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "0.1"
+    $phongfresnelranges "[.05 .3 1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "17"
+	"$rimlightboost"          "0.2"
+
+	"$envmap" env_cubemap
+	"$envmaptint" "[1.0 1.0 1.0]"
+}
+

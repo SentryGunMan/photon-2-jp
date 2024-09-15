@@ -109,7 +109,10 @@ VEHICLE.Equipment = {
                         Options = {
                             FeetWidthOffset = 0,
                             FeetTilt = -2,
-                        }
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank"
+						},
                     },
 					{
 						Name = "@blood_lp5",

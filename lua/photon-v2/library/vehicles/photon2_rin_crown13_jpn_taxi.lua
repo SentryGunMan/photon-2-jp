@@ -42,10 +42,31 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_nihon_kotsu" } }
                     },
 					{
+                        Variant = "Odakyu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_odakyu" } }
+                    },
+					{
                         Variant = "Tokyo Musen",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_musen" } }
                     },
                 }
+            },
+			{
+                Option = "Fukuoka",
+                Variants = {
+                    {
+                        Variant = "Futaba Kotsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuoka_futaba" } }
+                    },
+					{
+                        Variant = "Lucky Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuoka_lucky" } }
+                    },
+					{
+                        Variant = "Tenjin",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuoka_tenjin" } }
+                    },
+				}
             },
 			{
                 Option = "Kitakyushu",
@@ -53,6 +74,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Kokusai Kougyou",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kitakyushu_kokusai" } }
+                    },
+					{
+                        Variant = "Nishitetsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kitakyushu_nishitetsu" } }
                     },
 				}
             },
@@ -164,6 +189,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Fuji Yellow Cab",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_fuji" } }
+                    },
+					{
+                        Variant = "Shizutetsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_shizutetsu" } }
                     },
 				}
             },

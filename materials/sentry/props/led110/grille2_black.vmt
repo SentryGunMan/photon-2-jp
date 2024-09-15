@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/props/led110/grille2"
+	"$bumpmap" "sentry/props/led110/grille2_nm"
+	"$translucent" "1"
+    $phong "1"
+    $phongexponent "12"
+    $phongboost "0.2"
+    $phongfresnelranges "[.05 .3 1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "17"
+	"$rimlightboost"          "1.2"	
+	"$carpenisenabled" "[0.2 0.2 0.2]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

@@ -84,7 +84,10 @@ VEHICLE.Equipment = {
                         Options = {
                             FeetWidthOffset = 2,
                             FeetTilt = -1.5,
-                        }
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank"
+						},
                     },
 				}
 			},
@@ -102,7 +105,10 @@ VEHICLE.Equipment = {
                         Options = {
                             FeetWidthOffset = 2,
                             FeetTilt = -1.5,
-                        }
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank"
+						},
                     },
 				}
 			},

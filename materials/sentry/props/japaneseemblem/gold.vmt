@@ -1,0 +1,40 @@
+"VertexlitGeneric"
+{
+    "$basetexture"         "sentry/props/japaneseemblem/gold_a"
+   "$bumpmap"         "sentry/shared/skin_nm"
+	"$nodecal" "1"
+	"$normalmapalphaenvmapmask" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.4 0.2 0]"
+	"$envmapfresnel" "0"
+
+	"$phong" "1" 
+	"$phongboost" "15" 
+	"$phongexponent" 15
+	"$phongfresnelranges" "[0.2 0.2 0.2]"
+
+    "$basemapalphaphongmask"         "1"
+
+    "$detail"             "sentry/props/japaneseemblem/gold"
+    "$detailscale" 1
+    "$detailblendmode" 2
+    "$detailblendfactor" 1
+
+"$colorfix"	"{89 75 0}"
+	"$bascol" "{106 69 0}"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 	$colorfix
+			resultVar	$color
+		}
+		Equals
+		{
+			srcVar1 	$bascol
+			resultVar	$phongtint
+		}
+	}
+}

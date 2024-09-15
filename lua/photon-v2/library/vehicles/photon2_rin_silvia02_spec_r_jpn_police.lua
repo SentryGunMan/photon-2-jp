@@ -269,7 +269,10 @@ VEHICLE.Equipment = {
                         Options = {
                             FeetWidthOffset = 0,
                             FeetTilt = -2.5,
-                        }
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank"
+						},
                     },
 				}
 			}

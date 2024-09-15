@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/props/koitoflasher/light"
+	"$bumpmap" "sentry/props/koitoflasher/light_nm"
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "1"
+    $phongfresnelranges "[.05 .3 1]"
+	"$envmap" env_cubemap
+	"$envmaptint" "[1.25 1.25 1.25]"
+	"$normalmapalphaenvmapmask" "1"
+	"$carpenisenabled" "[0.5 0.5 0.5]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
