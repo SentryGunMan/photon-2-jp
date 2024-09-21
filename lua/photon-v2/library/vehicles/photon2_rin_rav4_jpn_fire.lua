@@ -23,6 +23,50 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Saitama Air Rescue",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_fire/rav4/saitama" },
+				},
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_fire/red",
+						},
+                    },
+					{
+						Name = "@rav4_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110.1, 26 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@rav4_lp3",
+						Position = Vector( 12.4, 110.2, 26 ),
+						Angles = Angle( 0, -2, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
 				Option = "Tokyo Fire Department",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_fire/rav4/tokyo" },

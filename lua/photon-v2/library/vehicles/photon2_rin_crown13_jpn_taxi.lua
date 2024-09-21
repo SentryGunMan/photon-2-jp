@@ -11,7 +11,7 @@ VEHICLE.Equipment = {
         Category = "Livery",
         Options = {
             {
-                Option = "Tokyo",
+                Option = "Tokyo (Tokyo)",
                 Variants = {
                     {
                         Variant = "Private Taxi",
@@ -52,7 +52,7 @@ VEHICLE.Equipment = {
                 }
             },
 			{
-                Option = "Fukuoka",
+                Option = "Fukuoka (Fukuoka)",
                 Variants = {
                     {
                         Variant = "Futaba Kotsu",
@@ -69,7 +69,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Kitakyushu",
+                Option = "Kitakyushu (Fukuoka)",
                 Variants = {
                     {
                         Variant = "Kokusai Kougyou",
@@ -82,7 +82,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Kyoto",
+                Option = "Kyoto (Kyoto)",
                 Variants = {
                     {
                         Variant = "Aoi Group",
@@ -103,11 +103,27 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Numazu",
+                Option = "Numazu (Shizuoka)",
                 Variants = {
                     {
+                        Variant = "Bell Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_bell" } }
+                    },
+					{
+                        Variant = "Daiichi Koutsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_daiichi" } }
+                    },
+					{
+                        Variant = "Fuji Kotsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_fuji" } }
+                    },
+					{
                         Variant = "Fujikyu Taxi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_fujikyu" } }
+                    },
+					{
+                        Variant = "HaraTaku Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_harataku" } }
                     },
 					{
                         Variant = "Izuhakone Kotsu",
@@ -120,7 +136,7 @@ VEHICLE.Equipment = {
 				}
             },
             {
-                Option = "Nagoya",
+                Option = "Nagoya (Aichi)",
                 Variants = {
                     {
                         Variant = "Fuji Taxi Group",
@@ -149,7 +165,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Okayama",
+                Option = "Okayama (Okayama)",
                 Variants = {
                     {
                         Variant = "Asahi",
@@ -166,7 +182,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Osaka",
+                Option = "Osaka (Osaka)",
                 Variants = {
                     {
                         Variant = "Sogo Taxi",
@@ -175,7 +191,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Sendai",
+                Option = "Sendai (Miyagi)",
                 Variants = {
                     {
                         Variant = "Sendai Taxi Group",
@@ -184,7 +200,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Shizuoka",
+                Option = "Shizuoka (Shizuoka)",
                 Variants = {
                     {
                         Variant = "Fuji Yellow Cab",
@@ -197,7 +213,7 @@ VEHICLE.Equipment = {
 				}
             },
 			{
-                Option = "Yokohama",
+                Option = "Yokohama (Kanagawa)",
                 Variants = {
                     {
                         Variant = "Asahi",
@@ -211,6 +227,120 @@ VEHICLE.Equipment = {
             },
 		}
     },
+	    {
+		Category = "Roof Indicators",
+		Options = {
+			{
+				Option = "Amber",
+				Props = {
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( -27, -17.8, 71.1 ),
+						Angles = Angle( -17, 0, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "sentry/props/koitoflasher/glass_amber",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( -27, -17.8, 71.1 ),
+						Angles = Angle( 17, 180, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "sentry/props/koitoflasher/glass_amber",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( 27, -17.8, 71.1 ),
+						Angles = Angle( 17, 0, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "sentry/props/koitoflasher/glass_amber",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( 27, -17.8, 71.1 ),
+						Angles = Angle( -17, 180, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "sentry/props/koitoflasher/glass_amber",
+						},
+					},
+				}
+			},
+			{
+				Option = "Clear",
+				Props = {
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( -27, -17.8, 71.1 ),
+						Angles = Angle( -17, 0, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( -27, -17.8, 71.1 ),
+						Angles = Angle( 17, 180, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( 27, -17.8, 71.1 ),
+						Angles = Angle( 17, 0, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+					},
+					{
+						Model = "models/sentry/props/koitoflasher.mdl",
+						Position = Vector( 27, -17.8, 71.1 ),
+						Angles = Angle( -17, 180, 0 ),
+						Scale = 0.7,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+					},
+				}
+			},
+			{
+				Option = "None",
+			},
+		}
+	},
     {
 		Category = "Plate Holders",
 		Options = {

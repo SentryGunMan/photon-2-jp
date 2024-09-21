@@ -15,6 +15,50 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
+				Option = "Kyoto City Fire Department (Kyoto)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/kyoto" }
+				},
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 75.5 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_fire/red",
+						},
+                    },
+					{
+						Name = "@kyoto_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110, 22 ),
+						Angles = Angle( 0, 7, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@kyoto_lp3",
+						Position = Vector( 12, 110, 22 ),
+						Angles = Angle( 0, -7, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
 				Option = "Nagoya Fire Department (Aichi)", --NAGOYA DENKI
 				SubMaterials = {
 					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
@@ -83,6 +127,37 @@ VEHICLE.Equipment = {
 						Inherit = "@numazu_lp5",
 						Position = Vector( 22, 104.8, 15.5 ),
 						Angles = Angle( -5, -37, -5 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
+				}
+			},
+			{
+				Option = "Okayama Fire Department (Okayama)",
+				SubMaterials = {
+					{ Id = 0, Material = "rin/japan_fire/crown/okayama" }
+				},
+				Components = {
+					{
+						Name = "@okayama_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110, 22 ),
+						Angles = Angle( 0, 7, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@okayama_lp3",
+						Position = Vector( 12, 110, 22 ),
+						Angles = Angle( 0, -7, 0 ),
 						Phase = "A",
 						StateMap = "[R] 1"
 					}
