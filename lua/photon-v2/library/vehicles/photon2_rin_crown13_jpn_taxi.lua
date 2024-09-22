@@ -11,47 +11,43 @@ VEHICLE.Equipment = {
         Category = "Livery",
         Options = {
             {
-                Option = "Tokyo (Tokyo)",
+                Option = "Private Operator Taxies",
                 Variants = {
                     {
-                        Variant = "Private Taxi",
+                        Variant = "Tokyo Private Taxi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_private" } }
                     },
 					{
-                        Variant = "Checker Cab",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_checker" } }
+                        Variant = "Black",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_black" } }
                     },
 					{
-                        Variant = "Green Cab",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_green" } }
+                        Variant = "Blue",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_blue" } }
                     },
 					{
-                        Variant = "Hinomaru",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_hinomaru" } }
+                        Variant = "Grey",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_grey" } }
                     },
 					{
-                        Variant = "Keio",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_keio" } }
+                        Variant = "Pink",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_pink" } }
                     },
 					{
-                        Variant = "Kotobuki",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_kotobuki" } }
+                        Variant = "Red",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_red" } }
                     },
 					{
-                        Variant = "Nihon Kotsu",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_nihon_kotsu" } }
+                        Variant = "Silver",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_silver" } }
                     },
 					{
-                        Variant = "Odakyu",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_odakyu" } }
+                        Variant = "White",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_white" } }
                     },
-					{
-                        Variant = "Tokyo Musen",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_musen" } }
-                    },
-                }
+				}
             },
-			{
+		    {
                 Option = "Fukuoka (Fukuoka)",
                 Variants = {
                     {
@@ -65,6 +61,36 @@ VEHICLE.Equipment = {
 					{
                         Variant = "Tenjin",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuoka_tenjin" } }
+                    },
+				}
+            },
+			{
+                Option = "Fukuyama (Hiroshima)",
+                Variants = {
+                    {
+                        Variant = "Nico Nico Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuyama_nico" } }
+                    },
+					{
+                        Variant = "Rose Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/fukuyama_rose" } }
+                    },
+				}
+            },
+			{
+                Option = "Hiroshima (Hiroshima)",
+                Variants = {
+                    {
+                        Variant = "Carp Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/hiroshima_carp" } }
+                    },
+					{
+                        Variant = "Hinode Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/hiroshima_hinode" } }
+                    },
+					{
+                        Variant = "Yaguchi Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/hiroshima_yaguchi" } }
                     },
 				}
             },
@@ -211,6 +237,43 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_shizutetsu" } }
                     },
 				}
+            },
+			{
+                Option = "Tokyo (Tokyo)",
+                Variants = {
+                    {
+                        Variant = "Checker Cab",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_checker" } }
+                    },
+					{
+                        Variant = "Green Cab",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_green" } }
+                    },
+					{
+                        Variant = "Hinomaru",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_hinomaru" } }
+                    },
+					{
+                        Variant = "Keio",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_keio" } }
+                    },
+					{
+                        Variant = "Kotobuki",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_kotobuki" } }
+                    },
+					{
+                        Variant = "Nihon Kotsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_nihon_kotsu" } }
+                    },
+					{
+                        Variant = "Odakyu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_odakyu" } }
+                    },
+					{
+                        Variant = "Tokyo Musen",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/tokyo_musen" } }
+                    },
+                }
             },
 			{
                 Option = "Yokohama (Kanagawa)",
@@ -470,6 +533,23 @@ VEHICLE.Equipment = {
 							[3] = "rin/japan_plates/seal_hoshizora",
 						},
 					},
+				}
+			}
+		}
+	},
+	{
+		Category = "Antenna",
+		Options = {
+			{
+				Option = "No Antenna",
+				BodyGroups = {
+					{ BodyGroup = "Antenna", Value = 0 }
+				}
+			},
+			{
+				Option = "Antenna",
+				BodyGroups = {
+					{ BodyGroup = "Antenna", Value = 1 }
 				}
 			}
 		}
