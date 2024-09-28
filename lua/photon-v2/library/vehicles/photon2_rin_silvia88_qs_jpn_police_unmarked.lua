@@ -32,7 +32,7 @@ VEHICLE.Equipment = {
 				Option = "KG2 Grey Metallic",
 				Properties = {
 					Skin = 1,
-					Color = Color(64, 62, 62)
+					Color = Color(35, 35, 38)
 				}
 			},
 			{
@@ -150,6 +150,33 @@ VEHICLE.Equipment = {
 							["trim"] = 1,
 						},
 					},
+				}
+			},
+			{
+				Option = "Pop-Up",
+				Components = {
+					{
+                        Name = "@riser",
+                        Component = "patlite_hky",
+                        Position = Vector( 2, -17, 60.35 ),
+                        Angles = Angle( -0.2, -90, 0 ),
+                        Color = Color(255,0,0),
+                        Scale = 0.9,
+                        Bones = {
+                            ["bucket"] = { Vector(0, 0, -0.7), Angle(0, 0, -1), 1 },
+                        },
+                    },
+                    {
+                        Component = "patlite_hkf",
+                        Position = Vector( 0, 0, 0 ),
+                        Angles = Angle( 0, -90, 0 ),
+                        Scale = 0.9,
+                        Parent = "@riser",
+                        FollowBone = "platform",
+                        BodyGroups = {
+                            ["trim"] = 2,
+                        },
+                    }
 				}
 			},
 		}

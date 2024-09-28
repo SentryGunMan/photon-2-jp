@@ -272,10 +272,28 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
-		Category = "Front Flashers",
+		Category = "Front Setup & Bumper",
 		Options = {
 			{
-				Option = "Koito Flashers",
+				Option = "Standard Bumper with Koito Flashers (Top Mount)",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 0 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.3, 18 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
 				Components = {
 					{
 						Component = "koito_flasher",
@@ -295,11 +313,176 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "None",
-			}
+				Option = "Standard Bumper with Koito Flashers (Low Mount)",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 0 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.3, 18 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 12, 95, 15.3 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -12, 95, 15.3 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+		    {
+				Option = "Standard Bumper",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 0 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.3, 18 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+			},
+			{
+				Option = "Aero Package Bumper with Koito Flashers (Low Mount)",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 12, 95, 15.3 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -12, 95, 15.3 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Aero Package Bumper with Koito Flashers (Top Mount)",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 10, 96.1, 28.81 ),
+						Angles = Angle( 0, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r"
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -10, 96.1, 28.81 ),
+						Angles = Angle( 0, 5, 0 ),
+						Scale = 1.0
+					},
+				}
+			},
+			{
+				Option = "Aero Package Bumper",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+			},
 		}
 	},
-	{
+    {
 		Category = "Bug Shield",
 		Options = {
 			{
@@ -366,6 +549,39 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Additional Mirror",
+		Options = {
+			{
+				Option = "Black",
+				Props = {
+					{
+						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
+						Position = Vector( -39.5, 13.2, 47.1 ),
+						Angles = Angle( 0, 283, -6.5 ),
+						Scale = .9
+					},
+                }
+			},
+			{
+				Option = "White",
+				Props = {
+					{
+						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
+						Position = Vector( -39.5, 13.2, 47.1 ),
+						Angles = Angle( 0, 283, -6.5 ),
+						Scale = .9,
+						SubMaterials = {
+							[0] = "rin/japan_police/highriser/blank"
+						},
+					},
+                }
+			},
+			{
+				Option = "None",
+			},
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
@@ -385,54 +601,7 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
-	{
-		Category = "Bumper",
-		Options = {
-			{
-				Option = "Standard",
-				BodyGroups = {
-					{ BodyGroup = "front_bumper", Value = 0 }
-				},
-				Props = {
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 99.3, 18 ),
-						Angles = Angle( 2, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-				},
-			},
-			{
-				Option = "Aero Package",
-				BodyGroups = {
-					{ BodyGroup = "front_bumper", Value = 1 }
-				},
-				Props = {
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 99.27, 18.5 ),
-						Angles = Angle( 4, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-				},
-			}
-		}
-	},
-	{
+    {
 		Category = "Spoiler",
 		Options = {
 			{
@@ -484,12 +653,6 @@ VEHICLE.Equipment = {
 						Angles = Angle( 0, 0, -28 ),
 						Scale = 1,
 						RenderGroup = RENDERGROUP_OPAQUE,
-					},
-					{
-						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
-						Position = Vector( -39.5, 13.2, 47.1 ),
-						Angles = Angle( 0, 283, -6.5 ),
-						Scale = .9
 					},
 					{
 						Model = "models/sentry/props/japanese_center_mirror.mdl",

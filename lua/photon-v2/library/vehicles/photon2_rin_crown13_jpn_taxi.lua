@@ -290,7 +290,7 @@ VEHICLE.Equipment = {
             },
 		}
     },
-	    {
+	{
 		Category = "Roof Indicators",
 		Options = {
 			{

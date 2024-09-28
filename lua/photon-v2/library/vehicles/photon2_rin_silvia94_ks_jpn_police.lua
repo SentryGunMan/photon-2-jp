@@ -334,6 +334,39 @@ VEHICLE.Equipment = {
 		}
 	},
 	{
+		Category = "Additional Mirror",
+		Options = {
+			{
+				Option = "Black",
+				Props = {
+					{
+						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
+						Position = Vector( -40.5, 15.5, 48.8 ),
+						Angles = Angle( 0, 283, -8 ),
+						Scale = .9
+					},
+                }
+			},
+			{
+				Option = "White",
+				Props = {
+					{
+						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
+						Position = Vector( -40.5, 15.5, 48.8 ),
+						Angles = Angle( 0, 283, -8 ),
+						Scale = .9,
+						SubMaterials = {
+							[0] = "rin/japan_police/highriser/blank"
+						},
+					},
+                }
+			},
+			{
+				Option = "None",
+			},
+		}
+	},
+	{
 		Category = "Siren",
 		Options = {
 			{
@@ -474,12 +507,6 @@ VEHICLE.Equipment = {
 						Position = Vector( 0, 94.5, 31.55 ),
 						Angles = Angle( 0, 0, 58 ),
 						Scale = .8
-					},
-					{
-						Model = "models/sentry/props/japanese_outer_mirror_left.mdl",
-						Position = Vector( -40.5, 15.5, 48.8 ),
-						Angles = Angle( 0, 283, -8 ),
-						Scale = .9
 					},
 					{
 						Model = "models/sentry/props/sap500.mdl",

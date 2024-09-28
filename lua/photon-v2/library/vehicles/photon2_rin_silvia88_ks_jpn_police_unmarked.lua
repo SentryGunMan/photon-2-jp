@@ -2,7 +2,7 @@ if (Photon2.ReloadVehicleFile()) then return end
 local VEHICLE = Photon2.LibraryVehicle()
 
 VEHICLE.Title 		= "1988 Nissan Silvia K's S13 Japanese Police Unmarked [Rin]"
-VEHICLE.Vehicle		= "silviaksSxeno"
+VEHICLE.Vehicle		= "silviaksxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
@@ -14,6 +14,13 @@ VEHICLE.Equipment = {
     {
 		Category = "Paint",
 		Options = {
+			{
+				Option = "5G7 Seafoam Green & Grey Two-Tone",
+				Properties = {
+				    Skin = 5,
+					Color = Color(255, 255, 255)
+				}
+			},
 			{
 				Option = "5H6 Ivory White & Gold Two-Tone",
 				Properties = {
@@ -32,13 +39,6 @@ VEHICLE.Equipment = {
 				Option = "6G0 Silver & Grey Two-Tone",
 				Properties = {
 				    Skin = 4,
-					Color = Color(255, 255, 255)
-				}
-			},
-			{
-				Option = "5G7 Seafoam Green & Grey Two-Tone",
-				Properties = {
-				    Skin = 5,
 					Color = Color(255, 255, 255)
 				}
 			},
@@ -74,7 +74,7 @@ VEHICLE.Equipment = {
 				Option = "KG2 Grey Metallic",
 				Properties = {
 					Skin = 1,
-					Color = Color(64, 62, 62)
+					Color = Color(35, 35, 38)
 				}
 			},
 			{
@@ -135,6 +135,48 @@ VEHICLE.Equipment = {
                             ["trim"] = 2,
                         },
                     }
+				}
+			},
+			{
+				Option = "Center",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 0, -12, 59.6 ),
+						Angles = Angle( -1.9, 270, 0 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Left",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( -20, -12, 58.7 ),
+						Angles = Angle( -1.9, 270, 5.5 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Right",
+				Components = {
+					{
+						Component = "patlite_hkf",
+						Position = Vector( 20, -12, 58.7 ),
+						Angles = Angle( -1.9, 270, -5.5 ),
+						Scale = .9,
+						BodyGroups = {
+							["trim"] = 1,
+						},
+					},
 				}
 			},
 		}
@@ -206,78 +248,9 @@ VEHICLE.Equipment = {
 			}
 		}
 	},
-    {
+	{
 		Category = "Bumper",
 		Options = {
-			{
-				Option = "Aero Package with Koito Flashers",
-				BodyGroups = {
-					{ BodyGroup = "front_bumper", Value = 1 }
-				},
-				Props = {
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 99.27, 18.5 ),
-						Angles = Angle( 4, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-				},
-				Components = {
-					{
-						Component = "koito_flasher",
-						Position = Vector( 12, 95, 15.3 ),
-						Angles = Angle( 180, -5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[0] = "sentry/props/koitoflasher/plastic_r",
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
-					},
-					{
-						Component = "koito_flasher",
-						Position = Vector( -12, 95, 15.3 ),
-						Angles = Angle( 180, 5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
-					},
-				}
-			},
-			{
-				Option = "Aero Package",
-				BodyGroups = {
-					{ BodyGroup = "front_bumper", Value = 1 }
-				},
-				Props = {
-					{
-						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
-						Position = Vector( 0, 99.27, 18.5 ),
-						Angles = Angle( 4, 90, 0 ),
-						Scale = 1,
-						BodyGroups = {
-							["rear_seal"] = 0,
-						},
-						SubMaterials = {
-							[0] = "rin/japan_plates/plate_hoshizora",
-							[3] = "rin/japan_plates/seal_hoshizora",
-						},
-					},
-				},
-			},
 			{
 				Option = "Standard with Koito Flashers",
 				BodyGroups = {
@@ -347,6 +320,75 @@ VEHICLE.Equipment = {
 					},
 				},
 			},
+			{
+				Option = "Aero Package with Koito Flashers",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_flasher",
+						Position = Vector( 12, 95, 15.3 ),
+						Angles = Angle( 180, -5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[0] = "sentry/props/koitoflasher/plastic_r",
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+					{
+						Component = "koito_flasher",
+						Position = Vector( -12, 95, 15.3 ),
+						Angles = Angle( 180, 5, 0 ),
+						Scale = 1.0,
+						SubMaterials = {
+							[3] = "models/xenoscars/shared/glass",
+						},
+						BodyGroups = {
+							["mount"] = 1,
+						},
+					},
+				}
+			},
+			{
+				Option = "Aero Package",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+			}
 		}
 	},
 	{
@@ -355,13 +397,13 @@ VEHICLE.Equipment = {
 			{
 				Option = "Spoiler",
 				BodyGroups = {
-					{ BodyGroup = "spoiler", Value = 0 }
+					{ BodyGroup = "spoiler", Value = 1 }
 				}
 			},
 			{
 				Option = "No Spoiler",
 				BodyGroups = {
-					{ BodyGroup = "spoiler", Value = 1 }
+					{ BodyGroup = "spoiler", Value = 0 }
 				}
 			}
 		}
@@ -433,8 +475,8 @@ SGM.AttachModelsByClass = SGM.AttachModelsByClass or {}
 SGM.AttachedModels = SGM.AttachedModels or {}
 
 SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] = {
-    {
-        Model = "models/xenoscars/nissan/nissan_silvia_s13_s_wheels.mdl",
+     {
+        Model = "models/xenoscars/nissan/nissan_silvia_s13_ks_wheels.mdl",
         Pos = Vector(0,0,0),
         Ang = Angle(0,0,0),
         Color = Color(255,255,255),
@@ -446,7 +488,7 @@ SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] =
         BoneMerge = true, --bone merging, pretty self-explanatory
         BoneParent = "", --bone parenting, this makes the prop follow a specific bone
         RenderMode = RENDERMODE_NORMAL, --render mode just in case you need it, although you usually shouldn't
-        Sync = false, --sync colors,materials, and bodygroups between the two models
+        Sync = true, --sync colors,materials, and bodygroups between the two models
         SyncSubMaterials = false, --sync submaterials between the models
         -- SyncFunction = function(car, prop)
         --         if !IsValid(car) or !IsValid(prop) then return end --if you really know what you're doing you can add custom functions for interactions between the vehicle and the prop, these get called each sync (default: every 2 seconds)
@@ -478,7 +520,7 @@ SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] =
         -- },
     },
     {
-        Model = "models/xenoscars/nissan/nissan_silvia_s13_ks_s.mdl",
+        Model = "models/xenoscars/nissan/nissan_silvia_s13_ks.mdl",
         Pos = Vector(0,0,0),
         Ang = Angle(0,0,0),
         Color = Color(255,255,255),
@@ -499,8 +541,8 @@ SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] =
         --     [0] = "sentry/shared/skin0", --ability to change the submaterials of the prop if necessary
         -- },
     },
-    {
-        Model = "models/xenoscars/nissan/nissan_silvia_s13_projectors.mdl",
+	{
+        Model = "models/xenoscars/nissan/nissan_silvia_s13_bricks.mdl",
         Pos = Vector(0,0,0),
         Ang = Angle(0,0,0),
         Color = Color(255,255,255),
@@ -521,7 +563,7 @@ SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] =
         --     [0] = "sentry/shared/skin0", --ability to change the submaterials of the prop if necessary
         -- },
     },
-    {
+	{
         Model = "models/xenoscars/nissan/nissan_silvia_s13_interior.mdl",
         Pos = Vector(0,0,0),
         Ang = Angle(0,0,0),
@@ -543,7 +585,7 @@ SGM.AttachModelsByClass["photon2:photon2_rin_silvia88_ks_jpn_police_unmarked"] =
         --     [0] = "sentry/shared/skin0", --ability to change the submaterials of the prop if necessary
         -- },
     },
-    {
+	{
         Model = "models/xenoscars/nissan/nissan_silvia_s13_interior_ks.mdl",
         Pos = Vector(0,0,0),
         Ang = Angle(0,0,0),

@@ -15,10 +15,17 @@ VEHICLE.Equipment = {
 		Category = "Paint",
 		Options = {
             {
+				Option = "BL0 Greyish Blue Pearl",
+				Properties = {
+					Skin = 2,
+					Color = Color(62, 72, 82)
+				}
+			},
+			{
 				Option = "KH2 Gun Grey Metallic",
 				Properties = {
 					Skin = 1,
-					Color = Color(36, 36, 36)
+					Color = Color(35, 35, 38)
 				}
 			},
 			{
@@ -29,24 +36,10 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
-				Option = "DH0 Dark Green Metallic",
-				Properties = {
-					Skin = 1,
-					Color = Color(10, 16, 15)
-				}
-			},
-			{
 				Option = "AH3 Red Pearl Metallic",
 				Properties = {
 					Skin = 1,
 					Color = Color(88, 0, 0)
-				}
-			},
-			{
-				Option = "BL0 Greyish Blue Pearl",
-				Properties = {
-					Skin = 2,
-					Color = Color(62, 72, 82)
 				}
 			},
 			{
