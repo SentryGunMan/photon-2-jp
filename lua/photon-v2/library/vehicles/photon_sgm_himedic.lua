@@ -121,7 +121,7 @@ VEHICLE.Equipment = {
 						Templates = {
 							["Sound"] = { 
 								Tone = {
-									DSP = 1,
+									DSP = 0,
 									Pitch = 100
 								} 
 							}
@@ -252,7 +252,7 @@ VEHICLE.Equipment = {
 						Templates = {
 							["Sound"] = { 
 								Tone = {
-									DSP = 1,
+									DSP = 0,
 									Pitch = 100
 								} 
 							}
@@ -264,14 +264,14 @@ VEHICLE.Equipment = {
 									Play = true,
 									Volume = 0.33,
 									Pitch = 100,
-									DSP = 1,
+									DSP = 0,
 								},
 								["ON"] = {
 									Mute = false,
 									Play = true,
 									Volume = 1,
 									Pitch = 100,
-									DSP = 1,
+									DSP = 0,
 								},
 							},
 						},

@@ -78,14 +78,14 @@ COMPONENT.Templates = {
 			Level = 75,
 			Pitch = 100,
 			Volume = 0.3,
-			DSP = 1,
+			DSP = 0,
 		},
 		Synth2 = {
 			File = "emv/patlite/loop_offset.wav",
 			Level = 75,
 			Pitch = 100,
 			Volume = 0.3,
-			DSP = 1,
+			DSP = 0,
 		},
 	},
 }
