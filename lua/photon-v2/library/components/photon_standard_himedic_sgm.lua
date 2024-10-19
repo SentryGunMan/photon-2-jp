@@ -228,8 +228,8 @@ COMPONENT.ElementStates = {
 		["~R2"] = {
 			Intensity = 1,
 			IntensityTransitions = true,
-			BloomColor = PhotonColor( 255, 0, 0 ),
-			DrawColor = PhotonColor( 255, 80, 0 ),
+			BloomColor = PhotonColor( 255, 0, 0 ):Blend( red ):GetBlendColor(),
+			DrawColor = PhotonColor( 255, 60, 0 ):Blend( red ):GetBlendColor(),
 		},
 		["~R3"] = {
 			Inherit = "R",
@@ -240,6 +240,11 @@ COMPONENT.ElementStates = {
 		},
 		["~DR"] = {
 			Inherit = "R",
+			Intensity = 0.6,
+			IntensityTransitions = true,
+		},
+		["~DR3"] = {
+			Inherit = "~R2",
 			Intensity = 0.6,
 			IntensityTransitions = true,
 		},
@@ -512,7 +517,7 @@ COMPONENT.Segments = {
 	["Taillights"] = {
 		Frames = {
 			[0] = "[~OFF] 43 44",
-			[1] = "[~DR] 43 44",
+			[1] = "[~DR3] 43 44",
 			[2] = "43 44",
 		},
 		Sequences = {
