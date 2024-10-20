@@ -152,6 +152,131 @@ VEHICLE.Equipment = {
 			},
 		}
 	},
+	{
+		Category = "Cargo",
+		Options = {
+			{
+				Option = "None",
+			},
+			{
+				Option = "Crate",
+				Props = {
+					{
+						Model = "models/props_junk/wood_crate002a.mdl",
+						Position = Vector( 0, -30, 45.8 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1,
+					},
+				}
+			},
+			{
+				Option = "Boxes",
+				Props = {
+					{
+						Model = "models/props_junk/cardboard_box001a.mdl",
+						Position = Vector( 0, -6.5, 37.7 ),
+						Angles = Angle( 0, 87, 0 ),
+						Scale = 1,
+					},
+					{
+						Model = "models/props_junk/cardboard_box001a.mdl",
+						Position = Vector( 0, -45, 37.7 ),
+						Angles = Angle( 0, -88, 0 ),
+						Scale = 1,
+					},
+				}
+			},
+			{
+				Option = "Tires",
+				Props = {
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, 3.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, 3.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -4.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -4.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -12, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -12, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -19.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -19.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -26.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -26.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -34, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -34, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( -13, -41.5, 37.7 ),
+						Angles = Angle( 25, 90, 0 ),
+						Scale = 0.9,
+					},
+					{
+						Model = "models/props_vehicles/tire001c_car.mdl",
+						Position = Vector( 13, -55, 29 ),
+						Angles = Angle( 90, 90, 0 ),
+						Scale = 0.9,
+					},
+				}
+			},
+		}
+	},
     {
 		Category = "Plates",
 		Options = {

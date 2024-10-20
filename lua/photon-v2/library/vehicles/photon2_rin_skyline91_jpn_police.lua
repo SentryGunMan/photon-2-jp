@@ -505,7 +505,7 @@ SGM.AttachModels = SGM.AttachModels or {}
 SGM.AttachModelsByClass = SGM.AttachModelsByClass or {}
 SGM.AttachedModels = SGM.AttachedModels or {}
 
-SGM.AttachModelsByClass["photon2:photon2_rin_skyline91_jpn_police"] = {
+SGM.AttachModelsByClass["photon2:photon2_rin_skyline94_jpn_police"] = {
     {
         Model = "models/xenoscars/nissan/Nissan_Skyline_GTR_R32_S1.mdl",
         Pos = Vector(0,0,0),
