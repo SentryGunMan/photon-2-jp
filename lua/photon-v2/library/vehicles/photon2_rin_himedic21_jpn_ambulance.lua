@@ -57,9 +57,22 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Hyogo",
+                Variants = {
+                    {
+                        Variant = "Himeji Medical Center",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/himeji" } }
+                    },
+                }
+            },
+			{
                 Option = "Kanagawa",
                 Variants = {
                     {
+                        Variant = "Kawasaki City Fire Dept.",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kawasaki" } }
+                    },
+					{
                         Variant = "Yokohama Fire Bureau",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/yokohama" } }
                     },
