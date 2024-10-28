@@ -1,5 +1,17 @@
-"DecalModulate"
+"Modulate"
 {
 	"$basetexture" "sentry/props/patlite_hkf/glass_red"
 	"$model" "1"
+	"$mod2x" "1"
+	"$writez" "1"
+	"$znearer" "1"
+	"$carfixenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a fix
+		{
+			srcVar1 $carfixenabled
+			resultVar	$color // The shader parameter to be manipulated
+		}
+	}
 }
