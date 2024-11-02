@@ -33,6 +33,10 @@ VEHICLE.Equipment = {
                 Option = "Chiba",
                 Variants = {
                     {
+                        Variant = "Chiba Fire Bureau",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/chiba" } }
+                    },
+					{
                         Variant = "Chiba University Hospital",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/chiba_uni" } }
                     },
@@ -84,6 +88,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Kyoto City Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto" } }
+                    },
+					{
+                        Variant = "Kyoto University Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto_uni" } }
                     },
 					{
                         Variant = "Seika Fire Department",
@@ -172,6 +180,32 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Tokyo Fire Department",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/tokyo" } }
+                    },
+                }
+            },
+			{
+                Option = "Tottori",
+                Variants = {
+                    {
+                        Variant = "Tottori Seibu Fire Department",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/tottori_seibu" } }
+                    },
+                }
+            },
+			{
+                Option = "Other",
+                Variants = {
+                    {
+                        Variant = "Japanese Red Cross Society",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/red_cross" } }
+                    },
+					{
+                        Variant = "JSDF Blue",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/jsdf_blue" } }
+                    },
+					{
+                        Variant = "JSDF Green",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/jsdf_green" } }
                     },
                 }
             },
