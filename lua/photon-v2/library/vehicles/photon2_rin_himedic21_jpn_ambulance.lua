@@ -43,6 +43,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Fukui",
+                Variants = {
+                    {
+                        Variant = "Fukui Kosei Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/fukui_kosei" } }
+                    },
+                }
+            },
+			{
                 Option = "Fukuoka",
                 Variants = {
                     {
@@ -83,6 +92,15 @@ VEHICLE.Equipment = {
                 }
             },
 			{
+                Option = "Kumamoto",
+                Variants = {
+                    {
+                        Variant = "Mumin Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/mumin" } }
+                    },
+                }
+            },
+			{
                 Option = "Kyoto",
                 Variants = {
                     {
@@ -105,6 +123,10 @@ VEHICLE.Equipment = {
                     {
                         Variant = "Iwanuma EMS",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/iwanuma" } }
+                    },
+					{
+                        Variant = "Tohoku Medical & Pharmaceutical University Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/tohoku_uni" } }
                     },
                 }
             },
