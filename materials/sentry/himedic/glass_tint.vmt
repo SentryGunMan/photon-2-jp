@@ -1,10 +1,7 @@
-"Modulate"
+"DecalModulate"
 {
 	"$basetexture" "sentry/himedic/glass_tint"
 	"$model" "1"
-	"$mod2x" "1"
-	"$writez" "1"
-	"$znearer" "1"
 	"$carfixenabled" "1"
 	Proxies // proxies are listed inside this block
 	{
