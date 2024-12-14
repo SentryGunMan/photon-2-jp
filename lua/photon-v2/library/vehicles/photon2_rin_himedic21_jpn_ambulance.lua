@@ -108,6 +108,10 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto" } }
                     },
 					{
+                        Variant = "Kyoto Okamoto Hospital",
+                        SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto_okamoto" } }
+                    },
+					{
                         Variant = "Kyoto University Hospital",
                         SubMaterials = { { Id = 18, Material = "rin/japan_ems/himedic/kyoto_uni" } }
                     },
