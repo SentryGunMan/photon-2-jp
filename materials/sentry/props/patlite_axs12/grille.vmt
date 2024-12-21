@@ -1,0 +1,13 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/props/patlite_axs12/grille"
+		"$bumpmap" "sentry/props/patlite_axs12/grille_nm"
+		"$phongboost" "1"
+		"$phongexponent" "6"
+		"$envmaptint" "[0.2 0.2 0.2]"
+		"$carfixenabled" "[0.65 0.65 0.65]"
+	}
+}

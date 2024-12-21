@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/props/patlite_axs12/sticker"
+	"$bumpmap" "sentry/shared/skin_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$decal" "1"
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "0.1"
+    $phongfresnelranges "[.05 .3 1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "17"
+	"$rimlightboost"          "0.02"
+	"$carfixenabled" "[1 1 1]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a fix
+		{
+			srcVar1 $carfixenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
+

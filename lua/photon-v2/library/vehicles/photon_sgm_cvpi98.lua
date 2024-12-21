@@ -108,6 +108,21 @@ VEHICLE.Equipment = {
 			-- 	}
 			-- },
 			{
+				Option = "Patlite AXS-12HM",
+				Components = {
+					{
+						Component = "patlite_axs12",
+						Position = Vector( 0, -19.5, 69.8 ),
+						Angles = Angle( 0, -90, 0 ),
+						Scale = 1.0,
+						Options = {
+							FeetWidthOffset = -4,
+							FeetTilt = -2,
+						}
+					},
+				}
+			},
+			{
 				Option = "Koito LED110",
 				Components = {
 					{
