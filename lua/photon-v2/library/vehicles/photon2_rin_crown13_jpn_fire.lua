@@ -31,6 +31,7 @@ VEHICLE.Equipment = {
                         },
 						SubMaterials = {
 							[13] = "rin/japan_fire/red",
+							[14] = "rin/japan_fire/red",
 						},
                     },
 					{
@@ -170,14 +171,19 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -8, 66.1 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -13, 72 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
 						SubMaterials = {
-							[8] = "rin/japan_fire/red_dark"
+							[5] = "rin/japan_fire/red_dark",
+							[6] = "rin/japan_fire/red_dark"
 						},
-					},
+                    },
 					{
 						Name = "@sakai_lp3",
 						Component = "photon_patlite_lp3_rin",
@@ -220,6 +226,7 @@ VEHICLE.Equipment = {
                         },
 						SubMaterials = {
 							[13] = "rin/japan_fire/red",
+							[14] = "rin/japan_fire/red",
 						},
                     },
 					{

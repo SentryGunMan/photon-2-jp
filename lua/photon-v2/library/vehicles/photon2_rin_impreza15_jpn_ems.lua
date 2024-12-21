@@ -65,11 +65,18 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -4, 65.3 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -8, 71.2 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 					{
 						Name = "@red_lp3",
 						Component = "photon_patlite_lp3_rin",

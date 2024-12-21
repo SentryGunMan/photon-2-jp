@@ -32,6 +32,24 @@ VEHICLE.Equipment = {
 		Category = "Lightbar",
 		Options = {
 			{
+				Option = "Patlite AXS-12HM",
+				Components = {
+					{
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -8, 71.2 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
+				}
+			},
+			{
 				Option = "Koito LED110",
 				Components = {
 					{

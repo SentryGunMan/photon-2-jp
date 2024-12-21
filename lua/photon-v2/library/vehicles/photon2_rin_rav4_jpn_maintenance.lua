@@ -29,11 +29,18 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -10, 80.5 ),
+                        Angles = Angle( -3, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 					{
 						Component = "oss_laf150",
 						Position = Vector( -12, 111.1, 32.5 ),
@@ -63,10 +70,14 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -10, 80.5 ),
+                        Angles = Angle( -3, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        },
 					},
 				}
 			},
@@ -157,11 +168,18 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -10, 80.5 ),
+                        Angles = Angle( -3, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 				}
 			},
 			{

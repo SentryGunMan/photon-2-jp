@@ -26,6 +26,10 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_blue" } }
                     },
 					{
+                        Variant = "Green",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_green" } }
+                    },
+					{
                         Variant = "Grey",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/private_grey" } }
                     },

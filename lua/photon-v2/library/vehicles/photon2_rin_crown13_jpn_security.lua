@@ -73,15 +73,20 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -8, 66.1 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
-						StateMap = "[B] 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -13, 72 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.1,
+						StateMap = "[B] 4 5 9 10 14 15 19 20",
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
 						SubMaterials = {
-							[1] = "sentry/props/koitoflasher/glass_blue"
+							[5] = "rin/japan_police/highriser/blank",
+							[12] = "sentry/props/koitoflasher/glass_blue"
 						},
-					},
+                    },
 				}
 			},
 			{
@@ -91,15 +96,20 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -8, 66.1 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
-						StateMap = "[B] 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -13, 72 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.1,
+						StateMap = "[B] 4 5 9 10 14 15 19 20",
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
 						SubMaterials = {
-							[1] = "sentry/props/koitoflasher/glass_blue"
+							[5] = "rin/japan_police/highriser/blank",
+							[12] = "sentry/props/koitoflasher/glass_blue"
 						},
-					},
+                    },
 				}
 			},
 		}

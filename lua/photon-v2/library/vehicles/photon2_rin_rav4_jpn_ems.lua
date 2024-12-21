@@ -85,11 +85,18 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -10, 80.5 ),
+                        Angles = Angle( -3, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 				}
 			},
 			{
@@ -271,7 +278,20 @@ VEHICLE.Equipment = {
 						Angles = Angle( 0, -2, 0 ),
 						Phase = "A",
 						StateMap = "[R] 1"
-					}
+					},
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        },
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank"
+						},
+                    },
 				}
 			},
 			{
@@ -319,11 +339,18 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -6, 74.5 ),
-						Angles = Angle( 0, 0, -1 ),
-						Scale = 1.0
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -10, 80.5 ),
+                        Angles = Angle( -3, -90, 0 ),
+                        Scale = 1.1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 					{
 						Name = "@miyakonojo_lp3",
 						Component = "photon_patlite_lp3_rin",

@@ -248,14 +248,21 @@ VEHICLE.Equipment = {
 		Category = "Lightbar",
 		Options = {
 			{
-				Option = "Koito LED110",
+				Option = "Patlite AXS-12HM",
 				Components = {
 					{
-						Component = "koito_led110",
-						Position = Vector( 0, -10, 56.7 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = .9
-					},
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -11, 61.8 ),
+                        Angles = Angle( -1.5, -90, 0 ),
+                        Scale = 1,
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank"
+						},
+                    },
 				}
 			},
 			{
