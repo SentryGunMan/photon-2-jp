@@ -55,14 +55,14 @@ COMPONENT.Segments = {
 }
 
 COMPONENT.Inputs = {
-	["Emergency.Warning"] = {
-		["MODE1"] = {
+	["Emergency.Directional"] = {
+		["LEFT"] = {
 			Riser = "ON",
 		},
-		["MODE2"] = {
+		["RIGHT"] = {
 			Riser = "ON",
 		},
-		["MODE3"] = {
+		["CENOUT"] = {
 			Riser = "ON",
 		},
 	}

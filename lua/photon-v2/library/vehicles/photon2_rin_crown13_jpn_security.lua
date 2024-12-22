@@ -1,5 +1,6 @@
 if (Photon2.ReloadVehicleFile()) then return end
 local VEHICLE = Photon2.LibraryVehicle()
+local sequence = Photon2.SequenceBuilder.New
 
 VEHICLE.Title 		= "2013 Toyota Crown Athlete G Japanese Security Patrol [Rin]"
 VEHICLE.Vehicle		= "crownxeno"
@@ -77,7 +78,12 @@ VEHICLE.Equipment = {
                         Position = Vector( 0, -13, 72 ),
                         Angles = Angle( -2.5, -90, 0 ),
                         Scale = 1.1,
-						StateMap = "[B] 4 5 9 10 14 15 19 20",
+						States = {
+							[1] = "B",
+							[2] = "B",
+							[3] = "B",
+							[4] = "B",
+						},
                         Options = {
                             FeetWidthOffset = 0,
                             FeetTilt = -2.5,
@@ -100,7 +106,12 @@ VEHICLE.Equipment = {
                         Position = Vector( 0, -13, 72 ),
                         Angles = Angle( -2.5, -90, 0 ),
                         Scale = 1.1,
-						StateMap = "[B] 4 5 9 10 14 15 19 20",
+						States = {
+							[1] = "B",
+							[2] = "B",
+							[3] = "B",
+							[4] = "B",
+						},
                         Options = {
                             FeetWidthOffset = 0,
                             FeetTilt = -2.5,
