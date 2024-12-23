@@ -35,9 +35,9 @@ VEHICLE.Equipment = {
                         Position = Vector( 2, -17, 62 ),
                         Angles = Angle( 0, -90, 0 ),
                         Color = Color(255,0,0),
-                        Scale = 0.9,
+                        Scale = 1,
                         Bones = {
-                            ["bucket"] = { Vector(0, 0, -0.7), Angle(0, 0, -1), 1 },
+                            ["bucket"] = { Vector(0, 0, -0.2), Angle(0, 0, -1), 1 },
                         },
                     },
                     {

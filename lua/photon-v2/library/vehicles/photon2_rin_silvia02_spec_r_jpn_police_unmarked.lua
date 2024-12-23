@@ -81,12 +81,12 @@ VEHICLE.Equipment = {
 					{
                         Name = "@riser",
                         Component = "patlite_hky",
-                        Position = Vector( 2, -12, 60.9 ),
+                        Position = Vector( 2, -12, 61.015 ),
                         Angles = Angle( -1.4, -90, 0 ),
                         Color = Color(255,0,0),
-                        Scale = 0.9,
+                        Scale = 1,
                         Bones = {
-                            ["bucket"] = { Vector(0, 0, -1), Angle(0, 0, 2), 1 },
+                            ["bucket"] = { Vector(0, 0, 0), Angle(0, 0, 0), 1 },
                         },
                     },
                     {
