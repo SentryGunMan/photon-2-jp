@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/shared/glass/amber"
+	"$model" "1"
+}

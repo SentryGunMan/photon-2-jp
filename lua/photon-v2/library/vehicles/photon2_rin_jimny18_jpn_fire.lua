@@ -6,6 +6,35 @@ VEHICLE.Vehicle		= "jimnyxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local tokyo = PhotonMaterial.New({
+	Name = "tokyo".."_jimny_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/jimny/png/tokyo.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
@@ -17,7 +46,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Fire Department",
 				SubMaterials = {
-					{ Id = 16, Material = "rin/japan_fire/jimny/tokyo" }
+					{ Id = 16, Material = tokyo.MaterialName }
 				},
 				Components = {
 					{

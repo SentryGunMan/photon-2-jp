@@ -6,6 +6,202 @@ VEHICLE.Vehicle		= "dannio_2019_toyota_rav4"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local hokuden = PhotonMaterial.New({
+	Name = "hokuden".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/hokuden.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local jr_central = PhotonMaterial.New({
+	Name = "jr_central".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/jr_central.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local jr_east = PhotonMaterial.New({
+	Name = "jr_east".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/jr_east.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local jr_west = PhotonMaterial.New({
+	Name = "jr_west".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/jr_west.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local kyoto_transit = PhotonMaterial.New({
+	Name = "kyoto_transit".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/kyoto_transit.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local tokyo_water = PhotonMaterial.New({
+	Name = "tokyo_water".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/tokyo_water.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local yurikamome = PhotonMaterial.New({
+	Name = "yurikamome".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_maintenance/rav4/png/yurikamome.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
 VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
@@ -25,7 +221,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Japan Railways East",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_east" },
+					{ Id = 11, Material = jr_east.MaterialName },
 				},
 				Components = {
 					{
@@ -66,7 +262,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Japan Railways Central",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_central" },
+					{ Id = 11, Material = jr_central.MaterialName },
 				},
 				Components = {
 					{
@@ -84,7 +280,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Japan Railways West", 
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_west" },
+					{ Id = 11, Material = jr_west.MaterialName },
 				},
 				Components = {
 					{
@@ -105,7 +301,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Hokkaido Electric Power Company",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/hokuden" },
+					{ Id = 11, Material = hokuden.MaterialName },
 				},
 				Components = {
 					{
@@ -126,7 +322,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Kyoto Municipal Transportation Bureau", 
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/kyoto_transit" },
+					{ Id = 11, Material = kyoto_transit.MaterialName },
 				},
 				Components = {
 					{
@@ -164,7 +360,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Metropolitan Government Bureau Of Waterworks",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/tokyo_water" },
+					{ Id = 11, Material = tokyo_water.MaterialName },
 				},
 				Components = {
 					{
@@ -185,7 +381,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Yurikamome Monorail Tokyo Odaiba", 
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/yurikamome" },
+					{ Id = 11, Material = yurikamome.MaterialName },
 				},
 				Components = {
 					{

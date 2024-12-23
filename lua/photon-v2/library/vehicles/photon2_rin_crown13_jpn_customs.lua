@@ -6,6 +6,35 @@ VEHICLE.Vehicle		= "crownxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local yokohama_customs = PhotonMaterial.New({
+	Name = "yokohama_customs".."_crown",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_customs/crown/png/yokohama_customs.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Equipment = {
     	{
 		Category = "Configuration",
@@ -13,7 +42,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Port Of Yokohama Customs (Kanagawa)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_customs/crown/yokohama_customs" }
+					{ Id = 0, Material = yokohama_customs.MaterialName }
 				},
 			},
 		}

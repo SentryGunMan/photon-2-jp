@@ -6,6 +6,35 @@ VEHICLE.Vehicle		= "subaru2015"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local aichi = PhotonMaterial.New({
+	Name = "aichi".."_impreza",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_police/impreza15/png/aichi.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Siren = {
 	[1] = "patlite_sap520pbm",
 }
@@ -23,7 +52,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Aichi",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_police/impreza15/aichi" }
+					{ Id = 11, Material = aichi.MaterialName }
 				}
 			},
 		}

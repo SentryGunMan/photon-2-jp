@@ -7,6 +7,91 @@ VEHICLE.Vehicle		= "crownxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local aichi_patrol = PhotonMaterial.New({
+	Name = "aichi_patrol".."_crown_security",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_security/crown/png/aichi_patrol.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local hamamatsu_rotary = PhotonMaterial.New({
+	Name = "hamamatsu_rotary".."_crown_security",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_security/crown/png/hamamatsu_rotary.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local otsu_west = PhotonMaterial.New({
+	Name = "otsu_west".."_crown_security",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_security/crown/png/otsu_west.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Equipment = {
     	{
 		Category = "Configuration",
@@ -14,7 +99,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Aichi Crime Prevention Patrol (Aichi)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_security/crown/aichi_patrol" }
+					{ Id = 0, Material = aichi_patrol.MaterialName }
 				},
 				Components = {
 					{
@@ -36,7 +121,7 @@ VEHICLE.Equipment = {
 						FollowBone = 1,
 						StateMap = "[B] 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
 						SubMaterials = {
-							[1] = "sentry/props/koitoflasher/glass_blue"
+							[1] = "sentry/props/glass/blue"
 						},
 					},
 					{
@@ -48,7 +133,7 @@ VEHICLE.Equipment = {
 						StateMap = "[B] 1",
 						Phase = "A",
 						SubMaterials = {
-							[5] = "sentry/props/koitoflasher/glass_blue"
+							[5] = "sentry/props/glass/blue"
 						},
 						InputActions = {
 							["Emergency.Warning"] = {
@@ -70,7 +155,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Hamamatsu Rotary Club Crime Prevention (Shizuoka)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_security/crown/hamamatsu_rotary" }
+					{ Id = 0, Material = hamamatsu_rotary.MaterialName }
 				},
 				Components = {
 					{
@@ -90,7 +175,7 @@ VEHICLE.Equipment = {
                         },
 						SubMaterials = {
 							[5] = "rin/japan_police/highriser/blank",
-							[12] = "sentry/props/koitoflasher/glass_blue"
+							[12] = "sentry/props/glass/blue"
 						},
                     },
 				}
@@ -98,7 +183,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Otsu West Crime Prevention (Shiga)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_security/crown/otsu_west" }
+					{ Id = 0, Material = otsu_west.MaterialName }
 				},
 				Components = {
 					{
@@ -118,7 +203,7 @@ VEHICLE.Equipment = {
                         },
 						SubMaterials = {
 							[5] = "rin/japan_police/highriser/blank",
-							[12] = "sentry/props/koitoflasher/glass_blue"
+							[12] = "sentry/props/glass/blue"
 						},
                     },
 				}

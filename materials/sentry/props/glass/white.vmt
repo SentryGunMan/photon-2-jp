@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/shared/glass/white"
+	"$bumpmap"    "sentry/shared/skin_nm"
+	"$translucent" 1
+	"$phong" "1" 
+	"$phongboost" "0.01" 
+	"$phongexponent" "55"
+	"$phongfresnelranges" "[4 1 4]"
+	"$carfixenabled" "1"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a fix
+		{
+			srcVar1 $carfixenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+ }
+

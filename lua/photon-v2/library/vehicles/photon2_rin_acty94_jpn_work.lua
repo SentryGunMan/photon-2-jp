@@ -6,6 +6,253 @@ VEHICLE.Vehicle		= "acty_sgm"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local akabou = PhotonMaterial.New({
+	Name = "akabou".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/akabou.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local applepockets = PhotonMaterial.New({
+	Name = "applepockets".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/applepockets.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local autobacs = PhotonMaterial.New({
+	Name = "autobacs".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/autobacs.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local daikin = PhotonMaterial.New({
+	Name = "daikin".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/daikin.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local honda = PhotonMaterial.New({
+	Name = "honda".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/honda.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local iseki = PhotonMaterial.New({
+	Name = "iseki".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/iseki.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local kubota = PhotonMaterial.New({
+	Name = "kubota".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/kubota.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local ones = PhotonMaterial.New({
+	Name = "ones".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/ones.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local panasonic = PhotonMaterial.New({
+	Name = "panasonic".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/panasonic.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local shinei_glass = PhotonMaterial.New({
+	Name = "shinei_glass".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/shinei_glass.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local tamegai = PhotonMaterial.New({
+	Name = "tamegai".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/tamegai.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local toshiba = PhotonMaterial.New({
+	Name = "toshiba".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/toshiba.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+local yokohama = PhotonMaterial.New({
+	Name = "yokohama".."_acty_work",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_work/acty/png/yokohama.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
 VEHICLE.Equipment = {
     {
 		Category = "Livery",
@@ -13,7 +260,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Akabou Transport",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/akabou" }
+					{ Id = 17, Material = akabou.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -23,7 +270,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Applepockets",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/applepockets" }
+					{ Id = 17, Material = applepockets.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -33,7 +280,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Daikin Aircon",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/daikin" }
+					{ Id = 17, Material = daikin.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 0 },
@@ -43,7 +290,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Honda",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/honda" }
+					{ Id = 17, Material = honda.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -53,7 +300,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Iseki Tractors",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/iseki" }
+					{ Id = 17, Material = iseki.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 0 },
@@ -63,7 +310,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Kubota Heavy Machinery",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/kubota" }
+					{ Id = 17, Material = kubota.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 0 },
@@ -73,7 +320,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Ones Rent A Car",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/ones" }
+					{ Id = 17, Material = ones.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 0 },
@@ -83,7 +330,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Panasonic",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/panasonic" }
+					{ Id = 17, Material = panasonic.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -93,7 +340,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Shinei Glass",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/shinei_glass" }
+					{ Id = 17, Material = shinei_glass.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -103,7 +350,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Super Autobacs",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/autobacs" }
+					{ Id = 17, Material = autobacs.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 0 },
@@ -113,7 +360,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tamegai Painting",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/tamegai" }
+					{ Id = 17, Material = tamegai.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -123,7 +370,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Toshiba",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/toshiba" }
+					{ Id = 17, Material = toshiba.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },
@@ -133,7 +380,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Yokohama Tire",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_work/acty/yokohama" }
+					{ Id = 17, Material = yokohama.MaterialName }
 				},
 				BodyGroups = {
 					{ BodyGroup = "Fbumper", Value = 1 },

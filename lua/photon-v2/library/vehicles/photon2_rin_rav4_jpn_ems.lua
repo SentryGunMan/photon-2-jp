@@ -6,6 +6,230 @@ VEHICLE.Vehicle		= "dannio_2019_toyota_rav4"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local blood_donation = PhotonMaterial.New({
+	Name = "blood_donation".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/blood_donation.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local daiyukai = PhotonMaterial.New({
+	Name = "daiyukai".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/daiyukai.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local fujieda = PhotonMaterial.New({
+	Name = "fujieda".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/fujieda.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local hachinohe = PhotonMaterial.New({
+	Name = "hachinohe".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/hachinohe.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local miyakonojo = PhotonMaterial.New({
+	Name = "miyakonojo".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/miyakonojo.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local nagahama = PhotonMaterial.New({
+	Name = "nagahama".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/nagahama.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local nagoya_uni = PhotonMaterial.New({
+	Name = "nagoya_uni".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/nagoya_uni.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local red_cross = PhotonMaterial.New({
+	Name = "red_cross".."_rav4",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/rav4/png/red_cross.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
 VEHICLE.Siren = { "osaka_mkd1" }
 
 VEHICLE.SubMaterials = {
@@ -25,7 +249,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Daiyukai Ichinomiya General Hospital (Aichi)", --ADD NAGOYA DENKI BAR
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/daiyukai" },
+					{ Id = 11, Material = daiyukai.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
@@ -34,7 +258,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Donated Blood Distribution Foundation", 
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/blood_donation" },
+					{ Id = 11, Material = blood_donation.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
@@ -78,7 +302,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Fujieda Municipal General Hospital (Shizuoka)",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/fujieda" },
+					{ Id = 11, Material = fujieda.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
@@ -102,7 +326,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Hachinohe City Hospital (Aomori)", --ADD WHELEN JUSTICE OR CENATOR
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/hachinohe" },
+					{ Id = 11, Material = hachinohe.MaterialName },
 					{ Id = 26, Material = "rin/japan_ems/rav4/hachinohe_glass" },
 				},
 				BodyGroups = {
@@ -250,7 +474,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Nagahama Red Cross Hospital (Shiga)", --ADD Patlite AJS
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/nagahama" },
+					{ Id = 11, Material = nagahama.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
@@ -297,7 +521,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Nagoya City University Hospital (Aichi)", --ADD NAGOYA-DENKI BAR
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/nagoya_uni" },
+					{ Id = 11, Material = nagoya_uni.MaterialName },
 					{ Id = 26, Material = "rin/japan_ems/rav4/nagoya_uni_glass" },
 				},
 				BodyGroups = {
@@ -332,7 +556,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Miyakonojo City Medical Association Hospital (Miyazaki)",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/miyakonojo" },
+					{ Id = 11, Material = miyakonojo.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }
@@ -382,7 +606,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Japanese Red Cross Medical Center (Tokyo)",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/rav4/red_cross" },
+					{ Id = 11, Material = red_cross.MaterialName },
 				},
 				BodyGroups = {
 					{ BodyGroup = "Skin glass", Value = 0 }

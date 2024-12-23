@@ -6,6 +6,63 @@ VEHICLE.Vehicle		= "dannio_2019_toyota_rav4"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local saitama = PhotonMaterial.New({
+	Name = "saitama".."_rav4_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/rav4/png/saitama.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local tokyo = PhotonMaterial.New({
+	Name = "tokyo".."_rav4_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/rav4/png/tokyo.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
@@ -25,7 +82,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Saitama Air Rescue",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_fire/rav4/saitama" },
+					{ Id = 11, Material = saitama.MaterialName },
 				},
 				Components = {
 					{
@@ -69,7 +126,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Fire Department",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_fire/rav4/tokyo" },
+					{ Id = 11, Material = tokyo.MaterialName },
 				},
 				Components = {
 					{

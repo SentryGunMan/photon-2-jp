@@ -1,6 +1,0 @@
-"DecalModulate"
-{
-	"$basetexture" "rin/lights/patlite_axs_rb"
-	"$model" "1"
-	"$nocull" "1"
-}

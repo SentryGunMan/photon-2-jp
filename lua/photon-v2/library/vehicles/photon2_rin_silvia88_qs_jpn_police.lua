@@ -23,39 +23,39 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Aichi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/aichi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/aichi_s13" } }
                     },
                     {
                         Variant = "Fukui",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/fukui" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/fukui_s13" } }
                     },
 					{
                         Variant = "Gifu",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/gifu" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/gifu_s13" } }
                     },
 					{
                         Variant = "Ishikawa",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/ishikawa" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/ishikawa_s13" } }
                     },
 					{
                         Variant = "Nagano",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/nagano" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/nagano_s13" } }
                     },
 					{
                         Variant = "Niigata",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/niigata" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/niigata_s13" } }
                     },
 					{
                         Variant = "Shizuoka",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/shizuoka" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/shizuoka_s13" } }
                     },
 					{
                         Variant = "Toyama",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/toyama" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/toyama_s13" } }
                     },
 					{
                         Variant = "Yamanashi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/yamanashi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/yamanashi_s13" } }
                     },
                 }
             },
@@ -64,23 +64,23 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hiroshima",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/hiroshima" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/hiroshima_s13" } }
                     },
                     {
                         Variant = "Okayama",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/okayama" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/okayama_s13" } }
                     },
 					{
                         Variant = "Shimane",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/shimane" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/shimane_s13" } }
                     },
 					{
                         Variant = "Tottori",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/tottori" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/tottori_s13" } }
                     },
 					{
                         Variant = "Yamaguchi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/yamaguchi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/yamaguchi_s13" } }
                     },
                 }
             },
@@ -89,7 +89,7 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hokkaidō",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/hokkaido" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/hokkaido_s13" } }
                     },
                 }
             },
@@ -98,31 +98,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hyogo",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/hyogo" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/hyogo_s13" } }
                     },
                     {
                         Variant = "Kyoto",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kyoto" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kyoto_s13" } }
                     },
 					{
                         Variant = "Mie",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/mie" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/mie_s13" } }
                     },
 					{
                         Variant = "Nara",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/nara" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/nara_s13" } }
                     },
 					{
                         Variant = "Osaka",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/osaka" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/osaka_s13" } }
                     },
 					{
                         Variant = "Shiga",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/shiga" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/shiga_s13" } }
                     },
 					{
                         Variant = "Wakayama",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/wakayama" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/wakayama_s13" } }
                     },
                 }
             },
@@ -131,31 +131,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Chiba",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/chiba" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/chiba_s13" } }
                     },
 					{
                         Variant = "Gunma",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/gunma" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/gunma_s13" } }
                     },
 					{
                         Variant = "Ibaraki",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/ibaraki" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/ibaraki_s13" } }
                     },
 					{
                         Variant = "Kanagawa",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kanagawa" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kanagawa_s13" } }
                     },
 					{
                         Variant = "Saitama",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/saitama" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/saitama_s13" } }
                     },
 					{
                         Variant = "Tochigi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/tochigi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/tochigi_s13" } }
                     },
 					{
                         Variant = "Tokyo",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/tokyo" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/tokyo_s13" } }
                     },
                 }
             },
@@ -164,35 +164,35 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Fukuoka",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/fukuoka" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/fukuoka_s13" } }
                     },
 					{
                         Variant = "Kagoshima",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kagoshima" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kagoshima_s13" } }
                     },
 					{
                         Variant = "Kumamoto",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kumamoto" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kumamoto_s13" } }
                     },
 					{
                         Variant = "Miyazaki",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/miyazaki" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/miyazaki_s13" } }
                     },
 					{
                         Variant = "Nagasaki",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/nagasaki" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/nagasaki_s13" } }
                     },
 					{
                         Variant = "Okinawa",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/okinawa" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/okinawa_s13" } }
                     },
 					{
                         Variant = "Oita",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/oita" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/oita_s13" } }
                     },
 					{
                         Variant = "Saga",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/saga" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/saga_s13" } }
                     },
                 }
             },
@@ -201,19 +201,19 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Ehime",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/ehime" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/ehime_s13" } }
                     },
 					{
                         Variant = "Kagawa",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kagawa" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kagawa_s13" } }
                     },
 					{
                         Variant = "Kochi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/kochi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/kochi_s13" } }
                     },
 					{
                         Variant = "Tokushima",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/tokushima" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/tokushima_s13" } }
                     },
                 }
             },
@@ -222,27 +222,27 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Akita",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/akita" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/akita_s13" } }
                     },
 					{
                         Variant = "Aomori",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/aomori" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/aomori_s13" } }
                     },
 					{
                         Variant = "Fukushima",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/fukushima" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/fukushima_s13" } }
                     },
 					{
                         Variant = "Iwate",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/iwate" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/iwate_s13" } }
                     },
 					{
                         Variant = "Miyagi",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/miyagi" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/miyagi_s13" } }
                     },
 					{
                         Variant = "Yamagata",
-                        SubMaterials = { { Id = 18, Material = "rin/japan_police/s13/yamagata" } }
+                        SubMaterials = { { Id = 18, Material = "!photon_material/yamagata_s13" } }
                     },
                 }
             },

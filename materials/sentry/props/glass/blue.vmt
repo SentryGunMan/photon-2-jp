@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "sentry/props/glass/blue_dark"
+	"$model" "1"
+}

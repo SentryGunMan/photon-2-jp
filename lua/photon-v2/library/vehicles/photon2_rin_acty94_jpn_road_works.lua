@@ -6,6 +6,26 @@ VEHICLE.Vehicle		= "acty_sgm"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local roadworks = PhotonMaterial.New({
+	Name = "roadworks".."_acty",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_road_works/acty/png/acty.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.1, 0.1, 0.1 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = .2,
+		["$phongexponent"] = 37,
+		["$phongfresnelranges"] = Vector( 0.5, 0.75, 0.75 ),
+
+		["$nodecal"] = 1
+	}
+})
+
 VEHICLE.Equipment = {
     {
 		Category = "Livery",
@@ -13,7 +33,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Generic",
 				SubMaterials = {
-					{ Id = 17, Material = "rin/japan_road_works/acty/acty" }
+					{ Id = 17, Material = roadworks.MaterialName }
 				},
 			},
 		}
@@ -35,7 +55,7 @@ VEHICLE.Equipment = {
                             FeetTilt = 1,
                         },
 						SubMaterials = {
-							[2] = "sentry/props/koitoflasher/glass_amber",
+							[2] = "sentry/props/glass/amber",
 							[13] = "rin/japan_road_works/yellow"
 						},
                     },
@@ -51,7 +71,7 @@ VEHICLE.Equipment = {
                         Scale = 1,
 						StateMap = "[A] 3",
                         SubMaterials = {
-							[6] = "sentry/props/koitoflasher/glass_amber"
+							[6] = "sentry/props/glass/amber"
 						},
                     },
 				}

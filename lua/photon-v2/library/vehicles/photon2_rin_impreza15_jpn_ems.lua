@@ -6,6 +6,90 @@ VEHICLE.Vehicle		= "subaru2015"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local blood = PhotonMaterial.New({
+	Name = "blood".."_impreza",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/impreza15/png/blood.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local red_cross = PhotonMaterial.New({
+	Name = "red_cross".."_impreza",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/impreza15/png/red_cross.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local tokyo_mer = PhotonMaterial.New({
+	Name = "tokyo_mer".."_impreza",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_ems/impreza15/png/tokyo_mer.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
 VEHICLE.Siren = { "osaka_mkd1" }
 
 VEHICLE.SubMaterials = {
@@ -21,7 +105,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo MER",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/impreza15/tokyo_mer" }
+					{ Id = 11, Material = tokyo_mer.MaterialName }
 				},
 				Components = {
 					{
@@ -61,7 +145,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Japanese Red Cross Society",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/impreza15/red_cross" }
+					{ Id = 11, Material = red_cross.MaterialName }
 				},
 				Components = {
 					{
@@ -105,7 +189,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Blood Donation Supply Corporation",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_ems/impreza15/blood" }
+					{ Id = 11, Material = blood.MaterialName }
 				},
 				Components = {
 					{

@@ -6,6 +6,202 @@ VEHICLE.Vehicle		= "crownxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
+local kyoto = PhotonMaterial.New({
+	Name = "kyoto".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/kyoto.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local nagoya = PhotonMaterial.New({
+	Name = "nagoya".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/nagoya.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local numazu = PhotonMaterial.New({
+	Name = "numazu".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/numazu.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local okayama = PhotonMaterial.New({
+	Name = "okayama".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/okayama.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local sakai = PhotonMaterial.New({
+	Name = "sakai".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/sakai.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local tokyo = PhotonMaterial.New({
+	Name = "tokyo".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/tokyo.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
+local yokohama = PhotonMaterial.New({
+	Name = "yokohama".."_crown_fire",
+	Shader = "VertexLitGeneric",
+	Parameters = {
+		["$basetexture"] = "rin/japan_fire/crown/png/yokohama.png",
+		["$bumpmap"] = "photon/common/flat",
+		
+		["$envmap"] = "env_cubemap",
+		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
+		["$envmapfresnel"] = 1,
+
+		["$phong"] = 1,
+		["$phongboost"] = 15,
+		["$phongexponent"] = 3,
+		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
+
+		["$rimlight"] = 1,
+		["$rimlightexponent"] = 2,
+		["$rimlightboost"] = 1,
+		["$rimmask"] = 1,
+
+		["$phongexponenttexture"] = "photon/common/flat_exp",
+		["$basemapluminancephongmask"] = 1,
+		["$phongalbedotint"] = 1,
+
+		["$nodecal"] = 1
+	}
+})
 VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
@@ -17,7 +213,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Kyoto City Fire Department (Kyoto)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/kyoto" }
+					{ Id = 0, Material = kyoto.MaterialName }
 				},
 				Components = {
 					{
@@ -62,7 +258,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Nagoya Fire Department (Aichi)", --NAGOYA DENKI
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/nagoya" }
+					{ Id = 0, Material = nagoya.MaterialName }
 				},
 				Components = {
 					{
@@ -96,7 +292,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Numazu Fire Department (Shizuoka)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/numazu" }
+					{ Id = 0, Material = numazu.MaterialName }
 				},
 				Components = {
 					{
@@ -136,7 +332,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Okayama Fire Department (Okayama)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/okayama" }
+					{ Id = 0, Material = okayama.MaterialName }
 				},
 				Components = {
 					{
@@ -167,7 +363,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Sakai Fire Department (Osaka)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/sakai" }
+					{ Id = 0, Material = sakai.MaterialName }
 				},
 				Components = {
 					{
@@ -212,7 +408,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Fire Department (Tokyo)",
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/tokyo" }
+					{ Id = 0, Material = tokyo.MaterialName }
 				},
 				Components = {
 					{
@@ -248,7 +444,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Yokohama Fire Bureau (Kanagawa)", -- NAGOYA DENKI
 				SubMaterials = {
-					{ Id = 0, Material = "rin/japan_fire/crown/yokohama" }
+					{ Id = 0, Material = yokohama.MaterialName }
 				},
 				Components = {
 					{

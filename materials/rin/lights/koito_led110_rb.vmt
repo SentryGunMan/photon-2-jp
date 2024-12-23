@@ -1,6 +1,0 @@
-"DecalModulate"
-{
-	"$basetexture" "rin/lights/koito_led110_rb"
-	"$model" "1"
-	"$nocull" "1"
-}
