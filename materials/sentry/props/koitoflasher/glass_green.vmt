@@ -1,6 +1,6 @@
 "DecalModulate"
 {
-	"$basetexture" "sentry/props/koitoflasher/glass_green"
+	"$basetexture" "sentry/props/glass/green"
 	"$model" "1"
 	"$nocull" "1"
 }

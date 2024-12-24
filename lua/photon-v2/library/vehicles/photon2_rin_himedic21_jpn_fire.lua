@@ -6,286 +6,6 @@ VEHICLE.Vehicle		= "himedic_sgm"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "sgm!!"
 
-local haga = PhotonMaterial.New({
-	Name = "haga".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/haga.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local hiroshima = PhotonMaterial.New({
-	Name = "hiroshima".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/hiroshima.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kitakyushu = PhotonMaterial.New({
-	Name = "kitakyushu".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/kitakyushu.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kyoto = PhotonMaterial.New({
-	Name = "kyoto".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/kyoto.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local nagoya = PhotonMaterial.New({
-	Name = "nagoya".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/nagoya.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local numazu = PhotonMaterial.New({
-	Name = "numazu".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/numazu.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local okayama = PhotonMaterial.New({
-	Name = "okayama".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/okayama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local osaka = PhotonMaterial.New({
-	Name = "osaka".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/osaka.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local tokyo = PhotonMaterial.New({
-	Name = "tokyo".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/tokyo.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local yokohama = PhotonMaterial.New({
-	Name = "yokohama".."_himedic_fire",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_fire/himedic/png/yokohama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
 VEHICLE.Siren = {
 	[1] = "patlite_sap500bkpv",
 }
@@ -299,7 +19,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Haga Area Fire Department (Tochigi)", 
 				SubMaterials = {
-					{ Id = 18, Material = haga.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/haga" },
 				},
 				Components = {
 					{
@@ -339,7 +59,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Hiroshima Fire Department (Hiroshima)", 
 				SubMaterials = {
-					{ Id = 18, Material = hiroshima.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/hiroshima" },
 				},
 				Components = {
 					{
@@ -399,7 +119,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Kyoto City Fire Department (Kyoto)", 
 				SubMaterials = {
-					{ Id = 18, Material = kyoto.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/kyoto" },
 				},
 				Components = {
 					{
@@ -467,7 +187,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Kitakyushu Fire Department (Fukuoka)", 
 				SubMaterials = {
-					{ Id = 18, Material = kitakyushu.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/kitakyushu" },
 				},
 				Components = {
 					{
@@ -552,7 +272,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Nagoya Fire Department (Aichi)", 
 				SubMaterials = {
-					{ Id = 18, Material = nagoya.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/nagoya" },
 				},
 				Components = {
 					{
@@ -580,7 +300,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Numazu Fire Department (Shizuoka)", 
 				SubMaterials = {
-					{ Id = 18, Material = numazu.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/numazu" },
 				},
 				Components = {
 					{
@@ -671,7 +391,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Okayama Fire Department (Okayama)", 
 				SubMaterials = {
-					{ Id = 18, Material = okayama.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/okayama" },
 				},
 				Components = {
 					{
@@ -699,7 +419,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Osaka Fire Department (Osaka)", 
 				SubMaterials = {
-					{ Id = 18, Material = osaka.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/osaka" },
 				},
 				Components = {
 					{
@@ -767,7 +487,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Tokyo Fire Department (Tokyo)", 
 				SubMaterials = {
-					{ Id = 18, Material = tokyo.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/tokyo" },
 				},
 				Components = {
 					{
@@ -785,7 +505,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Yokohama Fire Bureau (Kanagawa)", 
 				SubMaterials = {
-					{ Id = 18, Material = yokohama.MaterialName },
+					{ Id = 18, Material = "rin/japan_fire/himedic/yokohama" },
 				},
 				Components = {
 					{
@@ -896,6 +616,6 @@ VEHICLE.Equipment = {
 VEHICLE.Schema = {
 	["Emergency.Warning"] = {
 		{ Label = "PRIMARY" },
-		{ Mode = "MODE3", Label = "RESPONSE"},
+		{ Mode = "MODE3", Label = "RESPONSE" },
 	},
 }

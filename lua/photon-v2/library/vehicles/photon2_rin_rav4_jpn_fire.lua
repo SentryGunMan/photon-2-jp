@@ -1,7 +1,7 @@
 if (Photon2.ReloadVehicleFile()) then return end
 local VEHICLE = Photon2.LibraryVehicle()
 
-VEHICLE.Title 		= "2019 Toyota Rav4 Japanese Emergency Maintenance [Rin]"
+VEHICLE.Title 		= "2019 Toyota Rav4 Japanese Fire [Rin]"
 VEHICLE.Vehicle		= "dannio_2019_toyota_rav4"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
@@ -23,68 +23,9 @@ VEHICLE.Equipment = {
 		Category = "Configuration",
 		Options = {
 			{
-				Option = "Japan Railways East",
+				Option = "Saitama Air Rescue",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_east" },
-				},
-				Components = {
-					{
-                        Component = "patlite_axs12",
-                        Position = Vector( 0, -10, 80.5 ),
-                        Angles = Angle( -3, -90, 0 ),
-                        Scale = 1.1,
-                        Options = {
-                            FeetWidthOffset = 0,
-                            FeetTilt = -2,
-                        },
-						SubMaterials = {
-							[5] = "rin/japan_police/highriser/blank"
-						},
-                    },
-					{
-						Component = "oss_laf150",
-						Position = Vector( -12, 111.1, 32.5 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 1,
-						},
-						Angles = Angle( 0, 1, 0 ),
-						Scale = 0.8
-					},
-					{
-						Component = "oss_laf150",
-						Position = Vector( 12.4, 111.1, 32.5 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 1,
-						},
-						Angles = Angle( 0, -1, 0 ),
-						Scale = 0.8
-					},
-				}
-			},
-			{
-				Option = "Japan Railways Central",
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_central" },
-				},
-				Components = {
-					{
-                        Component = "patlite_axs12",
-                        Position = Vector( 0, -10, 80.5 ),
-                        Angles = Angle( -3, -90, 0 ),
-                        Scale = 1.1,
-                        Options = {
-                            FeetWidthOffset = 0,
-                            FeetTilt = -2,
-                        },
-					},
-				}
-			},
-			{
-				Option = "Japan Railways West", 
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/jr_west" },
+					{ Id = 11, Material = "rin/japan_fire/rav4/saitama" },
 				},
 				Components = {
 					{
@@ -97,15 +38,38 @@ VEHICLE.Equipment = {
                             FeetTilt = -1.5,
                         },
 						SubMaterials = {
-							[13] = "rin/japan_police/highriser/blank"
+							[13] = "rin/japan_fire/red",
 						},
                     },
+					{
+						Name = "@rav4_lp3",
+						Component = "photon_patlite_lp3_rin",
+						Position = Vector( -12, 110.1, 26 ),
+						Angles = Angle( 0, 2, 0 ),
+						Scale = 1,
+						StateMap = "[R] 1",
+						Phase = "A",
+						InputActions = {
+							["Emergency.Warning"] = {
+								["MODE1"] = { Light = "FLASH4" },
+								["MODE2"] = { Light = "FLASH4" },
+								["MODE3"] = { Light = "FLASH4" },
+							},
+						}
+					},
+					{
+						Inherit = "@rav4_lp3",
+						Position = Vector( 12.4, 110.2, 26 ),
+						Angles = Angle( 0, -2, 0 ),
+						Phase = "A",
+						StateMap = "[R] 1"
+					}
 				}
 			},
 			{
-				Option = "Hokkaido Electric Power Company",
+				Option = "Tokyo Fire Department",
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/hokuden" },
+					{ Id = 11, Material = "rin/japan_fire/rav4/tokyo" },
 				},
 				Components = {
 					{
@@ -118,86 +82,19 @@ VEHICLE.Equipment = {
                             FeetTilt = -1.5,
                         },
 						SubMaterials = {
-							[13] = "rin/japan_police/highriser/blank"
+							[13] = "rin/japan_fire/red",
 						},
-                    },
-				}
-			},
-			{
-				Option = "Kyoto Municipal Transportation Bureau", 
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/kyoto_transit" },
-				},
-				Components = {
-					{
-                        Component = "patlite_ajs12",
-                        Position = Vector( 0, -14, 83.9 ),
-                        Angles = Angle( -2.5, -90, 0 ),
-                        Scale = 1.07,
-                        Options = {
-                            FeetWidthOffset = 2,
-                            FeetTilt = -1.5,
-                        }
                     },
 					{
 						Component = "oss_laf150",
-						Position = Vector( -12, 111.1, 32.5 ),
+						Position = Vector( 0.3, 110.8, 35.5 ),
 						BodyGroups = {
 							["bracket"] = 0,
 							["mount"] = 1,
 						},
-						Angles = Angle( 0, 1, 0 ),
+						Angles = Angle( 0, 0, 0 ),
 						Scale = 0.8
 					},
-					{
-						Component = "oss_laf150",
-						Position = Vector( 12.4, 111.1, 32.5 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 1,
-						},
-						Angles = Angle( 0, -1, 0 ),
-						Scale = 0.8
-					},
-				}
-			},
-			{
-				Option = "Tokyo Metropolitan Government Bureau Of Waterworks",
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/tokyo_water" },
-				},
-				Components = {
-					{
-                        Component = "patlite_axs12",
-                        Position = Vector( 0, -10, 80.5 ),
-                        Angles = Angle( -3, -90, 0 ),
-                        Scale = 1.1,
-                        Options = {
-                            FeetWidthOffset = 0,
-                            FeetTilt = -2,
-                        },
-						SubMaterials = {
-							[5] = "rin/japan_police/highriser/blank"
-						},
-                    },
-				}
-			},
-			{
-				Option = "Yurikamome Monorail Tokyo Odaiba", 
-				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_maintenance/rav4/yurikamome" },
-				},
-				Components = {
-					{
-                        Component = "patlite_ajs12",
-                        Position = Vector( 0, -14, 83.9 ),
-                        Angles = Angle( -2.5, -90, 0 ),
-                        Scale = 1.07,
-                        Options = {
-                            FeetWidthOffset = 2,
-                            FeetTilt = -1.5,
-                        }
-                    },
 				}
 			},
 		}

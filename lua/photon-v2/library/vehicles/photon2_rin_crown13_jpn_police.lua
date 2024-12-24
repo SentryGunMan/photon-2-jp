@@ -6,1322 +6,6 @@ VEHICLE.Vehicle		= "crownxeno"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
-local aichi = PhotonMaterial.New({
-	Name = "aichi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/aichi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local akita = PhotonMaterial.New({
-	Name = "akita".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/akita.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local aomori = PhotonMaterial.New({
-	Name = "aomori".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/aomori.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local chiba = PhotonMaterial.New({
-	Name = "chiba".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/chiba.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local ehime = PhotonMaterial.New({
-	Name = "ehime".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/ehime.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local fukui = PhotonMaterial.New({
-	Name = "fukui".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/fukui.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local fukuoka = PhotonMaterial.New({
-	Name = "fukuoka".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/fukuoka.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local fukushima = PhotonMaterial.New({
-	Name = "fukushima".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/fukushima.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local gifu = PhotonMaterial.New({
-	Name = "gifu".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/gifu.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local gunma = PhotonMaterial.New({
-	Name = "gunma".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/gunma.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local hiroshima = PhotonMaterial.New({
-	Name = "hiroshima".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/hiroshima.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local hokkaido = PhotonMaterial.New({
-	Name = "hokkaido".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/hokkaido.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local hyogo = PhotonMaterial.New({
-	Name = "hyogo".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/hyogo.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local ibaraki = PhotonMaterial.New({
-	Name = "ibaraki".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/ibaraki.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local ishikawa = PhotonMaterial.New({
-	Name = "ishikawa".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/ishikawa.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local iwate = PhotonMaterial.New({
-	Name = "iwate".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/iwate.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kagawa = PhotonMaterial.New({
-	Name = "kagawa".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kagawa.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kagoshima = PhotonMaterial.New({
-	Name = "kagoshima".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kagoshima.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kanagawa = PhotonMaterial.New({
-	Name = "kanagawa".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kanagawa.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kochi = PhotonMaterial.New({
-	Name = "kochi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kochi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kumamoto = PhotonMaterial.New({
-	Name = "kumamoto".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kumamoto.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local kyoto = PhotonMaterial.New({
-	Name = "kyoto".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/kyoto.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local mie = PhotonMaterial.New({
-	Name = "mie".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/mie.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local miyagi = PhotonMaterial.New({
-	Name = "miyagi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/miyagi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local miyazaki = PhotonMaterial.New({
-	Name = "miyazaki".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/miyazaki.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local nagano = PhotonMaterial.New({
-	Name = "nagano".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/nagano.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local nagasaki = PhotonMaterial.New({
-	Name = "nagasaki".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/nagasaki.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local nara = PhotonMaterial.New({
-	Name = "nara".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/nara.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local niigata = PhotonMaterial.New({
-	Name = "niigata".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/niigata.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local oita = PhotonMaterial.New({
-	Name = "oita".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/oita.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local okayama = PhotonMaterial.New({
-	Name = "okayama".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/okayama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local okinawa = PhotonMaterial.New({
-	Name = "okinawa".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/okinawa.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local osaka = PhotonMaterial.New({
-	Name = "osaka".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/osaka.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local saga = PhotonMaterial.New({
-	Name = "saga".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/saga.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local saitama = PhotonMaterial.New({
-	Name = "saitama".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/saitama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local shiga = PhotonMaterial.New({
-	Name = "shiga".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/shiga.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local shimane = PhotonMaterial.New({
-	Name = "shimane".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/shimane.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local shizuoka = PhotonMaterial.New({
-	Name = "shizuoka".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/shizuoka.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local tochigi = PhotonMaterial.New({
-	Name = "tochigi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/tochigi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local tokushima = PhotonMaterial.New({
-	Name = "tokushima".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/tokushima.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local tokyo = PhotonMaterial.New({
-	Name = "tokyo".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/tokyo.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local tottori = PhotonMaterial.New({
-	Name = "tottori".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/tottori.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local toyama = PhotonMaterial.New({
-	Name = "toyama".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/toyama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local wakayama = PhotonMaterial.New({
-	Name = "wakayama".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/wakayama.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local yamagata = PhotonMaterial.New({
-	Name = "yamagata".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/yamagata.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local yamaguchi = PhotonMaterial.New({
-	Name = "yamaguchi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/yamaguchi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-local yamanashi = PhotonMaterial.New({
-	Name = "yamanashi".."_crown",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_police/crown/png/yamanashi.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
 VEHICLE.Siren = {
 	[1] = "patlite_sap520pbm",
 }
@@ -1335,39 +19,39 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Aichi",
-                        SubMaterials = { { Id = 0, Material = aichi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/aichi" } }
                     },
                     {
                         Variant = "Fukui",
-                        SubMaterials = { { Id = 0, Material = fukui.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukui" } }
                     },
 					{
                         Variant = "Gifu",
-                        SubMaterials = { { Id = 0, Material = gifu.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/gifu" } }
                     },
 					{
                         Variant = "Ishikawa",
-                        SubMaterials = { { Id = 0, Material = ishikawa.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/ishikawa" } }
                     },
 					{
                         Variant = "Nagano",
-                        SubMaterials = { { Id = 0, Material = nagano.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/nagano" } }
                     },
 					{
                         Variant = "Niigata",
-                        SubMaterials = { { Id = 0, Material = niigata.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/niigata" } }
                     },
 					{
                         Variant = "Shizuoka",
-                        SubMaterials = { { Id = 0, Material = shizuoka.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/shizuoka" } }
                     },
 					{
                         Variant = "Toyama",
-                        SubMaterials = { { Id = 0, Material = toyama.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/toyama" } }
                     },
 					{
                         Variant = "Yamanashi",
-                        SubMaterials = { { Id = 0, Material = yamanashi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/yamanashi" } }
                     },
                 }
             },
@@ -1376,23 +60,23 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hiroshima",
-                        SubMaterials = { { Id = 0, Material = hiroshima.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/hiroshima" } }
                     },
                     {
                         Variant = "Okayama",
-                        SubMaterials = { { Id = 0, Material = okayama.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/okayama" } }
                     },
 					{
                         Variant = "Shimane",
-                        SubMaterials = { { Id = 0, Material = shimane.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/shimane" } }
                     },
 					{
                         Variant = "Tottori",
-                        SubMaterials = { { Id = 0, Material = tottori.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/tottori" } }
                     },
 					{
                         Variant = "Yamaguchi",
-                        SubMaterials = { { Id = 0, Material = yamaguchi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/yamaguchi" } }
                     },
                 }
             },
@@ -1401,7 +85,7 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hokkaidō",
-                        SubMaterials = { { Id = 0, Material = hokkaido.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/hokkaido" } }
                     },
                 }
             },
@@ -1410,31 +94,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hyogo",
-                        SubMaterials = { { Id = 0, Material = hyogo.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/hyogo" } }
                     },
                     {
                         Variant = "Kyoto",
-                        SubMaterials = { { Id = 0, Material = kyoto.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kyoto" } }
                     },
 					{
                         Variant = "Mie",
-                        SubMaterials = { { Id = 0, Material = mie.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/mie" } }
                     },
 					{
                         Variant = "Nara",
-                        SubMaterials = { { Id = 0, Material = nara.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/nara" } }
                     },
 					{
                         Variant = "Osaka",
-                        SubMaterials = { { Id = 0, Material = osaka.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/osaka" } }
                     },
 					{
                         Variant = "Shiga",
-                        SubMaterials = { { Id = 0, Material = shiga.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/shiga" } }
                     },
 					{
                         Variant = "Wakayama",
-                        SubMaterials = { { Id = 0, Material = wakayama.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/wakayama" } }
                     },
                 }
             },
@@ -1443,31 +127,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Chiba",
-                        SubMaterials = { { Id = 0, Material = chiba.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/chiba" } }
                     },
 					{
                         Variant = "Gunma",
-                        SubMaterials = { { Id = 0, Material = gunma.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/gunma" } }
                     },
 					{
                         Variant = "Ibaraki",
-                        SubMaterials = { { Id = 0, Material = ibaraki.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/ibaraki" } }
                     },
 					{
                         Variant = "Kanagawa",
-                        SubMaterials = { { Id = 0, Material = kanagawa.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kanagawa" } }
                     },
 					{
                         Variant = "Saitama",
-                        SubMaterials = { { Id = 0, Material = saitama.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/saitama" } }
                     },
 					{
                         Variant = "Tochigi",
-                        SubMaterials = { { Id = 0, Material = tochigi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/tochigi" } }
                     },
 					{
                         Variant = "Tokyo",
-                        SubMaterials = { { Id = 0, Material = tokyo.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/tokyo" } }
                     },
                 }
             },
@@ -1476,35 +160,35 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Fukuoka",
-                        SubMaterials = { { Id = 0, Material = fukuoka.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukuoka" } }
                     },
 					{
                         Variant = "Kagoshima",
-                        SubMaterials = { { Id = 0, Material = kagoshima.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kagoshima" } }
                     },
 					{
                         Variant = "Kumamoto",
-                        SubMaterials = { { Id = 0, Material = kumamoto.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kumamoto" } }
                     },
 					{
                         Variant = "Miyazaki",
-                        SubMaterials = { { Id = 0, Material = miyazaki.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/miyazaki" } }
                     },
 					{
                         Variant = "Nagasaki",
-                        SubMaterials = { { Id = 0, Material = nagasaki.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/nagasaki" } }
                     },
 					{
                         Variant = "Okinawa",
-                        SubMaterials = { { Id = 0, Material = okinawa.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/okinawa" } }
                     },
 					{
                         Variant = "Oita",
-                        SubMaterials = { { Id = 0, Material = oita.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/oita" } }
                     },
 					{
                         Variant = "Saga",
-                        SubMaterials = { { Id = 0, Material = saga.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/saga" } }
                     },
                 }
             },
@@ -1513,19 +197,19 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Ehime",
-                        SubMaterials = { { Id = 0, Material = ehime.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/ehime" } }
                     },
 					{
                         Variant = "Kagawa",
-                        SubMaterials = { { Id = 0, Material = kagawa.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kagawa" } }
                     },
 					{
                         Variant = "Kochi",
-                        SubMaterials = { { Id = 0, Material = kochi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kochi" } }
                     },
 					{
                         Variant = "Tokushima",
-                        SubMaterials = { { Id = 0, Material = tokushima.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/tokushima" } }
                     },
                 }
             },
@@ -1534,27 +218,27 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Akita",
-                        SubMaterials = { { Id = 0, Material = akita.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/akita" } }
                     },
 					{
                         Variant = "Aomori",
-                        SubMaterials = { { Id = 0, Material = aomori.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/aomori" } }
                     },
 					{
                         Variant = "Fukushima",
-                        SubMaterials = { { Id = 0, Material = fukushima.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukushima" } }
                     },
 					{
                         Variant = "Iwate",
-                        SubMaterials = { { Id = 0, Material = iwate.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/iwate" } }
                     },
 					{
                         Variant = "Miyagi",
-                        SubMaterials = { { Id = 0, Material = miyagi.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/miyagi" } }
                     },
 					{
                         Variant = "Yamagata",
-                        SubMaterials = { { Id = 0, Material = yamagata.MaterialName } }
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/yamagata" } }
                     },
                 }
             },

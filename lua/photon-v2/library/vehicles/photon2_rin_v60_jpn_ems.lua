@@ -6,35 +6,6 @@ VEHICLE.Vehicle		= "dannio_2018_volvo_v60"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
 
-local hokusoh = PhotonMaterial.New({
-	Name = "hokusoh".."_v60",
-	Shader = "VertexLitGeneric",
-	Parameters = {
-		["$basetexture"] = "rin/japan_ems/v60/png/hokusoh.png",
-		["$bumpmap"] = "photon/common/flat",
-		
-		["$envmap"] = "env_cubemap",
-		["$envmaptint"] = Vector( 0.15, 0.15, 0.15 ),
-		["$envmapfresnel"] = 1,
-
-		["$phong"] = 1,
-		["$phongboost"] = 15,
-		["$phongexponent"] = 3,
-		["$phongfresnelranges"] = Vector( 0.22, 0.2, 2 ),
-
-		["$rimlight"] = 1,
-		["$rimlightexponent"] = 2,
-		["$rimlightboost"] = 1,
-		["$rimmask"] = 1,
-
-		["$phongexponenttexture"] = "photon/common/flat_exp",
-		["$basemapluminancephongmask"] = 1,
-		["$phongalbedotint"] = 1,
-
-		["$nodecal"] = 1
-	}
-})
-
 VEHICLE.Siren = { "osaka_mkd1" }
 
 VEHICLE.SubMaterials = {
@@ -52,7 +23,7 @@ VEHICLE.Equipment = {
 			{
 				Option = "Nippon Medical School Hokusoh Hospital (Chiba)",
 				SubMaterials = {
-					{ Id = 7, Material = hokusoh.MaterialName }
+					{ Id = 7, Material = "rin/japan_ems/v60/hokusoh" }
 				},
 			},
 		}
