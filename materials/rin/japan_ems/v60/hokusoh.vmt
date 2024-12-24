@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "rin/japan_ems/v60/hokusoh"
+	"$bumpmap" "sentry/shared/skin_nm"
+	 $envmap "env_cubemap"
+    $envmaptint "[0.1 0.1 0.1]"
+    $envmapfresnel "1"
+   "$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "37"
+    $phongboost ".2"
+    $phongfresnelranges "[.5 .75 .75]"
+}
+
+
