@@ -1,0 +1,13 @@
+{
+	"title"		:	"Photon 2: JP",
+	"type"		:	"vehicle",
+	"tags"		:	[ "fun", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.md"
+		
+	]
+}
