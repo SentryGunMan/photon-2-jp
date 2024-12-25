@@ -329,8 +329,11 @@ VEHICLE.Equipment = {
 				Components = {
 					{
 						Component = "siren_prototype",
-						Position = Vector(0, 98, 26.5),
+						Position = Vector(-7, 120, 15.5),
 						Angles = Angle(1.5, -90, 0),
+						SubMaterials = {
+							[0] = "photon/common/blank",
+						},
 						Scale = 1.4,
 						Siren = 1,
 						Templates = {
@@ -404,7 +407,7 @@ VEHICLE.Equipment = {
 						},
 						Segments = {
 							Siren = {
-								Frames = { [0] = "", "1", "1 2", "1 3", "4", "2", "6", "7", "8", "9", "3", "[QUIET] 1", "[QUIET] 1 2", "[QUIET] 1 3", "[QUIET] 1 4", },
+								Frames = { [0] = "", "1", "1 2", "1 3", "4", "5", "6", "7", "8", "9", "3", "[QUIET] 1", "[QUIET] 1 2", "[QUIET] 1 3", "[QUIET] 4", },
 								Sequences = {
 									["T1"] = { 1 },
 									["T2"] = { 2 },
@@ -457,8 +460,11 @@ VEHICLE.Equipment = {
 
 					{
 						Component = "siren_prototype",
-						Position = Vector(0, 98, 26.5),
+						Position = Vector(-7, 120, 15.5),
 						Angles = Angle(1.5, -90, 0),
+						SubMaterials = {
+							[0] = "photon/common/blank",
+						},
 						Scale = 1.4,
 						Siren = 1,
 						Templates = {

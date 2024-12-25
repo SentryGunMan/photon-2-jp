@@ -189,7 +189,7 @@ VEHICLE.Equipment = {
 						},
 						Segments = {
 							Siren = {
-								Frames = { [0] = "", "1", "1 2", "1 3", "4", "2", "6", "7", "8", "9", "3", "[QUIET] 1", "[QUIET] 1 2", "[QUIET] 1 3", "[QUIET] 4", },
+								Frames = { [0] = "", "1", "1 2", "1 3", "4", "5", "6", "7", "8", "9", "3", "[QUIET] 1", "[QUIET] 1 2", "[QUIET] 1 3", "[QUIET] 4", },
 								Sequences = {
 									["T1"] = { 1 },
 									["T2"] = { 2 },

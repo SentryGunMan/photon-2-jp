@@ -25,8 +25,6 @@ Photon2.RegisterSiren(
 			["WAIL"] = { Sound = "photon/sirens/osaka_mkd1/wail_short.wav", Icon = "wail",	Default = "T2" },
 			["YELP"] = { Sound = "photon/sirens/osaka_mkd1/yelp.wav", Icon = "yelp",	Default = "T3" },
 			["HILO_QUIET"] = { Sound = "photon/sirens/osaka_mkd1/hilo_quiet.wav", Icon = "hilo",	Default = "T4" },
-			["HORN"]  = { Sound = "photon/sirens/osaka_mkd1/horn.wav", Default = "AIR", Label = "AIR" },
-			["MANUAL"]  = { Sound = "photon/sirens/osaka_mkd1/manual.wav", 	Default = "MAN", Label = "MAN" },
 
 			["LEFT"] = { Sound = "photon/sirens/osaka_mkd1/left.wav", Default = "T5" },
 			["RIGHT"] = { Sound = "photon/sirens/osaka_mkd1/right.wav", Default = "T6" },
