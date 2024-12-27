@@ -13,6 +13,7 @@ VEHICLE.SubMaterials = {
 	[2] = "sentry/shared/glass",
 	[17] = "rin/screen_v60/int",
 	[20] = "sentry/shared/glass",
+	[24] = "models/supermighty/meshlights/red_glass"
 }
 
 VEHICLE.Equipment = {
@@ -26,6 +27,19 @@ VEHICLE.Equipment = {
 					{ Id = 7, Material = "rin/japan_ems/v60/hokusoh" }
 				},
 			},
+		}
+	},
+	{
+		Category = "Standard Lighting",
+		Options = {
+			{
+				Option = "Default",
+				VirtualComponents = {
+					{
+						Component = "photon_standard_v60_sm",
+					},
+				},
+			}
 		}
 	},
 	{
