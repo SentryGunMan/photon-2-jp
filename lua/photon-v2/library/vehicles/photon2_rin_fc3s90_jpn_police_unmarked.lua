@@ -11,6 +11,26 @@ VEHICLE.Siren = {
 }
 
 VEHICLE.Equipment = {
+	{
+		Category = "Standard Lighting",
+		Options = {
+			{
+				Option = "Default",
+				VirtualComponents = {
+					{
+						Component = "photon_standard_1990mazda",
+						Inputs = {
+                            ["Emergency.Warning"] = {
+                                ["MODE3"] = {
+                                    
+                                }
+                            },
+						}
+					},
+				},
+			}
+		}
+	},
     {
 		Category = "Paint",
 		Options = {
