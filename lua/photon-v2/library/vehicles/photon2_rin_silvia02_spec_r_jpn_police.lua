@@ -282,7 +282,30 @@ VEHICLE.Equipment = {
 						},
                     },
 				}
-			}
+			},
+			{
+				Option = "Patlite AXS-12HM (Motorcade Escort)",
+				Components = {
+					{
+                        Component = "patlite_axs12",
+                        Position = Vector( 0, -11, 61.8 ),
+                        Angles = Angle( -1.5, -90, 0 ),
+                        Scale = 1,
+						States = {
+							[1] = "B",
+							[4] = "B",
+						},
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = -2.5,
+                        },
+						SubMaterials = {
+							[5] = "rin/japan_police/highriser/blank",
+							[12] = "rin/lights/patlite_axs_rb"
+						},
+                    },
+				}
+			},
 		}
 	},
     {

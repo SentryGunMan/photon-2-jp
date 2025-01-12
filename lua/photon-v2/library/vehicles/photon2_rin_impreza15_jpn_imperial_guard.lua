@@ -1,7 +1,7 @@
 if (Photon2.ReloadVehicleFile()) then return end
 local VEHICLE = Photon2.LibraryVehicle()
 
-VEHICLE.Title 		= "2015 Subaru Impreza WRX STI Japanese Police [Rin]"
+VEHICLE.Title 		= "2015 Subaru Impreza WRX STI Japanese Imperial Guard [Rin]"
 VEHICLE.Vehicle		= "subaru2015"
 VEHICLE.Category 	= "Photon 2: JP"
 VEHICLE.Author		= "Rin Hoshizora"
@@ -17,14 +17,17 @@ VEHICLE.SubMaterials = {
 
 VEHICLE.Equipment = {
     {
-		Category = "Livery",
+		Category = "Paint",
 		Options = {
-			
-			{
-				Option = "Aichi",
+	    {
+				Option = "Crystal Black Silica",
+				Properties = {
+					Skin = 0,
+					Color = Color(0, 0, 0)
+				},
 				SubMaterials = {
-					{ Id = 11, Material = "rin/japan_police/impreza15/aichi" }
-				}
+							[11] = "sentry/shared/skin0"
+			    },
 			},
 		}
 	},
@@ -49,117 +52,6 @@ VEHICLE.Equipment = {
                     },
 				}
 			},
-			{
-				Option = "Koito LED110",
-				Components = {
-					{
-						Component = "koito_led110",
-						Position = Vector( 0, -4, 65.3 ),
-						Angles = Angle( 0, 0, 0 ),
-						Scale = 1.0,
-					},
-				}
-			},
-				{
-				Option = "Patlite AXS-12HM (Motorcade Escort)",
-				Components = {
-					{
-                        Component = "patlite_axs12",
-                        Position = Vector( 0, -8, 71.2 ),
-                        Angles = Angle( -2.5, -90, 0 ),
-                        Scale = 1.1,
-						States = {
-							[1] = "B",
-							[4] = "B",
-						},
-                        Options = {
-                            FeetWidthOffset = 0,
-                            FeetTilt = -2.5,
-                        },
-						SubMaterials = {
-							[5] = "rin/japan_police/highriser/blank",
-							[12] = "rin/lights/patlite_axs_rb"
-						},
-                    },
-				}
-			},
-		}
-	},
-	{
-		Category = "Front Flashers",
-		Options = {
-			{
-				Option = "Osaka Siren LAF-150",
-				Components = {
-					{
-						Component = "oss_laf150",
-						Position = Vector( -11, 116.1, 28 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 1,
-						},
-						Angles = Angle( 0, 1, 0 ),
-						Scale = 0.8
-					},
-					{
-						Component = "oss_laf150",
-						Position = Vector( 11, 116.1, 28 ),
-						BodyGroups = {
-							["bracket"] = 0,
-							["mount"] = 1,
-						},
-						Angles = Angle( 0, -1, 0 ),
-						Scale = 0.8
-					},
-				}
-			},
-		}
-	},
-	{
-		Category = "Additional Antennas",
-		Options = {
-			{
-				Option = "None",
-			},
-			{
-				Option = "Right",
-				Props = {
-					{
-						Model = "models/sentry/props/jp/antenna.mdl",
-						Position = Vector( 30.45, -87, 50.7),
-						Angles = Angle( 15, 0, 4.5 ),
-						Scale = 1
-					},
-                }
-			},
-			{
-				Option = "Left",
-				Props = {
-					{
-						Model = "models/sentry/props/jp/antenna.mdl",
-						Position = Vector( -30.45, -87, 50.7),
-						Angles = Angle( -15, 0, 4.5 ),
-						Scale = 1
-					},
-                }
-			},
-			{
-				Option = "Left & Right",
-				Props = {
-					{
-						Model = "models/sentry/props/jp/antenna.mdl",
-						Position = Vector( -30.45, -87, 50.7),
-						Angles = Angle( -15, 0, 4.5 ),
-						Scale = 1
-					},
-					{
-						Model = "models/sentry/props/jp/antenna.mdl",
-						Position = Vector( 30.45, -87, 50.7),
-						Angles = Angle( 15, 0, 4.5 ),
-						Scale = 1
-					},
-                }
-			},
 		}
 	},
     {
@@ -181,30 +73,6 @@ VEHICLE.Equipment = {
 				}
 			}
 		}
-	},
-	{
-		Category = "Patrol Sign",
-		Options = {
-			{
-				Option = "PATLITE VP-12",
-				Components = {
-					{
-						Component = "patlite_vp12",
-						Position = Vector(0, -66.4, 52.2),
-						Angles = Angle(0,-90,0),
-						Scale = 1,
-						RenderGroup = RENDERGROUP_OPAQUE,
-					},
-					{
-						Component = "patlite_signcontroller",
-						Position = Vector(1 ,7.5 ,26),
-						Angles = Angle(-1.5,-90,0),
-						Scale = 1,
-						RenderGroup = RENDERGROUP_OPAQUE,
-					},
-				},
-			},
-		},
 	},
     {
 		Category = "Police Equipment",

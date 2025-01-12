@@ -28,15 +28,25 @@ VEHICLE.Equipment = {
 						},
 					},
 					{
-						Component = "koito_led110",
-						Position = Vector( -2.75, 0, -2.6 ),
-						Angles = Angle( 0, 90, 0 ),
-						Scale = 1.0,
+						Component = "patlite_axs12",
+						Position = Vector( 0, 0, 3 ),
+						Angles = Angle( 0, 0, 0 ),
+						Scale = 0.95,
 						Parent = "@riser",
 						FollowBone = 1,
-						StateMap = "[B] 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+						States = {
+							[1] = "B",
+							[2] = "B",
+							[3] = "B",
+							[4] = "B",
+						},
+                        Options = {
+                            FeetWidthOffset = 0,
+                            FeetTilt = 0,
+                        },
 						SubMaterials = {
-							[1] = "sentry/props/glass/blue"
+							[5] = "rin/japan_police/highriser/blank",
+							[12] = "sentry/props/glass/blue"
 						},
 					},
 					{
