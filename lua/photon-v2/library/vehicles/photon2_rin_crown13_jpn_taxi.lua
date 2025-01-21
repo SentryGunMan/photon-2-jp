@@ -309,7 +309,7 @@ VEHICLE.Equipment = {
 							["mount"] = 1,
 						},
 						SubMaterials = {
-							[3] = "sentry/props/glass/amber",
+							[3] = "sentry/shared/glass/amber",
 						},
 					},
 					{
@@ -321,7 +321,7 @@ VEHICLE.Equipment = {
 							["mount"] = 1,
 						},
 						SubMaterials = {
-							[3] = "sentry/props/glass/amber",
+							[3] = "sentry/shared/glass/amber",
 						},
 					},
 					{
@@ -333,7 +333,7 @@ VEHICLE.Equipment = {
 							["mount"] = 1,
 						},
 						SubMaterials = {
-							[3] = "sentry/props/glass/amber",
+							[3] = "sentry/shared/glass/amber",
 						},
 					},
 					{
@@ -345,7 +345,7 @@ VEHICLE.Equipment = {
 							["mount"] = 1,
 						},
 						SubMaterials = {
-							[3] = "sentry/props/glass/amber",
+							[3] = "sentry/shared/glass/amber",
 						},
 					},
 				}

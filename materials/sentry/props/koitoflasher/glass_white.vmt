@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "sentry/props/glass/white"
+	"$basetexture" "sentry/shared/glass/white"
 	"$bumpmap"    "sentry/shared/skin_nm"
 	"$translucent" 1
 	"$phong" "1" 

@@ -35,7 +35,7 @@ VEHICLE.Equipment = {
                             FeetTilt = 1,
                         },
 						SubMaterials = {
-							[2] = "sentry/props/glass/amber",
+							[2] = "sentry/shared/glass/amber",
 							[13] = "rin/japan_road_works/yellow"
 						},
                     },
@@ -51,7 +51,7 @@ VEHICLE.Equipment = {
                         Scale = 1,
 						StateMap = "[A] 3",
                         SubMaterials = {
-							[6] = "sentry/props/glass/amber"
+							[6] = "sentry/shared/glass/amber"
 						},
                     },
 				}

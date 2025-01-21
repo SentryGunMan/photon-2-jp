@@ -1,6 +1,6 @@
 "DecalModulate"
 {
-	"$basetexture" "sentry/props/glass/amber"
+	"$basetexture" "sentry/shared/glass/amber"
 	"$model" "1"
 	"$nocull" "1"
 }
