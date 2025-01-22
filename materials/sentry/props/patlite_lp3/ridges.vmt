@@ -8,12 +8,12 @@
 	"$normalmap" "sentry/props/patlite_lp3/ridges"
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[0.75 0.75 0.75]"
-	"$carpenisenabled" "1"
+	"$carfixenabled" "1"
 	"Proxies"
 	{
 		"Equals"
 		{
-			srcVar1 $carpenisenabled
+			srcVar1 $carfixenabled
 			resultVar	$color
 		}
 	}

@@ -7,12 +7,12 @@
 	"$normalmap" "sentry/props/led110/lights_nm"
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[0.25 0.25 .25]"
-	"$carpenisenabled" "1"
+	"$carfixenabled" "1"
 	"Proxies"
 	{
 		"Equals"
 		{
-			srcVar1 $carpenisenabled
+			srcVar1 $carfixenabled
 			resultVar	$color
 		}
 	}
