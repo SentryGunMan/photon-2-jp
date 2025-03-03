@@ -443,7 +443,7 @@ VEHICLE.Equipment = {
 				Components = {
 					{
 						Component = "photon_siren_jp_rin",
-						Position = Vector(0, 96, 16.8),
+						Position = Vector(0, 80, 16.8),
 						Angles = Angle(0, 270, 180),
 						Scale = 1,
 						Siren = 1
