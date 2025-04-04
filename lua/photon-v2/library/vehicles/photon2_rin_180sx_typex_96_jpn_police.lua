@@ -245,6 +245,19 @@ VEHICLE.Equipment = {
         }
     },
 	{
+		Category = "Standard Lighting",
+		Options = {
+			{
+				Option = "Default",
+				VirtualComponents = {
+					{
+						Component = "photon_standard_180sx",
+					},
+				},
+			}
+		}
+	},
+	{
 		Category = "Lightbar",
 		Options = {
 			{

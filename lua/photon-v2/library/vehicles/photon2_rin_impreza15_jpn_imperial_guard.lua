@@ -47,7 +47,8 @@ VEHICLE.Equipment = {
                             FeetTilt = -2.5,
                         },
 						SubMaterials = {
-							[5] = "rin/japan_police/highriser/blank"
+							[5] = "sentry/acty/black",
+							[6] = "sentry/acty/black"
 						},
                     },
 				}

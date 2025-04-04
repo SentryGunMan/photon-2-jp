@@ -58,6 +58,19 @@ VEHICLE.Equipment = {
 			},
 		}
 	},
+	{
+		Category = "Standard Lighting",
+		Options = {
+			{
+				Option = "Default",
+				VirtualComponents = {
+					{
+						Component = "photon_standard_sileighty",
+					},
+				},
+			}
+		}
+	},
     {
 		Category = "Beacon",
 		Options = {
