@@ -82,6 +82,15 @@ VEHICLE.Equipment = {
 				}
             },
 			{
+                Option = "Hakodate (Hokkaido)",
+                Variants = {
+                    {
+                        Variant = "Moo Moo Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/hakodate_moomoo" } }
+                    },
+				}
+            },
+			{
                 Option = "Hiroshima (Hiroshima)",
                 Variants = {
                     {
