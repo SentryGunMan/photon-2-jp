@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$basetexture" "sentry/props/jptaxisign/screws"
+		"$bumpmap" "sentry/props/jptaxisign/screws_nm"
+		"$alphatest" "1"
+		"$allowalphatocoverage" "1"
+	}
+}
