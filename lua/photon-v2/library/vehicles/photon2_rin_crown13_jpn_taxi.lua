@@ -233,6 +233,14 @@ VEHICLE.Equipment = {
                 Option = "Sendai (Miyagi)",
                 Variants = {
                     {
+                        Variant = "Ayashi Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/sendai_ayashi" } }
+                    },
+					{
+                        Variant = "Sendai Chuo Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/sendai_chuo" } }
+                    },
+					{
                         Variant = "Sendai Taxi Group",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/sendai_stg" } }
                     },
