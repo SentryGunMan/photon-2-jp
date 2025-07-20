@@ -250,6 +250,10 @@ VEHICLE.Equipment = {
                 Option = "Shizuoka (Shizuoka)",
                 Variants = {
                     {
+                        Variant = "Chiyoda Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_chiyoda" } }
+                    },
+					{
                         Variant = "Fuji Yellow Cab",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/shizuoka_fuji" } }
                     },
