@@ -142,6 +142,35 @@ VEHICLE.Equipment = {
 				}
             },
 			{
+                Option = "Nagoya (Aichi)",
+                Variants = {
+                    {
+                        Variant = "Fuji Taxi Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_fuji" } }
+                    },
+                    {
+                        Variant = "Hinotori",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_hinotori" } }
+                    },
+					{
+                        Variant = "Meitetsu",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_meitetsu" } }
+                    },
+					{
+                        Variant = "Takara Taxi",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara" } }
+                    },
+					{
+                        Variant = "Takara Taxi Sakae Spring",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara_sakae" } }
+                    },
+					{
+                        Variant = "Tsubame",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_tsubame" } }
+                    },
+				}
+            },
+			{
                 Option = "Numazu (Shizuoka)",
                 Variants = {
                     {
@@ -171,35 +200,6 @@ VEHICLE.Equipment = {
 					{
                         Variant = "Izuhakone Kotsu (Love Live Sunshine Promotion)",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/numazu_izuhakone_ll" } }
-                    },
-				}
-            },
-            {
-                Option = "Nagoya (Aichi)",
-                Variants = {
-                    {
-                        Variant = "Fuji Taxi Group",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_fuji" } }
-                    },
-                    {
-                        Variant = "Hinotori",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_hinotori" } }
-                    },
-					{
-                        Variant = "Meitetsu",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_meitetsu" } }
-                    },
-					{
-                        Variant = "Takara Taxi",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara" } }
-                    },
-					{
-                        Variant = "Takara Taxi Sakae Spring",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_takara_sakae" } }
-                    },
-					{
-                        Variant = "Tsubame",
-                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/nagoya_tsubame" } }
                     },
 				}
             },
@@ -303,6 +303,22 @@ VEHICLE.Equipment = {
             },
 		}
     },
+	{
+		Category = "Sign",
+		Options = {
+			{
+				Option = "Sign",
+				Props = {
+					{
+						Model = "models/sentry/props/jp/taxisign.mdl",
+						Position = Vector( 0, -17.8, 70.4 ),
+						Angles = Angle( -2, 270, 0 ),
+						Scale = 1,
+					},
+				}
+			},
+		}
+	},
 	{
 		Category = "Roof Indicators",
 		Options = {

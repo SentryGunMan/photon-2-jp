@@ -264,7 +264,30 @@ VEHICLE.Equipment = {
 						},
                     },
 				}
-			}
+			},
+			{
+				Option = "Patlite AJS-12 (Motorcade Escort)",
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -11, 65 ),
+                        Angles = Angle( -2, -90, 0 ),
+                        Scale = 0.94,
+                        Options = {
+                            FeetWidthOffset = 6,
+                            FeetTilt = -7,
+                        },
+						States = {
+							[3] = "B",
+							[4] = "B",
+						},
+						SubMaterials = {
+							[13] = "rin/japan_police/highriser/blank",
+							[2] = "rin/lights/patlite_ajs_rb"
+						},
+                    },
+				}
+			},
 		}
 	},
 	{

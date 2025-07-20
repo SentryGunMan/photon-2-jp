@@ -162,6 +162,24 @@ VEHICLE.Equipment = {
 				}
 			},
 			{
+				Option = "Ministry of Land, Infrastucture & Transport River Patrol", 
+				SubMaterials = {
+					{ Id = 11, Material = "rin/japan_maintenance/rav4/river" },
+				},
+				Components = {
+					{
+                        Component = "patlite_ajs12",
+                        Position = Vector( 0, -14, 83.9 ),
+                        Angles = Angle( -2.5, -90, 0 ),
+                        Scale = 1.07,
+                        Options = {
+                            FeetWidthOffset = 2,
+                            FeetTilt = -1.5,
+                        }
+                    },
+				}
+			},
+			{
 				Option = "Tokyo Metropolitan Government Bureau Of Waterworks",
 				SubMaterials = {
 					{ Id = 11, Material = "rin/japan_maintenance/rav4/tokyo_water" },
