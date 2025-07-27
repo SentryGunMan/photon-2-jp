@@ -132,6 +132,10 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_miyako" } }
                     },
 					{
+                        Variant = "MK Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/osaka_mk" } }
+                    },
+					{
                         Variant = "Teisan",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/kyoto_teisan" } }
                     },
@@ -224,6 +228,10 @@ VEHICLE.Equipment = {
                 Option = "Osaka (Osaka)",
                 Variants = {
                     {
+                        Variant = "MK Group",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/osaka_mk" } }
+                    },
+					{
                         Variant = "Sogo Taxi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/osaka_sogo" } }
                     },
@@ -310,6 +318,14 @@ VEHICLE.Equipment = {
 					{
                         Variant = "Heiwa Kotsu",
                         SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/yokohama_heiwa" } }
+                    },
+					{
+                        Variant = "Hokuto",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/yokohama_hokuto" } }
+                    },
+					{
+                        Variant = "Yokohama Musen",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_taxi/crown/yokohama_musen" } }
                     },
                 }
             },

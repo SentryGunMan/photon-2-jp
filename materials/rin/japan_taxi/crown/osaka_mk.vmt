@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "rin/japan_taxi/crown/osaka_mk"
+	"$bumpmap" "models/xenoscars/shared/skin_shiny"
+    "$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$envmapfresnel" "1"
+   
+    "$phong" "1" 
+	"$phongboost" "15" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[0.22 0.2 2]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+
+	"$phongexponenttexture" "rin/skin_exp"
+	"$phongalbedotint" "1"
+
+}
