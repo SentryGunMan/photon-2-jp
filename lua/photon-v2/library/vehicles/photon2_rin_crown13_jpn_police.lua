@@ -21,6 +21,10 @@ VEHICLE.Equipment = {
                         Variant = "Aichi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/aichi" } }
                     },
+					{
+                        Variant = "Aichi (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/aichi_alt" } }
+                    },
                     {
                         Variant = "Fukui",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukui" } }
@@ -62,9 +66,17 @@ VEHICLE.Equipment = {
                         Variant = "Hiroshima",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/hiroshima" } }
                     },
+					{
+                        Variant = "Hiroshima (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/hiroshima_alt" } }
+                    },
                     {
                         Variant = "Okayama",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/okayama" } }
+                    },
+					{
+                        Variant = "Okayama (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/okayama_alt" } }
                     },
 					{
                         Variant = "Shimane",
@@ -77,6 +89,10 @@ VEHICLE.Equipment = {
 					{
                         Variant = "Yamaguchi",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/yamaguchi" } }
+                    },
+					{
+                        Variant = "Yamaguchi (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/yamaguchi_alt" } }
                     },
                 }
             },
@@ -101,8 +117,20 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kyoto" } }
                     },
 					{
+                        Variant = "Kyoto (Alt 1)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kyoto_alt" } }
+                    },
+					{
+                        Variant = "Kyoto (Alt 2)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kyoto_alt_2" } }
+                    },
+					{
                         Variant = "Mie",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/mie" } }
+                    },
+					{
+                        Variant = "Mie (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/mie_alt" } }
                     },
 					{
                         Variant = "Nara",
@@ -111,6 +139,10 @@ VEHICLE.Equipment = {
 					{
                         Variant = "Osaka",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/osaka" } }
+                    },
+					{
+                        Variant = "Osaka (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/osaka_alt" } }
                     },
 					{
                         Variant = "Shiga",
@@ -130,12 +162,24 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/chiba" } }
                     },
 					{
+                        Variant = "Chiba (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/chiba_alt" } }
+                    },
+					{
                         Variant = "Gunma",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/gunma" } }
                     },
 					{
+                        Variant = "Gunma (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/gunma_alt" } }
+                    },
+					{
                         Variant = "Ibaraki",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/ibaraki" } }
+                    },
+					{
+                        Variant = "Ibaraki (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/ibaraki_alt" } }
                     },
 					{
                         Variant = "Kanagawa",
@@ -163,12 +207,20 @@ VEHICLE.Equipment = {
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukuoka" } }
                     },
 					{
+                        Variant = "Fukuoka (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/fukuoka_alt" } }
+                    },
+					{
                         Variant = "Kagoshima",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kagoshima" } }
                     },
 					{
                         Variant = "Kumamoto",
                         SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kumamoto" } }
+                    },
+					{
+                        Variant = "Kumamoto (Alt)",
+                        SubMaterials = { { Id = 0, Material = "rin/japan_police/crown/kumamoto_alt" } }
                     },
 					{
                         Variant = "Miyazaki",
