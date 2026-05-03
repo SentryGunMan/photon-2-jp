@@ -19,39 +19,39 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Aichi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/aichi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/aichi" } }
                     },
                     {
                         Variant = "Fukui",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/fukui" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/fukui" } }
                     },
 					{
                         Variant = "Gifu",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/gifu" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/gifu" } }
                     },
 					{
                         Variant = "Ishikawa",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/ishikawa" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/ishikawa" } }
                     },
 					{
                         Variant = "Nagano",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/nagano" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/nagano" } }
                     },
 					{
                         Variant = "Niigata",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/niigata" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/niigata" } }
                     },
 					{
                         Variant = "Shizuoka",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/shizuoka" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/shizuoka" } }
                     },
 					{
                         Variant = "Toyama",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/toyama" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/toyama" } }
                     },
 					{
                         Variant = "Yamanashi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/yamanashi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/yamanashi" } }
                     },
                 }
             },
@@ -60,23 +60,23 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hiroshima",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/hiroshima" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/hiroshima" } }
                     },
                     {
                         Variant = "Okayama",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/okayama" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/okayama" } }
                     },
 					{
                         Variant = "Shimane",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/shimane" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/shimane" } }
                     },
 					{
                         Variant = "Tottori",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/tottori" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/tottori" } }
                     },
 					{
                         Variant = "Yamaguchi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/yamaguchi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/yamaguchi" } }
                     },
                 }
             },
@@ -85,7 +85,7 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hokkaidō",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/hokkaido" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/hokkaido" } }
                     },
                 }
             },
@@ -94,31 +94,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Hyogo",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/hyogo" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/hyogo" } }
                     },
                     {
                         Variant = "Kyoto",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kyoto" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kyoto" } }
                     },
 					{
                         Variant = "Mie",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/mie" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/mie" } }
                     },
 					{
                         Variant = "Nara",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/nara" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/nara" } }
                     },
 					{
                         Variant = "Osaka",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/osaka" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/osaka" } }
                     },
 					{
                         Variant = "Shiga",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/shiga" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/shiga" } }
                     },
 					{
                         Variant = "Wakayama",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/wakayama" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/wakayama" } }
                     },
                 }
             },
@@ -127,31 +127,31 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Chiba",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/chiba" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/chiba" } }
                     },
 					{
                         Variant = "Gunma",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/gunma" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/gunma" } }
                     },
 					{
                         Variant = "Ibaraki",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/ibaraki" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/ibaraki" } }
                     },
 					{
                         Variant = "Kanagawa",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kanagawa" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kanagawa" } }
                     },
 					{
                         Variant = "Saitama",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/saitama" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/saitama" } }
                     },
 					{
                         Variant = "Tochigi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/tochigi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/tochigi" } }
                     },
 					{
                         Variant = "Tokyo",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/tokyo" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/tokyo" } }
                     },
                 }
             },
@@ -160,35 +160,35 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Fukuoka",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/fukuoka" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/fukuoka" } }
                     },
 					{
                         Variant = "Kagoshima",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kagoshima" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kagoshima" } }
                     },
 					{
                         Variant = "Kumamoto",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kumamoto" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kumamoto" } }
                     },
 					{
                         Variant = "Miyazaki",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/miyazaki" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/miyazaki" } }
                     },
 					{
                         Variant = "Nagasaki",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/nagasaki" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/nagasaki" } }
                     },
 					{
                         Variant = "Okinawa",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/okinawa" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/okinawa" } }
                     },
 					{
                         Variant = "Oita",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/oita" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/oita" } }
                     },
 					{
                         Variant = "Saga",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/saga" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/saga" } }
                     },
                 }
             },
@@ -197,19 +197,19 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Ehime",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/ehime" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/ehime" } }
                     },
 					{
                         Variant = "Kagawa",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kagawa" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kagawa" } }
                     },
 					{
                         Variant = "Kochi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/kochi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/kochi" } }
                     },
 					{
                         Variant = "Tokushima",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/tokushima" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/tokushima" } }
                     },
                 }
             },
@@ -218,27 +218,27 @@ VEHICLE.Equipment = {
                 Variants = {
                     {
                         Variant = "Akita",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/akita" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/akita" } }
                     },
 					{
                         Variant = "Aomori",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/aomori" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/aomori" } }
                     },
 					{
                         Variant = "Fukushima",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/fukushima" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/fukushima" } }
                     },
 					{
                         Variant = "Iwate",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/iwate" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/iwate" } }
                     },
 					{
                         Variant = "Miyagi",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/miyagi" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/miyagi" } }
                     },
 					{
                         Variant = "Yamagata",
-                        SubMaterials = { { Id = 20, Material = "rin/japan_police/corolla25/yamagata" } }
+                        SubMaterials = { { Id = 21, Material = "rin/japan_police/corolla25/yamagata" } }
                     },
                 }
             },
@@ -527,8 +527,9 @@ VEHICLE.Equipment = {
 				BodyGroups = {
 					{ BodyGroup = "badge", Value = 1 },
 					{ BodyGroup = "badge_trim", Value = 2 },
-					{ BodyGroup = "reartrim", Value = 1 },
+					{ BodyGroup = "rear_trim", Value = 1 },
 					{ BodyGroup = "foglights", Value = 1 },
+					{ BodyGroup = "foglight_trim", Value = 1 },
 				},
 				Properties = {
 					Skin = 1,
