@@ -110,6 +110,12 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
+						Component = "whelen_justice_jpn",
+						Position = Vector( 0.5, -14, 82.1 ),
+						Angles = Angle( -2.5, 270, 0 ),
+						Scale = 0.92,
+					},
+					{
 						Name = "@hachinohe_ion",
 						Component = "photon_whe_ion",
 						Position = Vector( -12.2, 107, 19.1 ),
@@ -304,6 +310,15 @@ VEHICLE.Equipment = {
 					{ BodyGroup = "Skin glass", Value = 1 }
 				},
 				Components = {
+					{
+						Component = "whelen_justice_jpn",
+						Position = Vector( 0.5, -14, 82.1 ),
+						Angles = Angle( -2.5, 270, 0 ),
+						Scale = 0.92,
+						SubMaterials = {
+							[4] = "sentry/props/patlite_lp3/glass_colored"
+						},
+					},
 					{
 						Name = "@nagoya_lp5",
 						Component = "photon_patlite_lp5_rin",
