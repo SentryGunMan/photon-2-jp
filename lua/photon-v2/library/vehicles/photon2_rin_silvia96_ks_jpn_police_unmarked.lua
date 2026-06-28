@@ -128,23 +128,16 @@ VEHICLE.Equipment = {
 				Option = "Koito Flashers",
 				Components = {
 					{
-						Component = "koito_flasher",
-						Position = Vector( 11, 97.5, 15.5 ),
-						Angles = Angle( 180, -5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[0] = "sentry/props/koitoflasher/plastic_r",
-							[3] = "models/xenoscars/shared/glass",
-						},
+						Component = "koito_autocover",
+						Position = Vector( 11.5, 96, 15.7 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
 					},
 					{
-						Component = "koito_flasher",
-						Position = Vector( -11, 97.5, 15.5 ),
-						Angles = Angle( 180, 5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[3] = "models/xenoscars/shared/glass",
-						}
+						Component = "koito_autocover",
+						Position = Vector( -11.5, 96, 15.7 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95,
 					},
 				}
 			},

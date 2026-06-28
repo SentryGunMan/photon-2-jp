@@ -348,6 +348,23 @@ VEHICLE.Equipment = {
 		Category = "Front Flashers",
 		Options = {
 			{
+				Option = "Koito Auto-Covers",
+				Components = {
+					{
+						Component = "koito_autocover",
+						Position = Vector( 12, 95, 16 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
+					},
+					{
+						Component = "koito_autocover",
+						Position = Vector( -12, 95, 16 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95,
+					},
+				}
+			},
+			{
 				Option = "Koito Flashers (Low Mount)",
 				Components = {
 					{

@@ -294,6 +294,41 @@ VEHICLE.Equipment = {
 		Category = "Front Setup & Bumper",
 		Options = {
 			{
+				Option = "Aero Package Bumper with Koito Auto-Cover",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 1 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.27, 18.5 ),
+						Angles = Angle( 4, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_autocover",
+						Position = Vector( 12, 95, 16 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
+					},
+					{
+						Component = "koito_autocover",
+						Position = Vector( -12, 95, 16 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95,
+					},
+				}
+			},
+			{
 				Option = "Aero Package Bumper with Koito Flashers (Low Mount)",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 1 }
@@ -395,6 +430,41 @@ VEHICLE.Equipment = {
 						},
 					},
 				},
+			},
+			{
+				Option = "Standard Bumper with Koito Auto-Cover",
+				BodyGroups = {
+					{ BodyGroup = "front_bumper", Value = 0 }
+				},
+				Props = {
+					{
+						Model = "models/xenosprops/jp_plate/jp_plate.mdl",
+						Position = Vector( 0, 99.3, 18 ),
+						Angles = Angle( 2, 90, 0 ),
+						Scale = 1,
+						BodyGroups = {
+							["rear_seal"] = 0,
+						},
+						SubMaterials = {
+							[0] = "rin/japan_plates/plate_hoshizora",
+							[3] = "rin/japan_plates/seal_hoshizora",
+						},
+					},
+				},
+				Components = {
+					{
+						Component = "koito_autocover",
+						Position = Vector( 12.5, 94, 15.7 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
+					},
+					{
+						Component = "koito_autocover",
+						Position = Vector( -12.5, 94, 15.7 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95
+					},
+				}
 			},
 			{
 				Option = "Standard Bumper with Koito Flashers (Low Mount)",

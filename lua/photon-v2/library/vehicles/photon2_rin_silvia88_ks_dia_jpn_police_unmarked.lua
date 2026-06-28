@@ -252,7 +252,7 @@ VEHICLE.Equipment = {
 		Category = "Bumper",
 		Options = {
 			{
-				Option = "Aero Package with Koito Flashers",
+				Option = "Aero Package Bumper with Koito Auto-Cover",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 1 }
 				},
@@ -273,34 +273,21 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_flasher",
-						Position = Vector( 12, 95, 15.3 ),
-						Angles = Angle( 180, -5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[0] = "sentry/props/koitoflasher/plastic_r",
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
+						Component = "koito_autocover",
+						Position = Vector( 12, 95, 16 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
 					},
 					{
-						Component = "koito_flasher",
-						Position = Vector( -12, 95, 15.3 ),
-						Angles = Angle( 180, 5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
+						Component = "koito_autocover",
+						Position = Vector( -12, 95, 16 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95,
 					},
 				}
 			},
 			{
-				Option = "Aero Package",
+				Option = "Aero Package Bumper",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 1 }
 				},
@@ -321,7 +308,7 @@ VEHICLE.Equipment = {
 				},
 			},
 			{
-				Option = "Standard with Koito Flashers",
+				Option = "Standard Bumper with Koito Auto-Cover",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 0 }
 				},
@@ -342,34 +329,21 @@ VEHICLE.Equipment = {
 				},
 				Components = {
 					{
-						Component = "koito_flasher",
-						Position = Vector( 12, 95, 15.3 ),
-						Angles = Angle( 180, -5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[0] = "sentry/props/koitoflasher/plastic_r",
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
+						Component = "koito_autocover",
+						Position = Vector( 12.5, 94, 15.7 ),
+						Angles = Angle( 0, 85, 0 ),
+						Scale = 0.95,
 					},
 					{
-						Component = "koito_flasher",
-						Position = Vector( -12, 95, 15.3 ),
-						Angles = Angle( 180, 5, 0 ),
-						Scale = 1.0,
-						SubMaterials = {
-							[3] = "models/xenoscars/shared/glass",
-						},
-						BodyGroups = {
-							["mount"] = 1,
-						},
+						Component = "koito_autocover",
+						Position = Vector( -12.5, 94, 15.7 ),
+						Angles = Angle( 0, 95, 0 ),
+						Scale = 0.95
 					},
 				}
 			},
 			{
-				Option = "Standard",
+				Option = "Standard Bumper",
 				BodyGroups = {
 					{ BodyGroup = "front_bumper", Value = 0 }
 				},
