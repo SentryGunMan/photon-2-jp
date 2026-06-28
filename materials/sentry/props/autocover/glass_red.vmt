@@ -1,0 +1,25 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount" "0.02"
+	"$refracttint" "{255 0 0}"
+	"$dudvmap" "sentry/props/autocover/glass_nm"
+	"$normalmap" "sentry/props/autocover/glass_nm"
+	"$nowritez" "1"
+	"$carfixenabled" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $carfixenabled
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+

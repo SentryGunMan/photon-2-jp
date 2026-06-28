@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/sentry/shared/env_cubemap_model.vmt"
+	insert
+	{
+		"$phongboost" "1.5"
+		"$phongexponent" "6"
+		"$carfixenabled" "[0.4 0.4 0.4]"
+	}
+}
